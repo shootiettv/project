@@ -7,6 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.chrome.options import Options as ChromeOptions
+from selenium.common.exceptions import TimeoutException, WebDriverException
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
@@ -16,7 +17,9 @@ import threading
 
 app = FastAPI()
 
-progress = {"progress": 0, "status": "Idle"}
+progress = {"progress": 0
+            , "status": "Idle"
+            , "code": 200} #default success code
 
 app.add_middleware(
     CORSMiddleware,
@@ -37,6 +40,7 @@ def build_driver(headless=False):
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
     options.add_argument("--window-size=1280,900")
+    options.add_argument("--start-minimized")
 
     # Merge capabilities into options (new Selenium 4+ way)
     for key, value in caps.items():
@@ -55,8 +59,7 @@ def run_myutep_sequence(username, password):
 
     try:
         # 🌐 1️⃣ Open MyUTEP Portal
-        progress["progress"] = 5
-        progress ["status"] = "Opening MyUTEP portal..."
+        progress.update({"progress": 5, "status": "Opening MyUTEP...", "code": 200})
         driver.get("https://my.utep.edu")
         print("✅ Opened MyUTEP portal")
 
@@ -72,7 +75,7 @@ def run_myutep_sequence(username, password):
             driver.switch_to.window(driver.window_handles[-1])
             print("🪟 Switched to Goldmine tab")
 
-        # 🔑 4️⃣ Log in with credentials
+        # 🔑 4️⃣ Log in with credentials"
         print("⏳ Waiting for login fields...")
         user_field = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[type='text'][name*='user'], input[type='text'][id*='user']")))
         pass_field = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[type='password'][name*='pass'], input[type='password'][id*='pass']")))
@@ -81,10 +84,34 @@ def run_myutep_sequence(username, password):
         pass_field.send_keys(password)
         print("✅ Entered credentials")
 
+
         # 🖱️ Click “Sign In”
         sign_in_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Sign In')]")))
         sign_in_button.click()
         print("✅ Submitted credentials")
+
+        # ❌ Check for invalid login message
+        try:
+            WebDriverWait(driver, 10).until(
+                lambda d: "login failed" in d.page_source.lower() or "recheck the username" in d.page_source.lower()
+            )
+            # If we get here, the login failed message appeared
+            progress.update({
+                "progress": -1,
+                "status": "❌ Invalid username or password",
+                "code": 401
+            })
+            print("❌ Invalid credentials detected.")
+            driver.quit()
+            return
+        except TimeoutException:
+            # ✅ If we timed out, assume login succeeded and continue normally
+            progress.update({
+                "progress": 25,
+                "status": "✅ Logged in successfully",
+                "code": 200
+            })
+
 
         # ⏳ 5️⃣ Wait for Duo 2FA + New Goldmine dashboard
         print("⏳ Waiting for New Goldmine page (post-2FA)...")
@@ -219,13 +246,35 @@ def run_myutep_sequence(username, password):
 
         instructors = sorted(instructors)
         print(f"✅ Found {len(instructors)} instructor(s):")
-        progress["progress"] = 100
-        progress ["status"] = "Found professors! Reloading..."
+        progress.update({"progress": 100, "status": "✅ Automation completed", "code": 200})
         for name in instructors:
             print(" -", name)
 
         print("🎉 Workflow completed successfully")
         return JSONResponse(content={"message": "Automation completed!"})
+
+    except WebDriverException as e:
+        # 🚨 Detect if user manually closed Chrome
+        progress.update({
+            "progress": -1,
+            "status": "❌ Browser closed early by user",
+            "code": 499  # custom client closed request code
+        })
+        print("❌ Browser was closed early:", e)
+        return
+
+    except Exception as e:
+        # Generic failure handler
+        progress.update({
+            "progress": -1,
+            "status": f"⚠️ Unexpected error: {str(e)}",
+            "code": 500
+        })
+        print("❌ Automation crashed:", e)
+        try:
+            driver.quit()
+        except:
+            pass
 
     finally:
         driver.quit()
@@ -249,12 +298,22 @@ async def upload_file(file: UploadFile = File(...)):
 
 @app.post("/run")
 async def run_automation(username: str = Form(...), password: str = Form(...)):
+    global progress  # ✅ reset the global shared dictionary
     print(f"Running automation with {username=}")
-    # 🧠 Run the automation on a separate thread
+
+    # ✅ Reset progress for a fresh run
+    progress = {
+        "progress": 0,
+        "status": "Starting automation...",
+        "code": 200
+    }
+
+    # ✅ Start the automation in a new thread
     thread = threading.Thread(target=run_myutep_sequence, args=(username, password))
     thread.start()
 
     return JSONResponse({"message": "Automation started"}, status_code=200)
+
     
 
 

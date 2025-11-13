@@ -1,16 +1,15 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { Card, CardHeader, CardContent, CardTitle, CardDescription } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import { useRef } from "react";
 
 export default function LoadingPage() {
   const navigate = useNavigate();
   const [progress, setProgress] = useState(0);
   const [status, setStatus] = useState("Starting automation...");
+  const hasStartedRef = useRef(false); // ✅ stays constant between re-renders
 
   useEffect(() => {
-    const hasStartedRef = useRef(false); // ✅ stays constant between re-renders
 
     if (!hasStartedRef.current) {
       hasStartedRef.current = true;
@@ -30,8 +29,29 @@ export default function LoadingPage() {
       try {
         const res = await fetch("http://127.0.0.1:8000/progress");
         const data = await res.json();
+        const safeProgress = Math.max(0, data.progress);
         setProgress(data.progress);
         setStatus(data.status);
+
+        if (data.code === 401){
+          clearInterval(interval);
+          navigate("/");
+          alert ("Username or password was incorrect.")
+          return;
+        }
+        if (data.code === 499) {
+          clearInterval(interval);
+          alert("The automation was stopped because the browser was closed early.");
+          navigate("/");
+          return;
+        }
+
+        if (data.code === 500) {
+          clearInterval(interval);
+          alert("⚠️ Unexpected backend error. Please try again.");
+          navigate("/");
+          return;
+        }
 
         if (data.progress >= 100) {
           clearInterval(interval);
@@ -40,7 +60,7 @@ export default function LoadingPage() {
       } catch (err) {
         console.error("❌ Failed to fetch progress:", err);
       }
-    }, 1000);
+    }, 300);
 
     return () => clearInterval(interval);
   }, [navigate]);
