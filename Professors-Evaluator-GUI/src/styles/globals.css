@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Inter:wght@400;500;600&display=swap');
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* UTEP Brand Colors */
+  --utep-primary: #F47A20;
+  --utep-secondary: #002D62;
+  --utep-accent: #0066CC;
+  
+  /* Background Colors */
+  --utep-background: #121212;
+  --utep-card-background: #1E1E1E;
+  --utep-card-hover: #252525;
+  
+  /* Text Colors */
+  --utep-text-primary: #EAEAEA;
+  --utep-text-secondary: #B0B0B0;
+  
+  /* Chart Colors */
+  --utep-chart-accent: #FFB84D;
+  
+  /* Effects */
+  --utep-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  --utep-shadow-hover: 0 4px 16px rgba(244, 122, 32, 0.2);
+  --utep-border-radius: 8px;
+  
+  /* Typography Scale */
+  --font-family-heading: 'Poppins', sans-serif;
+  --font-family-body: 'Inter', sans-serif;
+  
+  --text-heading-lg: 24px;
+  --text-heading-md: 20px;
+  --text-body-lg: 16px;
+  --text-body-md: 14px;
+  --text-label: 13px;
+  --text-label-sm: 12px;
+  
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+
+  /* Legacy tokens for shadcn compatibility */
+  --font-size: 16px;
+  --background: #121212;
+  --foreground: #EAEAEA;
+  --card: #1E1E1E;
+  --card-foreground: #EAEAEA;
+  --popover: #1E1E1E;
+  --popover-foreground: #EAEAEA;
+  --primary: #F47A20;
+  --primary-foreground: #EAEAEA;
+  --secondary: #002D62;
+  --secondary-foreground: #EAEAEA;
+  --muted: #2A2A2A;
+  --muted-foreground: #B0B0B0;
+  --accent: #0066CC;
+  --accent-foreground: #EAEAEA;
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  --border: #2A2A2A;
+  --input: #2A2A2A;
+  --input-background: #2A2A2A;
+  --switch-background: #2A2A2A;
+  --ring: #F47A20;
+  --chart-1: #0066CC;
+  --chart-2: #FFB84D;
+  --chart-3: #F47A20;
+  --chart-4: #002D62;
+  --chart-5: #B0B0B0;
+  --radius: 8px;
+  --sidebar: #1E1E1E;
+  --sidebar-foreground: #EAEAEA;
+  --sidebar-primary: #F47A20;
+  --sidebar-primary-foreground: #EAEAEA;
+  --sidebar-accent: #2A2A2A;
+  --sidebar-accent-foreground: #EAEAEA;
+  --sidebar-border: #2A2A2A;
+  --sidebar-ring: #F47A20;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-family-body);
+    background-color: var(--utep-background);
+    color: var(--utep-text-primary);
+  }
+}
+
+/**
+ * UTEP Typography System
+ */
+@layer base {
+  :where(:not(:has([class*=' text-']), :not(:has([class^='text-'])))) {
+    h1 {
+      font-family: var(--font-family-heading);
+      font-size: var(--text-heading-lg);
+      font-weight: var(--font-weight-bold);
+      line-height: 1.4;
+      color: var(--utep-text-primary);
+    }
+
+    h2 {
+      font-family: var(--font-family-heading);
+      font-size: var(--text-heading-md);
+      font-weight: var(--font-weight-bold);
+      line-height: 1.4;
+      color: var(--utep-text-primary);
+    }
+
+    h3 {
+      font-family: var(--font-family-body);
+      font-size: var(--text-body-lg);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+      color: var(--utep-text-primary);
+    }
+
+    h4 {
+      font-family: var(--font-family-body);
+      font-size: var(--text-body-md);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+      color: var(--utep-text-primary);
+    }
+
+    p {
+      font-family: var(--font-family-body);
+      font-size: var(--text-body-md);
+      font-weight: var(--font-weight-normal);
+      line-height: 1.6;
+      color: var(--utep-text-primary);
+    }
+
+    label {
+      font-family: var(--font-family-body);
+      font-size: var(--text-label);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+      color: var(--utep-text-secondary);
+    }
+
+    button {
+      font-family: var(--font-family-body);
+      font-size: var(--text-body-md);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    input {
+      font-family: var(--font-family-body);
+      font-size: var(--text-body-md);
+      font-weight: var(--font-weight-normal);
+      line-height: 1.5;
+    }
+  }
+}
+
+/* UTEP Utility Classes */
+@layer utilities {
+  .utep-card {
+    background-color: var(--utep-card-background);
+    border-radius: var(--utep-border-radius);
+    box-shadow: var(--utep-shadow);
+  }
+
+  .utep-card-hover:hover {
+    background-color: var(--utep-card-hover);
+    box-shadow: var(--utep-shadow-hover);
+  }
+
+  .utep-text-primary {
+    color: var(--utep-text-primary);
+  }
+
+  .utep-text-secondary {
+    color: var(--utep-text-secondary);
+  }
+
+  .utep-bg-primary {
+    background-color: var(--utep-primary);
+  }
+
+  .utep-bg-secondary {
+    background-color: var(--utep-secondary);
+  }
+
+  .utep-bg-accent {
+    background-color: var(--utep-accent);
+  }
+
+  .utep-border-primary {
+    border-color: var(--utep-primary);
+  }
+
+  .utep-border-accent {
+    border-color: var(--utep-accent);
+  }
+}
+
+html {
+  font-size: var(--font-size);
+}
