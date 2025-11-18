@@ -1,0 +1,64 @@
+import requests
+from bs4 import BeautifulSoup
+
+def get_value_for_label(container, label_prefix):
+    span = container.find("span", class_="bold",
+                          string=lambda s: s and s.strip().startswith(label_prefix))
+    if not span:
+        return None
+
+    values = []
+    for sib in span.next_siblings:
+        # stop when next label begins
+        if getattr(sib, "name", None) == "span" and "bold" in sib.get("class", []):
+            break
+        if getattr(sib, "name", None) == "br":
+            break
+
+        text = sib if isinstance(sib, str) else sib.get_text(" ", strip=True)
+        if text.strip():
+            values.append(text.strip())
+
+    return " ".join(values).strip() if values else None
+
+
+def scrape_basic_info(url):
+    print(f"Fetching: {url}")
+    res = requests.get(url)
+    soup = BeautifulSoup(res.text, "html.parser")
+
+    # PHOTO
+    photo = soup.find("meta", {"name": "thumbnail"})
+    photo_url = photo["content"] if photo else None
+
+    # FIND CONTACT SECTION
+    label = soup.find(string=lambda x: x and "Office Building" in x)
+    if not label:
+        print("❌ Contact/info section missing.")
+        return None
+
+    container = label.find_parent("div", class_="article")
+
+    email = get_value_for_label(container, "Email:")
+    phone = get_value_for_label(container, "Phone:")
+    building = get_value_for_label(container, "Office Building:")
+    room = get_value_for_label(container, "Office Room:")
+
+    print("\nEXTRACTED INFO:")
+    print("  Email:", email or "Not listed")
+    print("  Phone:", phone or "Not listed")
+    print("  Office Building:", building or "Not listed")
+    print("  Office Room:", room or "Not listed")
+    print("  Photo URL:", photo_url)
+
+    return {
+        "email": email,
+        "phone": phone,
+        "office_building": building,
+        "office_room": room,
+        "photo_url": photo_url
+    }
+
+
+# --- TEST ---
+scrape_basic_info("https://hb2504.utep.edu/Home/Profile?username=mabarca")

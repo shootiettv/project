@@ -13,6 +13,8 @@ import time
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import asyncio
 import threading
+from src.rate_my_professor import get_professors_from_names
+
 
 
 app = FastAPI()
@@ -50,6 +52,14 @@ def build_driver(headless=False):
         service=ChromeService(ChromeDriverManager().install()),
         options=options
     )
+
+def clean_professor_name(raw_name: str) -> str:
+    name = raw_name.split("(")[0].strip()
+    if "," in name:
+        last, first = name.split(",", 1)
+        return f"{first.strip()} {last.strip()}"
+    return name.strip()
+
 
 
 def run_myutep_sequence(username, password):
@@ -245,10 +255,10 @@ def run_myutep_sequence(username, password):
             )
 
         instructors = sorted(instructors)
-        print(f"✅ Found {len(instructors)} instructor(s):")
+        professor_data = get_professors_from_names(instructors)
+        print(professor_data)
+
         progress.update({"progress": 100, "status": "✅ Automation completed", "code": 200})
-        for name in instructors:
-            print(" -", name)
 
         print("🎉 Workflow completed successfully")
         return JSONResponse(content={"message": "Automation completed!"})
@@ -285,6 +295,7 @@ async def get_progress():
     return JSONResponse(content=progress)
 
 
+
 @app.post("/upload")
 async def upload_file(file: UploadFile = File(...)):
     file_path = f"/tmp/{file.filename}"
@@ -313,6 +324,7 @@ async def run_automation(username: str = Form(...), password: str = Form(...)):
     thread.start()
 
     return JSONResponse({"message": "Automation started"}, status_code=200)
+
 
     
 
