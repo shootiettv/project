@@ -3,7 +3,7 @@ echo ===============================
 echo UTEP Professor Ranking Starter (Windows)
 echo ===============================
 
-echo 🔪 Killing old uvicorn and Vite processes...
+echo Killing old uvicorn and Vite processes...
 
 :: Kill uvicorn and vite processes if they exist
 taskkill /F /IM uvicorn.exe >nul 2>&1
@@ -14,7 +14,7 @@ echo Checking for processes on ports 8000 and 5173...
 
 for %%p in (8000 5173) do (
     for /f "tokens=5" %%a in ('netstat -ano ^| findstr :%%p') do (
-        echo 🧹 Freeing port %%p (PID %%a)...
+        echo Freeing port %%p (PID %%a)...
         taskkill /F /PID %%a >nul 2>&1
     )
 )
