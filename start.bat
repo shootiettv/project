@@ -13,12 +13,16 @@ taskkill /F /IM node.exe >nul 2>&1
 
 echo Checking for processes on ports 8000 and 5173...
 
-:: Kill processes using ports 8000 and 5173
-for %%P in (8000 5173) do (
-    for /f "tokens=5" %%A in ('netstat -ano ^| findstr :%%P') do (
-        echo Freeing port %%P (PID %%A)...
-        taskkill /F /PID %%A >nul 2>&1
-    )
+:: -------- SAFE PORT KILL FOR 8000 --------
+for /f "tokens=5" %%A in ('netstat -ano ^| findstr ":8000"') do (
+    echo Freeing port 8000 (PID %%A)...
+    taskkill /F /PID %%A >nul 2>&1
+)
+
+:: -------- SAFE PORT KILL FOR 5173 --------
+for /f "tokens=5" %%B in ('netstat -ano ^| findstr ":5173"') do (
+    echo Freeing port 5173 (PID %%B)...
+    taskkill /F /PID %%B >nul 2>&1
 )
 
 :: Move to script directory
