@@ -34,7 +34,7 @@ def scrape_basic_info(url):
     # FIND CONTACT SECTION
     label = soup.find(string=lambda x: x and "Office Building" in x)
     if not label:
-        print("❌ Contact/info section missing.")
+        print("Contact/info section missing.")
         return None
 
     container = label.find_parent("div", class_="article")

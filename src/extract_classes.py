@@ -11,17 +11,8 @@ def extract_classes_from_pdf(file):
         ("Data Structures", "CS", "2302"),
         ("Advanced Object-Oriented Programming", "CS", "3331"),
         ("Software Engineering", "CS", "4350"),
-        ("Physics I", "PHYS", "1301"),
-        ("Physics II", "PHYS", "2302"),
-        ("University Physics I", "PHYS", "2325"),
-        ("Calculus I", "MATH", "1301"),
-        ("Pre-Calculus", "MATH", "1412"),
-        ("Calculus III", "MATH", "2326"),
-        ("Rhetoric and Composition", "ENGL", "1312"),
-        ("Introduction to Literature", "ENGL", "2311"),
-        ("General Biology I", "BIOL", "1305"),
-        ("Human Anatomy", "BIOL", "2311"),
-        ("Creative Writing Workshop", "CRW", "3362"),
+        ("Physics I", "PHYS", "2320"),
+        ("Physics I Lab", "PHYS", "2120")
     ]
 
     formatted = []

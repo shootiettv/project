@@ -19,7 +19,7 @@ export function ProfessorListWithSidebar({
   onBack,
 }: ProfessorListWithSidebarProps) {
   const [activeClass, setActiveClass] = useState<string>(selectedClasses[0]?._id || '');
-
+  const [searchQuery, setSearchQuery] = useState("");
   const renderStars = (rating: number) => {
     const stars = [];
     const fullStars = Math.floor(rating);
@@ -49,7 +49,11 @@ export function ProfessorListWithSidebar({
   };
 
   const currentClassInfo = selectedClasses.find((c) => c._id === activeClass);
-  const currentProfessors = professorsByClass[activeClass] || [];
+  const currentProfessorsRaw = professorsByClass[activeClass] || [];
+  const currentProfessors = currentProfessorsRaw.filter((prof) =>
+    prof.full_name.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 to-blue-50 transition-colors duration-300">
@@ -112,6 +116,14 @@ export function ProfessorListWithSidebar({
               <div className="bg-orange-500 text-white px-6 py-3 rounded-lg shadow-lg">
                 <span className="text-2xl">UTEP Professor Ranking</span>
               </div>
+                {/* Search Bar */}
+                <input
+                  type="text"
+                  placeholder="Search professors..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="px-4 py-2 border border-gray-300 rounded-lg shadow-sm w-64 focus:ring-2 focus:ring-orange-400 focus:outline-none"
+                />
               <Button
                 variant="outline"
                 onClick={onBack}

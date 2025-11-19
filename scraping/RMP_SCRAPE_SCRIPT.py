@@ -2,16 +2,14 @@ import requests
 import json
 from pymongo import MongoClient
 
-### CONFIG ###
 MONGO_URI = "mongodb+srv://machdavis2003_db_user:4j1WOOQz7HWJpZaT@data.2kqvcry.mongodb.net/?appName=data"
 DB_NAME = "utep_professors"
 COLLECTION = "professors"
 
-WRITE_CHANGES = True     # <-- NOW WRITING TO DB
-TEST_LIMIT = None        # <-- NO LIMIT (process all)
+WRITE_CHANGES = True    
+TEST_LIMIT = None        
 
 
-### RMP API SETTINGS ###
 GRAPHQL_URL = "https://www.ratemyprofessors.com/graphql"
 HEADERS = {
     "User-Agent": "Mozilla/5.0",
@@ -30,7 +28,6 @@ def gql(query, variables=None):
         return {"error": "non-json", "text": r.text[:500]}
 
 
-### STEP 1 — GET SCHOOL ID ###
 def get_utep_school_id():
     query = """
     query($text: String!) {
@@ -45,7 +42,6 @@ def get_utep_school_id():
     return data["data"]["newSearch"]["schools"]["edges"][0]["node"]["id"]
 
 
-### STEP 2 — GRAPHQL TEACHER SEARCH ###
 def search_rmp_teacher(name, school_id):
     query = """
     query($text: String!, $schoolID: ID!) {
@@ -75,9 +71,8 @@ def search_rmp_teacher(name, school_id):
         return []
 
 
-### STEP 3 — FALLBACK HTML SCRAPE ###
 def fallback_html_search(name):
-    print("   ➜ Running fallback HTML search...")
+    print("Running fallback HTML search...")
     query = name.replace(" ", "+")
     url = f"https://www.ratemyprofessors.com/search/teachers?query={query}"
     html = session.get(url).text
@@ -88,7 +83,6 @@ def fallback_html_search(name):
     return matches[0] if matches else None
 
 
-### STEP 4 — GET FULL RMP PROFILE ###
 def get_rmp_profile(profile_id):
     query = """
     query GetTeacher($id: ID!) {
@@ -143,7 +137,6 @@ def get_rmp_profile(profile_id):
     }
 
 
-### MAIN EXECUTION ###
 client = MongoClient(MONGO_URI)
 collection = client[DB_NAME][COLLECTION]
 
@@ -157,55 +150,49 @@ cursor = collection.find().limit(TEST_LIMIT) if TEST_LIMIT else collection.find(
 count = 0
 
 for prof in cursor:
-    print("\n-------------------------------------")
     print(f"Processing {prof['full_name']} ({prof['_id']})")
 
-    # SKIP IF ALREADY HAS RMP DATA
     if "rmp" in prof and isinstance(prof["rmp"], dict):
-        print("✔ Already has RMP data — SKIPPING")
+        print("Already has RMP data — SKIPPING")
         continue
 
     full_name = f"{prof['first_name']} {prof['last_name']}"
 
-    # GRAPHQL SEARCH
     matches = search_rmp_teacher(full_name, school_id)
 
     if matches:
         profile_id = matches[0]["id"]
-        print(f"✔ Found via GraphQL: {profile_id}")
+        print(f"Found via GraphQL: {profile_id}")
     else:
-        print("⚠ Not found via GraphQL. Trying fallback...")
+        print("Not found via GraphQL. Trying fallback...")
         profile_id = fallback_html_search(full_name)
 
         if profile_id:
-            print(f"✔ Found via fallback: {profile_id}")
+            print(f"Found via fallback: {profile_id}")
         else:
-            print("❌ No RMP match found — SKIPPING")
+            print("No RMP match found — SKIPPING")
             continue
 
-    # GET PROFILE DATA
     rmp_data = get_rmp_profile(profile_id)
 
     if not rmp_data:
-        print("❌ Could not fetch RMP profile — SKIPPING")
+        print("Could not fetch RMP profile — SKIPPING")
         continue
 
-    print("✔ Retrieved RMP data")
+    print("Retrieved RMP data")
 
-    # WRITE TO MONGO
     if WRITE_CHANGES:
         collection.update_one(
             {"_id": prof["_id"]},
             {"$set": {"rmp": rmp_data}}
         )
-        print("💾 Saved to MongoDB")
+        print("Saved to MongoDB")
     else:
-        print("✓ TEST MODE — not writing to DB")
+        print("TEST MODE — not writing to DB")
 
     count += 1
 
-print("\n-------------------------------------")
-print(f"🎉 Completed RMP update for {count} professors.")
+print(f"Completed RMP update for {count} professors.")
 
 
 
