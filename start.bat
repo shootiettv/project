@@ -14,7 +14,7 @@ for /f "tokens=5" %%B in ('netstat -ano ^| findstr ":5173"') do (
 cd /d "%~dp0"
 
 echo Starting FastAPI backend...
-cmd /k "uvicorn src.main:app --reload --host 127.0.0.1 --port 8000"
+cmd /k "python3 -m uvicorn src.main:app --reload --host 127.0.0.1 --port 8000"
 
 echo Starting react frontend...
 npm run dev
