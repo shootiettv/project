@@ -1,6 +1,6 @@
 @echo off
 echo ===============================
-echo 🚀 UTEP Professor Ranking Starter (Windows)
+echo UTEP Professor Ranking Starter (Windows)
 echo ===============================
 
 echo 🔪 Killing old uvicorn and Vite processes...
@@ -22,8 +22,8 @@ for %%p in (8000 5173) do (
 :: Move to script directory
 cd /d "%~dp0"
 
-echo 🐍 Starting FastAPI backend...
+echo Starting FastAPI backend...
 start cmd /k "python -m uvicorn src.main:app --reload --host 127.0.0.1 --port 8000"
 
-echo 🌐 Starting React frontend...
+echo Starting React frontend...
 npm run dev
