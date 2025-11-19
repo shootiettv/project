@@ -1,4 +1,8 @@
-#!bin/bash
+#!/bin/bash
+
+echo "==============================="
+echo "🚀 UTEP Professor Ranking Starter"
+echo "==============================="
 
 echo "🔪 Killing old uvicorn and vite processes..."
 pkill -f "uvicorn" 2>/dev/null
@@ -13,10 +17,12 @@ for port in 8000 5173; do
   fi
 done
 
-cd "$(dirname "$0")" #goes to the folder where start.sh lives
+cd "$(dirname "$0")"
 
-echo "Starting FastAPI backend..."
-(python3 -m uvicorn src.main:app --reload &)
+echo "🐍 Starting FastAPI backend..."
+(
+  python3 -m uvicorn src.main:app --reload --host 127.0.0.1 --port 8000
+) &
 
-echo "Starting React frontend..."
+echo "🌐 Starting React frontend..."
 npm run dev

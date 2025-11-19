@@ -1,21 +1,18 @@
 import { motion } from 'motion/react';
-import { Moon, Sun, ArrowLeft, Star, ThumbsUp } from 'lucide-react';
-import { Button } from './ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
-import { Professor } from '../types/professor';
+import { ArrowLeft, Star, ThumbsUp } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Professor, RateMyProfessorReview } from '../App';
+
 
 interface ProfessorDetailPageProps {
   professor: Professor;
   onBack: () => void;
-  isDarkMode: boolean;
-  onToggleDarkMode: () => void;
 }
 
 export function ProfessorDetailPage({
   professor,
   onBack,
-  isDarkMode,
-  onToggleDarkMode,
 }: ProfessorDetailPageProps) {
   const renderStars = (rating: number) => {
     const stars = [];
@@ -45,152 +42,169 @@ export function ProfessorDetailPage({
     return stars;
   };
 
+  const formatDate = (dateString: string) => {
+    try {
+      const date = new Date(dateString);
+      return date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+    } catch {
+      return dateString;
+    }
+  };
+
   return (
-    <div className={isDarkMode ? 'dark' : ''}>
-      <div className="min-h-screen bg-gradient-to-br from-orange-50 to-blue-50 dark:from-gray-900 dark:to-gray-800 transition-colors duration-300 p-4">
-        <motion.div
-          className="max-w-5xl mx-auto"
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: 'easeOut' }}
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 to-blue-50 transition-colors duration-300 p-4">
+      {/* Switch Version Button */}
+      <div className="fixed bottom-4 left-4 z-50">
+        <Button
+          variant="outline"
+          className="bg-white border-gray-200"
         >
-          {/* Header */}
-          <div className="flex justify-between items-center mb-6">
-            <div className="flex items-center gap-4">
-              <Button
-                variant="outline"
-                onClick={onBack}
-                className="bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700 dark:text-white"
-              >
-                <ArrowLeft className="h-4 w-4 mr-2" />
-                Back to List
-              </Button>
-              <div className="bg-orange-500 dark:bg-orange-600 text-white px-6 py-3 rounded-lg shadow-lg">
-                <span className="text-2xl">UTEP Professor Ranking</span>
-              </div>
-            </div>
+          Switch Version
+        </Button>
+      </div>
+
+      <motion.div
+        className="max-w-5xl mx-auto"
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+      >
+        {/* Header */}
+        <div className="flex justify-between items-center mb-6">
+          <div className="flex items-center gap-4">
             <Button
               variant="outline"
-              size="icon"
-              onClick={onToggleDarkMode}
-              className="rounded-full bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700"
+              onClick={onBack}
+              className="bg-white border-gray-200"
             >
-              {isDarkMode ? (
-                <Sun className="h-5 w-5 text-yellow-500" />
-              ) : (
-                <Moon className="h-5 w-5 text-gray-700" />
-              )}
+              <ArrowLeft className="h-4 w-4 mr-2" />
+              Back to List
             </Button>
+            <div className="bg-orange-500 text-white px-6 py-3 rounded-lg shadow-lg">
+              <span className="text-2xl">UTEP Professor Ranking</span>
+            </div>
           </div>
+        </div>
 
-          {/* Professor Header */}
-          <Card className="mb-6 dark:bg-gray-800 dark:border-gray-700">
-            <CardHeader>
-              <div className="flex justify-between items-start">
-                <div>
-                  <CardTitle className="text-3xl dark:text-white mb-2">
-                    {professor.name}
-                  </CardTitle>
-                  <p className="text-gray-600 dark:text-gray-400">
-                    {professor.department}
-                  </p>
-                </div>
-                <div className="text-right">
-                  <div className="flex items-center gap-2 mb-2">
-                    {renderStars(professor.rateMyProfessor.overallRating)}
-                  </div>
-                  <p className="text-3xl text-gray-800 dark:text-white">
-                    {professor.rateMyProfessor.overallRating.toFixed(2)}
-                  </p>
-                </div>
-              </div>
-            </CardHeader>
-          </Card>
-
-          {/* Rate My Professor */}
-          <Card className="mb-6 dark:bg-gray-800 dark:border-gray-700">
-            <CardHeader>
-              <CardTitle className="dark:text-white flex items-center gap-2">
-                <ThumbsUp className="h-5 w-5" />
-                Rate My Professor
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-6">
-              {/* Overall Stats */}
-              <div className="grid grid-cols-3 gap-4">
-                <div className="text-center p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
-                  <p className="text-sm text-gray-600 dark:text-gray-400 mb-1">
-                    Overall Rating
-                  </p>
-                  <p className="text-3xl text-orange-600 dark:text-orange-400">
-                    {professor.rateMyProfessor.overallRating.toFixed(1)}
-                  </p>
-                  <div className="flex justify-center gap-1 mt-2">
-                    {renderStars(professor.rateMyProfessor.overallRating)}
-                  </div>
-                </div>
-                <div className="text-center p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
-                  <p className="text-sm text-gray-600 dark:text-gray-400 mb-1">
-                    Would Take Again
-                  </p>
-                  <p className="text-3xl text-orange-600 dark:text-orange-400">
-                    {professor.rateMyProfessor.wouldTakeAgainPercent}%
-                  </p>
-                </div>
-                <div className="text-center p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
-                  <p className="text-sm text-gray-600 dark:text-gray-400 mb-1">
-                    Difficulty
-                  </p>
-                  <p className="text-3xl text-orange-600 dark:text-orange-400">
-                    {professor.rateMyProfessor.difficultyRating.toFixed(1)}
-                  </p>
-                </div>
-              </div>
-
-              {/* AI Summary */}
-              <div className="p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200 dark:border-blue-800">
-                <h4 className="text-sm text-blue-800 dark:text-blue-400 mb-2">
-                  AI-Generated Summary
-                </h4>
-                <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-                  {professor.rateMyProfessor.aiSummary}
+        {/* Professor Header */}
+        <Card className="mb-6">
+          <CardHeader>
+            <div className="flex justify-between items-start">
+              <div>
+                <CardTitle className="text-3xl mb-2">
+                  {professor.full_name}
+                </CardTitle>
+                <p className="text-gray-600">
+                  {professor.title}
+                </p>
+                <p className="text-sm text-gray-500 mt-1">
+                  {professor.department} • {professor.college}
                 </p>
               </div>
+              <div className="text-right">
+                <div className="flex items-center gap-2 mb-2">
+                  {renderStars(professor.rmp.avgRating)}
+                </div>
+                <p className="text-3xl text-gray-800">
+                  {professor.rmp.avgRating.toFixed(1)}
+                </p>
+              </div>
+            </div>
+          </CardHeader>
+        </Card>
 
-              {/* Recent Reviews */}
-              <div className="space-y-4">
-                <h4 className="text-gray-800 dark:text-white">Recent Reviews</h4>
-                {professor.rateMyProfessor.reviews.map((review, index) => (
+        {/* Rate My Professor */}
+        <Card className="mb-6">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <ThumbsUp className="h-5 w-5" />
+              Rate My Professor
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-6">
+            {/* Overall Stats */}
+            <div className="grid grid-cols-4 gap-4">
+              <div className="text-center p-4 bg-gray-50 rounded-lg">
+                <p className="text-sm text-gray-600 mb-1">
+                  Overall Rating
+                </p>
+                <p className="text-3xl text-orange-600">
+                  {professor.rmp.avgRating.toFixed(1)}
+                </p>
+                <div className="flex justify-center gap-1 mt-2">
+                  {renderStars(professor.rmp.avgRating)}
+                </div>
+              </div>
+              <div className="text-center p-4 bg-gray-50 rounded-lg">
+                <p className="text-sm text-gray-600 mb-1">
+                  Would Take Again
+                </p>
+                <p className="text-3xl text-orange-600">
+                  {professor.rmp.wouldTakeAgainPercent}%
+                </p>
+              </div>
+              <div className="text-center p-4 bg-gray-50 rounded-lg">
+                <p className="text-sm text-gray-600 mb-1">
+                  Difficulty
+                </p>
+                <p className="text-3xl text-orange-600">
+                  {professor.rmp.avgDifficulty.toFixed(1)}
+                </p>
+              </div>
+              <div className="text-center p-4 bg-gray-50 rounded-lg">
+                <p className="text-sm text-gray-600 mb-1">
+                  Total Ratings
+                </p>
+                <p className="text-3xl text-orange-600">
+                  {professor.rmp.numRatings}
+                </p>
+              </div>
+            </div>
+
+            {/* Recent Reviews */}
+            <div className="space-y-4">
+              <h4 className="text-gray-800">Recent Reviews</h4>
+              {professor.rmp.reviews && professor.rmp.reviews.length > 0 ? (
+                professor.rmp.reviews.map((review: RateMyProfessorReview, index) => (
                   <div
                     key={index}
-                    className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg space-y-2"
+                    className="p-4 bg-gray-50 rounded-lg space-y-2"
                   >
                     <div className="flex justify-between items-start">
                       <div className="flex gap-1">
-                        {renderStars(review.rating)}
+                        {renderStars(review.clarityRating)}
                       </div>
-                      <span className="text-sm text-gray-500 dark:text-gray-400">
-                        {review.date}
+                      <span className="text-sm text-gray-500">
+                        {formatDate(review.date)}
                       </span>
                     </div>
-                    <p className="text-gray-700 dark:text-gray-300">
+                    <p className="text-gray-700">
                       {review.comment}
                     </p>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">
-                      Course: {review.course}
-                    </p>
+                    <div className="flex gap-4 text-sm">
+                      <p className="text-gray-600">
+                        Course: <span className="text-gray-800">{review.class}</span>
+                      </p>
+                      <p className="text-gray-600">
+                        Difficulty: <span className="text-gray-800">{review.difficultyRating.toFixed(1)}</span>
+                      </p>
+                    </div>
                   </div>
-                ))}
-              </div>
-            </CardContent>
-          </Card>
+                ))
+              ) : (
+                <p className="text-gray-600 text-center py-4">
+                  No reviews available
+                </p>
+              )}
+            </div>
+          </CardContent>
+        </Card>
 
-          {/* Footer */}
-          <p className="text-center mt-8 text-sm text-gray-600 dark:text-gray-400">
-            © 2025 University of Texas at El Paso
-          </p>
-        </motion.div>
-      </div>
+        {/* Footer */}
+        <p className="text-center mt-8 text-sm text-gray-600">
+          © 2025 University of Texas at El Paso
+        </p>
+      </motion.div>
     </div>
   );
 }
