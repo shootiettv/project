@@ -27,3 +27,4 @@ start cmd /k "python -m uvicorn src.main:app --reload --host 127.0.0.1 --port 80
 
 echo  Starting React frontend...
 npm run dev
+echo All services started.
