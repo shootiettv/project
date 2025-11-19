@@ -1,21 +1,23 @@
 @echo off
+setlocal enabledelayedexpansion
+
 echo ===============================
 echo UTEP Professor Ranking Starter (Windows)
 echo ===============================
 
 echo Killing old uvicorn and Vite processes...
 
-:: Kill uvicorn and vite processes if they exist
+:: Kill uvicorn and node (vite) processes
 taskkill /F /IM uvicorn.exe >nul 2>&1
 taskkill /F /IM node.exe >nul 2>&1
 
-:: Free ports 8000 and 5173
 echo Checking for processes on ports 8000 and 5173...
 
-for %%p in (8000 5173) do (
-    for /f "tokens=5" %%a in ('netstat -ano ^| findstr :%%p') do (
-        echo Freeing port %%p (PID %%a)...
-        taskkill /F /PID %%a >nul 2>&1
+:: Kill processes using ports 8000 and 5173
+for %%P in (8000 5173) do (
+    for /f "tokens=5" %%A in ('netstat -ano ^| findstr :%%P') do (
+        echo Freeing port %%P (PID %%A)...
+        taskkill /F /PID %%A >nul 2>&1
     )
 )
 
@@ -27,3 +29,6 @@ start cmd /k "python -m uvicorn src.main:app --reload --host 127.0.0.1 --port 80
 
 echo Starting React frontend...
 npm run dev
+
+endlocal
+
