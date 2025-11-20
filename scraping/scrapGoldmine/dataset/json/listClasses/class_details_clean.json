@@ -1,0 +1,1974 @@
+{
+  "courses": {
+    "21230": {
+      "crn": "21230",
+      "course_title": "Principles of Accounting I",
+      "subject": "ACCT",
+      "course_number": "2301",
+      "section": "007",
+      "term": {
+        "code": "202620",
+        "label": "Spring 2026"
+      },
+      "levels": [
+        {
+          "code": "UG",
+          "label": "Undergraduate"
+        }
+      ],
+      "campus": {
+        "code": "MAIN",
+        "name": "Main Campus"
+      },
+      "schedule_type": {
+        "code": "LECT",
+        "label": "Lecture"
+      },
+      "instructional_method": {
+        "mode": "Hybrid",
+        "online_percentage": 49
+      },
+      "credits": 3.0,
+      "enrollment": {
+        "capacity": 80,
+        "actual": 22,
+        "remaining": 58,
+        "waitlist_capacity": 0,
+        "waitlist_remaining": 0
+      },
+      "restrictions": {
+        "prohibited_programs": [
+          {
+            "code": null,
+            "name": "BA in Chicano Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Criminal Justice Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Media Advertising Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Org & Corp Comm Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Security Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in General Business Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Education Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Health Promotion Online"
+          },
+          {
+            "code": null,
+            "name": "General Studies Online"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Business Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in K-12 Bil. Ed. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Const. Mgmt. Onl"
+          },
+          {
+            "code": "GRCER",
+            "name": "GRCER"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Ear. Inter. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer K-12 ESL Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Nonprof. Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Sys. Eng. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Tech/Prof Writ Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Urban Planning Onl"
+          },
+          {
+            "code": null,
+            "name": "MA in Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED in Bilingual Edu. Online"
+          },
+          {
+            "code": null,
+            "name": "MED Curriculum & Instructn Onl"
+          },
+          {
+            "code": null,
+            "name": "MEd in Early Childhood Edu Onl"
+          },
+          {
+            "code": null,
+            "name": "MED Educational Admin Online"
+          },
+          {
+            "code": null,
+            "name": "MEd Literacy Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED Special Education Online"
+          },
+          {
+            "code": null,
+            "name": "MFA in Creative Writing Online"
+          },
+          {
+            "code": null,
+            "name": "MS in Contruction Mgmt Onl-1"
+          },
+          {
+            "code": null,
+            "name": "MS in Construction Mgmt Online"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Admin & Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MSN Education"
+          },
+          {
+            "code": null,
+            "name": "MSN Nursing-Practitioner"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Systems Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MS in Systems Engr. Online"
+          },
+          {
+            "code": null,
+            "name": "Pre-Nursing R.N."
+          },
+          {
+            "code": null,
+            "name": "RN-BSN Online"
+          }
+        ],
+        "prohibited_classifications": [],
+        "required_levels": [],
+        "required_campuses": [
+          {
+            "code": "MAIN",
+            "name": "Main Campus"
+          }
+        ]
+      },
+      "prerequisites": [],
+      "meeting_times": [],
+      "instructor_id": null,
+      "catalog_entry_url": "https://www.goldmine.utep.edu/prod/owa/bwckctlg.p_display_courses?term_in=202620&one_subj=ACCT&sel_crse_strt=2301&sel_crse_end=2301&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr="
+    },
+    "27522": {
+      "crn": "27522",
+      "course_title": "Principles of Accounting I",
+      "subject": "ACCT",
+      "course_number": "2301",
+      "section": "013",
+      "term": {
+        "code": "202620",
+        "label": "Spring 2026"
+      },
+      "levels": [
+        {
+          "code": "UG",
+          "label": "Undergraduate"
+        }
+      ],
+      "campus": {
+        "code": "MAIN",
+        "name": "Main Campus"
+      },
+      "schedule_type": {
+        "code": "LECT",
+        "label": "Lecture"
+      },
+      "instructional_method": {
+        "mode": "Hybrid",
+        "online_percentage": 49
+      },
+      "credits": 3.0,
+      "enrollment": {
+        "capacity": 78,
+        "actual": 78,
+        "remaining": 0,
+        "waitlist_capacity": 0,
+        "waitlist_remaining": 0
+      },
+      "restrictions": {
+        "prohibited_programs": [
+          {
+            "code": null,
+            "name": "BA in Chicano Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Criminal Justice Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Media Advertising Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Org & Corp Comm Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Security Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in General Business Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Education Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Health Promotion Online"
+          },
+          {
+            "code": null,
+            "name": "General Studies Online"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Business Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in K-12 Bil. Ed. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Const. Mgmt. Onl"
+          },
+          {
+            "code": "GRCER",
+            "name": "GRCER"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Ear. Inter. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer K-12 ESL Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Nonprof. Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Sys. Eng. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Tech/Prof Writ Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Urban Planning Onl"
+          },
+          {
+            "code": null,
+            "name": "MA in Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED in Bilingual Edu. Online"
+          },
+          {
+            "code": null,
+            "name": "MED Curriculum & Instructn Onl"
+          },
+          {
+            "code": null,
+            "name": "MEd in Early Childhood Edu Onl"
+          },
+          {
+            "code": null,
+            "name": "MED Educational Admin Online"
+          },
+          {
+            "code": null,
+            "name": "MEd Literacy Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED Special Education Online"
+          },
+          {
+            "code": null,
+            "name": "MFA in Creative Writing Online"
+          },
+          {
+            "code": null,
+            "name": "MS in Contruction Mgmt Onl-1"
+          },
+          {
+            "code": null,
+            "name": "MS in Construction Mgmt Online"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Admin & Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MSN Education"
+          },
+          {
+            "code": null,
+            "name": "MSN Nursing-Practitioner"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Systems Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MS in Systems Engr. Online"
+          },
+          {
+            "code": null,
+            "name": "Pre-Nursing R.N."
+          },
+          {
+            "code": null,
+            "name": "RN-BSN Online"
+          }
+        ],
+        "prohibited_classifications": [],
+        "required_levels": [],
+        "required_campuses": [
+          {
+            "code": "MAIN",
+            "name": "Main Campus"
+          }
+        ]
+      },
+      "prerequisites": [],
+      "meeting_times": [],
+      "instructor_id": null,
+      "catalog_entry_url": "https://www.goldmine.utep.edu/prod/owa/bwckctlg.p_display_courses?term_in=202620&one_subj=ACCT&sel_crse_strt=2301&sel_crse_end=2301&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr="
+    },
+    "25818": {
+      "crn": "25818",
+      "course_title": "Principles of Accounting I",
+      "subject": "ACCT",
+      "course_number": "2301",
+      "section": "012",
+      "term": {
+        "code": "202620",
+        "label": "Spring 2026"
+      },
+      "levels": [
+        {
+          "code": "UG",
+          "label": "Undergraduate"
+        }
+      ],
+      "campus": {
+        "code": "MAIN",
+        "name": "Main Campus"
+      },
+      "schedule_type": {
+        "code": "LECT",
+        "label": "Lecture"
+      },
+      "instructional_method": {
+        "mode": "Hybrid",
+        "online_percentage": 49
+      },
+      "credits": 3.0,
+      "enrollment": {
+        "capacity": 80,
+        "actual": 80,
+        "remaining": 0,
+        "waitlist_capacity": 0,
+        "waitlist_remaining": 0
+      },
+      "restrictions": {
+        "prohibited_programs": [
+          {
+            "code": null,
+            "name": "BA in Chicano Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Criminal Justice Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Media Advertising Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Org & Corp Comm Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Security Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in General Business Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Education Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Health Promotion Online"
+          },
+          {
+            "code": null,
+            "name": "General Studies Online"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Business Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in K-12 Bil. Ed. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Const. Mgmt. Onl"
+          },
+          {
+            "code": "GRCER",
+            "name": "GRCER"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Ear. Inter. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer K-12 ESL Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Nonprof. Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Sys. Eng. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Tech/Prof Writ Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Urban Planning Onl"
+          },
+          {
+            "code": null,
+            "name": "MA in Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED in Bilingual Edu. Online"
+          },
+          {
+            "code": null,
+            "name": "MED Curriculum & Instructn Onl"
+          },
+          {
+            "code": null,
+            "name": "MEd in Early Childhood Edu Onl"
+          },
+          {
+            "code": null,
+            "name": "MED Educational Admin Online"
+          },
+          {
+            "code": null,
+            "name": "MEd Literacy Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED Special Education Online"
+          },
+          {
+            "code": null,
+            "name": "MFA in Creative Writing Online"
+          },
+          {
+            "code": null,
+            "name": "MS in Contruction Mgmt Onl-1"
+          },
+          {
+            "code": null,
+            "name": "MS in Construction Mgmt Online"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Admin & Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MSN Education"
+          },
+          {
+            "code": null,
+            "name": "MSN Nursing-Practitioner"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Systems Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MS in Systems Engr. Online"
+          },
+          {
+            "code": null,
+            "name": "Pre-Nursing R.N."
+          },
+          {
+            "code": null,
+            "name": "RN-BSN Online"
+          }
+        ],
+        "prohibited_classifications": [],
+        "required_levels": [],
+        "required_campuses": [
+          {
+            "code": "MAIN",
+            "name": "Main Campus"
+          }
+        ]
+      },
+      "prerequisites": [],
+      "meeting_times": [],
+      "instructor_id": null,
+      "catalog_entry_url": "https://www.goldmine.utep.edu/prod/owa/bwckctlg.p_display_courses?term_in=202620&one_subj=ACCT&sel_crse_strt=2301&sel_crse_end=2301&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr="
+    },
+    "24237": {
+      "crn": "24237",
+      "course_title": "Principles of Accounting I",
+      "subject": "ACCT",
+      "course_number": "2301",
+      "section": "003",
+      "term": {
+        "code": "202620",
+        "label": "Spring 2026"
+      },
+      "levels": [
+        {
+          "code": "UG",
+          "label": "Undergraduate"
+        }
+      ],
+      "campus": {
+        "code": "MAIN",
+        "name": "Main Campus"
+      },
+      "schedule_type": {
+        "code": "LECT",
+        "label": "Lecture"
+      },
+      "instructional_method": {
+        "mode": "Hybrid",
+        "online_percentage": 49
+      },
+      "credits": 3.0,
+      "enrollment": {
+        "capacity": 80,
+        "actual": 27,
+        "remaining": 53,
+        "waitlist_capacity": 0,
+        "waitlist_remaining": 0
+      },
+      "restrictions": {
+        "prohibited_programs": [
+          {
+            "code": null,
+            "name": "BA in Chicano Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Criminal Justice Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Media Advertising Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Org & Corp Comm Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Security Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in General Business Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Education Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Health Promotion Online"
+          },
+          {
+            "code": null,
+            "name": "General Studies Online"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Business Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in K-12 Bil. Ed. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Const. Mgmt. Onl"
+          },
+          {
+            "code": "GRCER",
+            "name": "GRCER"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Ear. Inter. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer K-12 ESL Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Nonprof. Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Sys. Eng. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Tech/Prof Writ Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Urban Planning Onl"
+          },
+          {
+            "code": null,
+            "name": "MA in Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED in Bilingual Edu. Online"
+          },
+          {
+            "code": null,
+            "name": "MED Curriculum & Instructn Onl"
+          },
+          {
+            "code": null,
+            "name": "MEd in Early Childhood Edu Onl"
+          },
+          {
+            "code": null,
+            "name": "MED Educational Admin Online"
+          },
+          {
+            "code": null,
+            "name": "MEd Literacy Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED Special Education Online"
+          },
+          {
+            "code": null,
+            "name": "MFA in Creative Writing Online"
+          },
+          {
+            "code": null,
+            "name": "MS in Contruction Mgmt Onl-1"
+          },
+          {
+            "code": null,
+            "name": "MS in Construction Mgmt Online"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Admin & Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MSN Education"
+          },
+          {
+            "code": null,
+            "name": "MSN Nursing-Practitioner"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Systems Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MS in Systems Engr. Online"
+          },
+          {
+            "code": null,
+            "name": "Pre-Nursing R.N."
+          },
+          {
+            "code": null,
+            "name": "RN-BSN Online"
+          }
+        ],
+        "prohibited_classifications": [],
+        "required_levels": [],
+        "required_campuses": [
+          {
+            "code": "MAIN",
+            "name": "Main Campus"
+          }
+        ]
+      },
+      "prerequisites": [],
+      "meeting_times": [],
+      "instructor_id": null,
+      "catalog_entry_url": "https://www.goldmine.utep.edu/prod/owa/bwckctlg.p_display_courses?term_in=202620&one_subj=ACCT&sel_crse_strt=2301&sel_crse_end=2301&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr="
+    },
+    "22800": {
+      "crn": "22800",
+      "course_title": "Principles of Accounting I",
+      "subject": "ACCT",
+      "course_number": "2301",
+      "section": "011",
+      "term": {
+        "code": "202620",
+        "label": "Spring 2026"
+      },
+      "levels": [
+        {
+          "code": "UG",
+          "label": "Undergraduate"
+        }
+      ],
+      "campus": {
+        "code": "MAIN",
+        "name": "Main Campus"
+      },
+      "schedule_type": {
+        "code": "LECT",
+        "label": "Lecture"
+      },
+      "instructional_method": {
+        "mode": "Hybrid",
+        "online_percentage": 49
+      },
+      "credits": 3.0,
+      "enrollment": {
+        "capacity": 80,
+        "actual": 80,
+        "remaining": 0,
+        "waitlist_capacity": 0,
+        "waitlist_remaining": 0
+      },
+      "restrictions": {
+        "prohibited_programs": [
+          {
+            "code": null,
+            "name": "BA in Chicano Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Criminal Justice Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Media Advertising Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Org & Corp Comm Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Security Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in General Business Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Education Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Health Promotion Online"
+          },
+          {
+            "code": null,
+            "name": "General Studies Online"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Business Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in K-12 Bil. Ed. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Const. Mgmt. Onl"
+          },
+          {
+            "code": "GRCER",
+            "name": "GRCER"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Ear. Inter. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer K-12 ESL Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Nonprof. Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Sys. Eng. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Tech/Prof Writ Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Urban Planning Onl"
+          },
+          {
+            "code": null,
+            "name": "MA in Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED in Bilingual Edu. Online"
+          },
+          {
+            "code": null,
+            "name": "MED Curriculum & Instructn Onl"
+          },
+          {
+            "code": null,
+            "name": "MEd in Early Childhood Edu Onl"
+          },
+          {
+            "code": null,
+            "name": "MED Educational Admin Online"
+          },
+          {
+            "code": null,
+            "name": "MEd Literacy Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED Special Education Online"
+          },
+          {
+            "code": null,
+            "name": "MFA in Creative Writing Online"
+          },
+          {
+            "code": null,
+            "name": "MS in Contruction Mgmt Onl-1"
+          },
+          {
+            "code": null,
+            "name": "MS in Construction Mgmt Online"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Admin & Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MSN Education"
+          },
+          {
+            "code": null,
+            "name": "MSN Nursing-Practitioner"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Systems Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MS in Systems Engr. Online"
+          },
+          {
+            "code": null,
+            "name": "Pre-Nursing R.N."
+          },
+          {
+            "code": null,
+            "name": "RN-BSN Online"
+          }
+        ],
+        "prohibited_classifications": [],
+        "required_levels": [],
+        "required_campuses": [
+          {
+            "code": "MAIN",
+            "name": "Main Campus"
+          }
+        ]
+      },
+      "prerequisites": [],
+      "meeting_times": [],
+      "instructor_id": null,
+      "catalog_entry_url": "https://www.goldmine.utep.edu/prod/owa/bwckctlg.p_display_courses?term_in=202620&one_subj=ACCT&sel_crse_strt=2301&sel_crse_end=2301&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr="
+    },
+    "21060": {
+      "crn": "21060",
+      "course_title": "Principles of Accounting II",
+      "subject": "ACCT",
+      "course_number": "2302",
+      "section": "001",
+      "term": {
+        "code": "202620",
+        "label": "Spring 2026"
+      },
+      "levels": [
+        {
+          "code": "UG",
+          "label": "Undergraduate"
+        }
+      ],
+      "campus": {
+        "code": "MAIN",
+        "name": "Main Campus"
+      },
+      "schedule_type": {
+        "code": "LECT",
+        "label": "Lecture"
+      },
+      "instructional_method": {
+        "mode": "Hybrid",
+        "online_percentage": 49
+      },
+      "credits": 3.0,
+      "enrollment": {
+        "capacity": 80,
+        "actual": 27,
+        "remaining": 53,
+        "waitlist_capacity": 0,
+        "waitlist_remaining": 0
+      },
+      "restrictions": {
+        "prohibited_programs": [
+          {
+            "code": null,
+            "name": "BA in Chicano Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Criminal Justice Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Media Advertising Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Org & Corp Comm Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Security Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in General Business Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Education Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Health Promotion Online"
+          },
+          {
+            "code": null,
+            "name": "General Studies Online"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Business Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in K-12 Bil. Ed. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Const. Mgmt. Onl"
+          },
+          {
+            "code": "GRCER",
+            "name": "GRCER"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Ear. Inter. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer K-12 ESL Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Nonprof. Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Sys. Eng. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Tech/Prof Writ Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Urban Planning Onl"
+          },
+          {
+            "code": null,
+            "name": "MA in Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED in Bilingual Edu. Online"
+          },
+          {
+            "code": null,
+            "name": "MED Curriculum & Instructn Onl"
+          },
+          {
+            "code": null,
+            "name": "MEd in Early Childhood Edu Onl"
+          },
+          {
+            "code": null,
+            "name": "MED Educational Admin Online"
+          },
+          {
+            "code": null,
+            "name": "MEd Literacy Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED Special Education Online"
+          },
+          {
+            "code": null,
+            "name": "MFA in Creative Writing Online"
+          },
+          {
+            "code": null,
+            "name": "MS in Contruction Mgmt Onl-1"
+          },
+          {
+            "code": null,
+            "name": "MS in Construction Mgmt Online"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Admin & Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MSN Education"
+          },
+          {
+            "code": null,
+            "name": "MSN Nursing-Practitioner"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Systems Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MS in Systems Engr. Online"
+          },
+          {
+            "code": null,
+            "name": "Pre-Nursing R.N."
+          },
+          {
+            "code": null,
+            "name": "RN-BSN Online"
+          }
+        ],
+        "prohibited_classifications": [],
+        "required_levels": [],
+        "required_campuses": [
+          {
+            "code": "MAIN",
+            "name": "Main Campus"
+          }
+        ]
+      },
+      "prerequisites": [],
+      "meeting_times": [],
+      "instructor_id": null,
+      "catalog_entry_url": "https://www.goldmine.utep.edu/prod/owa/bwckctlg.p_display_courses?term_in=202620&one_subj=ACCT&sel_crse_strt=2302&sel_crse_end=2302&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr="
+    },
+    "21061": {
+      "crn": "21061",
+      "course_title": "Principles of Accounting II",
+      "subject": "ACCT",
+      "course_number": "2302",
+      "section": "005",
+      "term": {
+        "code": "202620",
+        "label": "Spring 2026"
+      },
+      "levels": [
+        {
+          "code": "UG",
+          "label": "Undergraduate"
+        }
+      ],
+      "campus": {
+        "code": "MAIN",
+        "name": "Main Campus"
+      },
+      "schedule_type": {
+        "code": "LECT",
+        "label": "Lecture"
+      },
+      "instructional_method": {
+        "mode": "Hybrid",
+        "online_percentage": 49
+      },
+      "credits": 3.0,
+      "enrollment": {
+        "capacity": 80,
+        "actual": 19,
+        "remaining": 61,
+        "waitlist_capacity": 0,
+        "waitlist_remaining": 0
+      },
+      "restrictions": {
+        "prohibited_programs": [
+          {
+            "code": null,
+            "name": "BA in Chicano Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Criminal Justice Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Media Advertising Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Org & Corp Comm Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Security Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in General Business Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Education Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Health Promotion Online"
+          },
+          {
+            "code": null,
+            "name": "General Studies Online"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Business Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in K-12 Bil. Ed. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Const. Mgmt. Onl"
+          },
+          {
+            "code": "GRCER",
+            "name": "GRCER"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Ear. Inter. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer K-12 ESL Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Nonprof. Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Sys. Eng. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Tech/Prof Writ Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Urban Planning Onl"
+          },
+          {
+            "code": null,
+            "name": "MA in Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED in Bilingual Edu. Online"
+          },
+          {
+            "code": null,
+            "name": "MED Curriculum & Instructn Onl"
+          },
+          {
+            "code": null,
+            "name": "MEd in Early Childhood Edu Onl"
+          },
+          {
+            "code": null,
+            "name": "MED Educational Admin Online"
+          },
+          {
+            "code": null,
+            "name": "MEd Literacy Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED Special Education Online"
+          },
+          {
+            "code": null,
+            "name": "MFA in Creative Writing Online"
+          },
+          {
+            "code": null,
+            "name": "MS in Contruction Mgmt Onl-1"
+          },
+          {
+            "code": null,
+            "name": "MS in Construction Mgmt Online"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Admin & Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MSN Education"
+          },
+          {
+            "code": null,
+            "name": "MSN Nursing-Practitioner"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Systems Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MS in Systems Engr. Online"
+          },
+          {
+            "code": null,
+            "name": "Pre-Nursing R.N."
+          },
+          {
+            "code": null,
+            "name": "RN-BSN Online"
+          }
+        ],
+        "prohibited_classifications": [],
+        "required_levels": [],
+        "required_campuses": [
+          {
+            "code": "MAIN",
+            "name": "Main Campus"
+          }
+        ]
+      },
+      "prerequisites": [],
+      "meeting_times": [],
+      "instructor_id": null,
+      "catalog_entry_url": "https://www.goldmine.utep.edu/prod/owa/bwckctlg.p_display_courses?term_in=202620&one_subj=ACCT&sel_crse_strt=2302&sel_crse_end=2302&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr="
+    },
+    "22694": {
+      "crn": "22694",
+      "course_title": "Principles of Accounting II",
+      "subject": "ACCT",
+      "course_number": "2302",
+      "section": "002",
+      "term": {
+        "code": "202620",
+        "label": "Spring 2026"
+      },
+      "levels": [
+        {
+          "code": "UG",
+          "label": "Undergraduate"
+        }
+      ],
+      "campus": {
+        "code": "MAIN",
+        "name": "Main Campus"
+      },
+      "schedule_type": {
+        "code": "LECT",
+        "label": "Lecture"
+      },
+      "instructional_method": {
+        "mode": "Hybrid",
+        "online_percentage": 49
+      },
+      "credits": 3.0,
+      "enrollment": {
+        "capacity": 80,
+        "actual": 69,
+        "remaining": 11,
+        "waitlist_capacity": 0,
+        "waitlist_remaining": 0
+      },
+      "restrictions": {
+        "prohibited_programs": [
+          {
+            "code": null,
+            "name": "BA in Chicano Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Criminal Justice Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Media Advertising Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Org & Corp Comm Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Security Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in General Business Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Education Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Health Promotion Online"
+          },
+          {
+            "code": null,
+            "name": "General Studies Online"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Business Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in K-12 Bil. Ed. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Const. Mgmt. Onl"
+          },
+          {
+            "code": "GRCER",
+            "name": "GRCER"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Ear. Inter. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer K-12 ESL Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Nonprof. Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Sys. Eng. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Tech/Prof Writ Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Urban Planning Onl"
+          },
+          {
+            "code": null,
+            "name": "MA in Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED in Bilingual Edu. Online"
+          },
+          {
+            "code": null,
+            "name": "MED Curriculum & Instructn Onl"
+          },
+          {
+            "code": null,
+            "name": "MEd in Early Childhood Edu Onl"
+          },
+          {
+            "code": null,
+            "name": "MED Educational Admin Online"
+          },
+          {
+            "code": null,
+            "name": "MEd Literacy Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED Special Education Online"
+          },
+          {
+            "code": null,
+            "name": "MFA in Creative Writing Online"
+          },
+          {
+            "code": null,
+            "name": "MS in Contruction Mgmt Onl-1"
+          },
+          {
+            "code": null,
+            "name": "MS in Construction Mgmt Online"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Admin & Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MSN Education"
+          },
+          {
+            "code": null,
+            "name": "MSN Nursing-Practitioner"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Systems Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MS in Systems Engr. Online"
+          },
+          {
+            "code": null,
+            "name": "Pre-Nursing R.N."
+          },
+          {
+            "code": null,
+            "name": "RN-BSN Online"
+          }
+        ],
+        "prohibited_classifications": [],
+        "required_levels": [],
+        "required_campuses": [
+          {
+            "code": "MAIN",
+            "name": "Main Campus"
+          }
+        ]
+      },
+      "prerequisites": [],
+      "meeting_times": [],
+      "instructor_id": null,
+      "catalog_entry_url": "https://www.goldmine.utep.edu/prod/owa/bwckctlg.p_display_courses?term_in=202620&one_subj=ACCT&sel_crse_strt=2302&sel_crse_end=2302&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr="
+    },
+    "21059": {
+      "crn": "21059",
+      "course_title": "Principles of Accounting I",
+      "subject": "ACCT",
+      "course_number": "2301",
+      "section": "001",
+      "term": {
+        "code": "202620",
+        "label": "Spring 2026"
+      },
+      "levels": [
+        {
+          "code": "UG",
+          "label": "Undergraduate"
+        }
+      ],
+      "campus": {
+        "code": "MAIN",
+        "name": "Main Campus"
+      },
+      "schedule_type": {
+        "code": "LECT",
+        "label": "Lecture"
+      },
+      "instructional_method": {
+        "mode": "Hybrid",
+        "online_percentage": 49
+      },
+      "credits": 3.0,
+      "enrollment": {
+        "capacity": 80,
+        "actual": 37,
+        "remaining": 43,
+        "waitlist_capacity": 0,
+        "waitlist_remaining": 0
+      },
+      "restrictions": {
+        "prohibited_programs": [
+          {
+            "code": null,
+            "name": "BA in Chicano Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Criminal Justice Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Media Advertising Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Org & Corp Comm Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Security Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in General Business Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Education Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Health Promotion Online"
+          },
+          {
+            "code": null,
+            "name": "General Studies Online"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Business Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in K-12 Bil. Ed. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Const. Mgmt. Onl"
+          },
+          {
+            "code": "GRCER",
+            "name": "GRCER"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Ear. Inter. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer K-12 ESL Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Nonprof. Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Sys. Eng. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Tech/Prof Writ Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Urban Planning Onl"
+          },
+          {
+            "code": null,
+            "name": "MA in Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED in Bilingual Edu. Online"
+          },
+          {
+            "code": null,
+            "name": "MED Curriculum & Instructn Onl"
+          },
+          {
+            "code": null,
+            "name": "MEd in Early Childhood Edu Onl"
+          },
+          {
+            "code": null,
+            "name": "MED Educational Admin Online"
+          },
+          {
+            "code": null,
+            "name": "MEd Literacy Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED Special Education Online"
+          },
+          {
+            "code": null,
+            "name": "MFA in Creative Writing Online"
+          },
+          {
+            "code": null,
+            "name": "MS in Contruction Mgmt Onl-1"
+          },
+          {
+            "code": null,
+            "name": "MS in Construction Mgmt Online"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Admin & Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MSN Education"
+          },
+          {
+            "code": null,
+            "name": "MSN Nursing-Practitioner"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Systems Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MS in Systems Engr. Online"
+          },
+          {
+            "code": null,
+            "name": "Pre-Nursing R.N."
+          },
+          {
+            "code": null,
+            "name": "RN-BSN Online"
+          }
+        ],
+        "prohibited_classifications": [],
+        "required_levels": [],
+        "required_campuses": [
+          {
+            "code": "MAIN",
+            "name": "Main Campus"
+          }
+        ]
+      },
+      "prerequisites": [],
+      "meeting_times": [],
+      "instructor_id": null,
+      "catalog_entry_url": "https://www.goldmine.utep.edu/prod/owa/bwckctlg.p_display_courses?term_in=202620&one_subj=ACCT&sel_crse_strt=2301&sel_crse_end=2301&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr="
+    },
+    "24238": {
+      "crn": "24238",
+      "course_title": "Principles of Accounting II",
+      "subject": "ACCT",
+      "course_number": "2302",
+      "section": "004",
+      "term": {
+        "code": "202620",
+        "label": "Spring 2026"
+      },
+      "levels": [
+        {
+          "code": "UG",
+          "label": "Undergraduate"
+        }
+      ],
+      "campus": {
+        "code": "MAIN",
+        "name": "Main Campus"
+      },
+      "schedule_type": {
+        "code": "LECT",
+        "label": "Lecture"
+      },
+      "instructional_method": {
+        "mode": "Hybrid",
+        "online_percentage": 49
+      },
+      "credits": 3.0,
+      "enrollment": {
+        "capacity": 80,
+        "actual": 40,
+        "remaining": 40,
+        "waitlist_capacity": 0,
+        "waitlist_remaining": 0
+      },
+      "restrictions": {
+        "prohibited_programs": [
+          {
+            "code": null,
+            "name": "BA in Chicano Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Criminal Justice Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Media Advertising Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Org & Corp Comm Online"
+          },
+          {
+            "code": null,
+            "name": "BA in Security Studies Online"
+          },
+          {
+            "code": null,
+            "name": "BA in General Business Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Education Online"
+          },
+          {
+            "code": null,
+            "name": "BS in Health Promotion Online"
+          },
+          {
+            "code": null,
+            "name": "General Studies Online"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Business Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in K-12 Bil. Ed. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Const. Mgmt. Onl"
+          },
+          {
+            "code": "GRCER",
+            "name": "GRCER"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Ear. Inter. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer K-12 ESL Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Nonprof. Admin Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Sys. Eng. Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Tech/Prof Writ Onl"
+          },
+          {
+            "code": null,
+            "name": "Grad Cer in Urban Planning Onl"
+          },
+          {
+            "code": null,
+            "name": "MA in Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED in Bilingual Edu. Online"
+          },
+          {
+            "code": null,
+            "name": "MED Curriculum & Instructn Onl"
+          },
+          {
+            "code": null,
+            "name": "MEd in Early Childhood Edu Onl"
+          },
+          {
+            "code": null,
+            "name": "MED Educational Admin Online"
+          },
+          {
+            "code": null,
+            "name": "MEd Literacy Education Online"
+          },
+          {
+            "code": null,
+            "name": "MED Special Education Online"
+          },
+          {
+            "code": null,
+            "name": "MFA in Creative Writing Online"
+          },
+          {
+            "code": null,
+            "name": "MS in Contruction Mgmt Onl-1"
+          },
+          {
+            "code": null,
+            "name": "MS in Construction Mgmt Online"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Admin & Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MSN Education"
+          },
+          {
+            "code": null,
+            "name": "MSN Nursing-Practitioner"
+          },
+          {
+            "code": null,
+            "name": "MSN in Nursing Systems Mgmt"
+          },
+          {
+            "code": null,
+            "name": "MS in Systems Engr. Online"
+          },
+          {
+            "code": null,
+            "name": "Pre-Nursing R.N."
+          },
+          {
+            "code": null,
+            "name": "RN-BSN Online"
+          }
+        ],
+        "prohibited_classifications": [],
+        "required_levels": [],
+        "required_campuses": [
+          {
+            "code": "MAIN",
+            "name": "Main Campus"
+          }
+        ]
+      },
+      "prerequisites": [],
+      "meeting_times": [],
+      "instructor_id": null,
+      "catalog_entry_url": "https://www.goldmine.utep.edu/prod/owa/bwckctlg.p_display_courses?term_in=202620&one_subj=ACCT&sel_crse_strt=2302&sel_crse_end=2302&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr="
+    }
+  }
+}

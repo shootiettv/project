@@ -1,0 +1,4272 @@
+{
+  "professors": {
+    "akabdelhakie": {
+      "professor_id": "akabdelhakie",
+      "professor_info": {
+        "name": "Alaa K. Abdelhakiem Mahmoud",
+        "photo_url": "https://hb2504.utep.edu/photos/akabdelhakie.jpg",
+        "position": "Alaa K. Abdelhakiem MahmoudClinical Assistant ProfessorPharmacy",
+        "department": "",
+        "cv_url": null
+      },
+      "contact_info": {
+        "office_building": "Campbell Building",
+        "office_room": "717",
+        "email": "akabdelhakie@utep.edu"
+      },
+      "bio": {
+        "description": "",
+        "awards_honors": [
+          {
+            "title": "2024 Finalist - APPE Preceptor of Year Award  - UTEP School of Pharmacy",
+            "date": "04/01/2024",
+            "organization": "04/30/2024"
+          }
+        ]
+      },
+      "education": [
+        {
+          "degree": "Pharm D",
+          "field": "Pharmacy",
+          "institution": "University of Missouri-Kansas City",
+          "year": "2019"
+        },
+        {
+          "degree": "BS",
+          "field": "Chemistry",
+          "institution": "Missouri State University",
+          "year": "2015"
+        }
+      ],
+      "scholarly_activity": {
+        "publications": [],
+        "presentations": [
+          {
+            "title": "Incidence of acute kidney injury in patients with empiric combination therapy with vancomycin and piperacillin/tazobactam or cefepime in the Hispanic population (2024), Volume New Orleans, LA,Gabriela  Garcia Villa, Catherine Ho, Alaa K. Abdelhakiem Mahmoud."
+          },
+          {
+            "title": "To Pen or Not To Pen: Optimizing Antimicrobial Therapy through Penicillin Allergy Skin Testing (2024), Volume New Orleans, LA,Bailey McFarland, Catherine Ho, Alaa K. Abdelhakiem Mahmoud."
+          },
+          {
+            "title": "Diversity, Equity, Inclusion, Anti-racism (DEIA) Pulse-Check: Comparative Analysis of Administrative and Non-administrative Pharmacy Faculty Perceptions (2024), Volume Boston, MA,Rania El-Desoky, Joshua Wollen, Alaa K. Abdelhakiem Mahmoud."
+          },
+          {
+            "title": "Diversity, Equity, Inclusion, Anti-Racism Perceptions Among Clinical, Research, and Instructional Pharmacy Faculty: A Comparative Analysis (2024), Volume Boston, MA,Alaa K. Abdelhakiem Mahmoud, Rania El-Desoky, Joshua Wollen."
+          },
+          {
+            "title": "The Impact of Geographical Region on Faculty Perceptions of College Climate Regarding DEIA (2024), Volume Boston, MA,Joshua Wollen, Alaa K. Abdelhakiem Mahmoud, Rania El-Desoky."
+          },
+          {
+            "title": "Characterization of Knowledge and Attitudes Surrounding Transgender and Gender-Diverse Health: A Comparison of Health Professions Faculty at a Hispanic Serving Institute (2023), Volume Anaheim, CA,Sarah R. Salazar, Christopher G. Medlin, Alaa K. Abdelhakiem Mahmoud."
+          },
+          {
+            "title": "Evaluate the Utilization and Acceptance of Non-Occupational Post-Exposure Prophylaxis for HIV after Sexual Assaults in an Emergency Department at the border of US-Mexico (2023), Volume Anaheim, CA,Mark Kevin David, Gabriel Ortiz, Dessaray Gorbett, Cristian Villalva, Alaa K. Abdelhakiem Mahmoud."
+          },
+          {
+            "title": "First-Year Pharmacy Students Perceived Cultural Competence Knowledge Pre-and Post-Didactic and Experiential Experiences Utilizing the SAPLCC Questionnaire at a Single Academic Institution (2023), Volume Anaheim, CA,Cristian Villalva, Jordan Winfield, Cristina Esparaza, Cristina A. Ortega, Alaa K. Abdelhakiem Mahmoud."
+          },
+          {
+            "title": "Knowledge, Attitudes, and Prevalence of Cannabidiol (CBD) Use Among College Students Enrolled at Academic Institutions within the University of Texas System (2023), Volume Anaheim, CA,Jose Bautista, Nina Bustamante , Alanna  Kologely, Ayman Hamouda, Alaa K. Abdelhakiem Mahmoud."
+          },
+          {
+            "title": "Characterization of Knowledge and Attitudes Surrounding Transgender and Gender-Diverse Health: A Comparison of Health Professions Faculty at a Hispanic Serving Institution (2023), Volume Anaheim, CA,Sarah R. Salazar, Alaa K. Abdelhakiem Mahmoud, Christopher G. Medlin."
+          },
+          {
+            "title": "Nothing Micro About It: Combatting Microaggressions in the Educational and Clinical Practice Settings (2023), Volume Aurora, Colorado ,Alaa K. Abdelhakiem Mahmoud, Joshua Wollen, Tyler M. Kiles, Rosalyn Reese."
+          },
+          {
+            "title": "Is There a Pharmacist in the House: Evaluating Pharmacists Understanding of Professional Identity Formation Through Pre/Post Questionnaires and Continuing Education (2023), Volume Glendale, Arizona,Mandi L. Bever, Alaa K. Abdelhakiem Mahmoud, Margie E. Padilla, Gabriel Frietze."
+          },
+          {
+            "title": "Is There a Pharmacist in the House: Evaluating Pharmacists Understanding of Professional Identity Formation Through Pre/Post Questionnaires and Continuing Education (2023), Volume Glendale, Arizona,Mandi L. Bever, Alaa K. Abdelhakiem Mahmoud, Margie E. Padilla, Gabriel Frietze."
+          },
+          {
+            "title": "Is There a Pharmacist in the House: Exploring the Concepts of Professional Identity Formation (2023), Volume El Paso, Texas,Mandi L. Bever, Alaa K. Abdelhakiem Mahmoud, Margie E. Padilla, Gabriel Frietze."
+          },
+          {
+            "title": "Is There a Pharmacist in the House: Exploring the Concepts of Professional Identity Formation (2023), Volume El Paso, Texas,Mandi L. Bever, Alaa K. Abdelhakiem Mahmoud, Margie E. Padilla, Gabriel Frietze."
+          },
+          {
+            "title": "From a New Graduate to a Seasoned Pharmacist: The Challenges and Strategies to Precepting APPE Rotations (2023), Volume El Paso,Harleen Singh, Alaa A. Abdelhakiem Mahmoud."
+          },
+          {
+            "title": "From a New Graduate to a Seasoned Pharmacist: The Challenges and Strategies to Precepting APPE Rotations (2023), Volume El Paso,Harleen Singh, Alaa A. Abdelhakiem Mahmoud."
+          },
+          {
+            "title": "Is There a Pharmacist in the House: Exploring the Concepts of Professional Identity Formation (2023), Volume Lubbock, Tx,Mandi L. Bever, Alaa K. Abdelhakiem Mahmoud, Margie E. Padilla, Gabriel Frietze."
+          },
+          {
+            "title": "Is There a Pharmacist in the House: Exploring the Concepts of Professional Identity Formation (2023), Volume Lubbock, Tx,Mandi L. Bever, Alaa K. Abdelhakiem Mahmoud, Margie E. Padilla, Gabriel Frietze."
+          },
+          {
+            "title": "Assessment of vancomycin Abdelhakiem 9 AUC/MIC and corresponding trough levels in Hispanic patients treated for  uncomplicated MRSA bacteremia at an academic medical center on the US-Mexico  border (2022), Volume Las Vegas, NV,Sarah Salazar, Catherine  Ho, J  Martinez-Mendez, Gabriel Frietze, Alaa K. Abdelhakiem ."
+          },
+          {
+            "title": "CUIDAR: COVID-19 and Understanding the Impact on Diabetes Patients’ Attitudes and Medication Requirements (2022), Volume Las Vegas, NV,Hunter Stout, Gabriel  Frietze, Karem Lambeth, Lily Lunares, Alaa K. Abdelhakiem Mahmoud."
+          },
+          {
+            "title": "Is there a Pharmacist in the House:  Evaluating Pharmacists Understanding of Professional Identity through Pre/Post-Questionnaires and Continuing Education (2022), Volume Las Vegas, NV,Mandi Bever, Alaa K. Abdelhakiem Mahmoud, Margie Padilla, Gabriel Frietze."
+          },
+          {
+            "title": "Addressing Microaggressions in Clinical Pharmacy Training & Practice (2022), Volume El Paso, TX,Alaa K. Abdelhakiem ."
+          },
+          {
+            "title": "Belonging, Equity, Diversity, and Inclusion—Addressing Microaggressions in Clinical Education (2022), Volume St. Louis, Missouri,Alaa K. Abdelhakiem."
+          },
+          {
+            "title": "Bridging the Health Care Divide (2021), Volume Springfield, Missouri,Alaa K. Abdelhakiem Mahmoud."
+          },
+          {
+            "title": "Disability and Diversity: Bridging the Gap to Inclusion (2021), Volume Springfield, Missouri,Alaa K. Abdelhakiem Mahmoud."
+          },
+          {
+            "title": "Suffering in silence: Let’s talk before it is too late (2021), Volume Springfield, Missouri,Alaa K. Abdelhakiem Mahmoud."
+          }
+        ]
+      },
+      "grants": [
+        {
+          "title": "Impact of a Pharmacist-Led Weight Management Service in Patients with Non-alcoholic Fatty Liver Disease at Outpatient Clinics on the US-Mexico Border (10/01/2024 - 07/31/2025) -American Pharmacists Association (APhA)"
+        }
+      ],
+      "courses": {
+        "current_future": [
+          {
+            "term": "Fall 2025",
+            "course": "PHAR 6264 - Integrated Skills Lab IIIA",
+            "section": "15443"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "PHAR 6470 - ISBP IIA1",
+            "section": "12925"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "PHAR 6475 - ISBP IIIA2",
+            "section": "12900"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "PHAR 6243 - Pharm & Drug Info & Law IIA",
+            "section": "12674"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "PHAR 6044 - Prof Innov Ldr Lifeskills IIA",
+            "section": "12675"
+          }
+        ],
+        "past": [
+          {
+            "term": "Summer 2025",
+            "course": "PHAR 6289 - Study Away- International",
+            "section": "32417"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "PHAR 6253 - Drug Info & E-B Med & Law IIB",
+            "section": "23148"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "PHAR 6265 - Integrated Skills Lab IIIB",
+            "section": "23304"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "PHAR 6472 - ISBP IIB1",
+            "section": "23579"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "PHAR 6473 - ISBP IIB2",
+            "section": "24240"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "PHAR 6054 - PILLS IIB",
+            "section": "23149"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "PHAR 6470 - ISBP IIA1",
+            "section": "13254"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "PHAR 6475 - ISBP IIIA2",
+            "section": "13226"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "PHAR 6044 - Prof Innov Ldr Lifeskills IIA",
+            "section": "12960",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/akabdelhakie/schteach/PILLS IIA1 - PHAR 6044 2023-24 v.7-29-21F - to upload-1.pdf"
+          },
+          {
+            "term": "Summer 2024",
+            "course": "PHAR 6260 - Intro Prac Applic Lab",
+            "section": "33262"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "PHAR 6253 - Drug Info & E-B Med & Law IIB",
+            "section": "23573"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "PHAR 6688 - Elective I APPE",
+            "section": "26656"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "PHAR 6688 - Elective I APPE",
+            "section": "26657"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "PHAR 6472 - ISBP IIB1",
+            "section": "24109",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/akabdelhakie/schteach/ISBP IIB1 Course Syllabus - Spring 2024-1.pdf"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "PHAR 6473 - ISBP IIB2",
+            "section": "24907"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "PHAR 6054 - PILLS IIB",
+            "section": "23574",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/akabdelhakie/schteach/PILLS IIB Course Syllabus - Spring 2024-1.pdf"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "PHAR 6688 - Elective I APPE",
+            "section": "16728"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "PHAR 6470 - ISBP IIA1",
+            "section": "13829"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "PHAR 6475 - ISBP IIIA2",
+            "section": "13791"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "PHAR 6243 - Pharm & Drug Info & Law IIA",
+            "section": "13458"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "PHAR 6044 - Prof Innov Ldr Lifeskills IIA",
+            "section": "13459",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/akabdelhakie/schteach/PILLS IIA1 - PHAR 6044 2023-24 v.7-29-21F - to send-1.docx"
+          },
+          {
+            "term": "Summer 2023",
+            "course": "PHAR 6170 - Special Topics-Therapeutics",
+            "section": "35487"
+          },
+          {
+            "term": "Summer 2023",
+            "course": "PHAR 6289 - Study Away- International",
+            "section": "35980"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "PHAR 6472 - ISBP IIB1",
+            "section": "24640"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "PHAR 6473 - ISBP IIB2",
+            "section": "25783"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "PHAR 6253 - Patient Safety and Law IIB",
+            "section": "23985"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "PHAR 6054 - PILLS IIB",
+            "section": "23986",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/akabdelhakie/schteach/PHAR 6054 PILLS IIB 2022-2023 v.7-29-21F-1.docx"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "PHAR 6470 - ISBP IIA1",
+            "section": "17426"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "PHAR 6475 - ISBP IIIA2",
+            "section": "17294"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "PHAR 6243 - Pharm & Drug Info & Law IIA",
+            "section": "16548"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "PHAR 6044 - Prof Innov Ldr Lifeskills IIA",
+            "section": "16549",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/akabdelhakie/schteach/PILLS IIA1 - PHAR 6044 2022-23 v.7-29-21F-1.docx"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "PHAR 6472 - ISBP IIB1",
+            "section": "26693"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "PHAR 6473 - ISBP IIB2",
+            "section": "28600"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "PHAR 6054 - PILLS IIB",
+            "section": "25649",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/akabdelhakie/schteach/PHAR 6054 PILLS IIB 2021-22 v.7-29-21F - FINAL-2.docx"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "PHAR 6470 - ISBP IIA1",
+            "section": "18149"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "PHAR 6475 - ISBP IIIA2",
+            "section": "18154"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "PHAR 6168 - ISBP Practical App. Lab IIIA",
+            "section": "17177"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "PHAR 6168 - ISBP Practical App. Lab IIIA",
+            "section": "18145"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "PHAR 6044 - Prof Innov Ldr Lifeskills IIA",
+            "section": "16472"
+          }
+        ]
+      },
+      "evaluations_history": [
+        {
+          "term": "Spring  2025",
+          "response_count": 11,
+          "instructor_rating": {
+            "excellent_pct": 54.5,
+            "good_pct": 36.4,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.27
+          },
+          "course_rating": {
+            "excellent_pct": 45.5,
+            "good_pct": 36.4,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 9.1,
+            "average": 4.0
+          }
+        },
+        {
+          "term": "Spring  2025",
+          "response_count": 33,
+          "instructor_rating": {
+            "excellent_pct": 48.5,
+            "good_pct": 24.2,
+            "satisfactory_pct": 3.0,
+            "poor_pct": 0.0,
+            "average": 4.6
+          },
+          "course_rating": {
+            "excellent_pct": 54.5,
+            "good_pct": 24.2,
+            "satisfactory_pct": 3.0,
+            "poor_pct": 0.0,
+            "average": 4.63
+          }
+        },
+        {
+          "term": "Spring  2025",
+          "response_count": 50,
+          "instructor_rating": {
+            "excellent_pct": 68.0,
+            "good_pct": 28.0,
+            "satisfactory_pct": 4.0,
+            "poor_pct": 0.0,
+            "average": 4.64
+          },
+          "course_rating": {
+            "excellent_pct": 60.0,
+            "good_pct": 30.0,
+            "satisfactory_pct": 8.0,
+            "poor_pct": 2.0,
+            "average": 4.48
+          }
+        },
+        {
+          "term": "Spring  2025",
+          "response_count": 28,
+          "instructor_rating": {
+            "excellent_pct": 64.3,
+            "good_pct": 25.0,
+            "satisfactory_pct": 7.1,
+            "poor_pct": 3.6,
+            "average": 4.5
+          },
+          "course_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 39.3,
+            "satisfactory_pct": 7.1,
+            "poor_pct": 3.6,
+            "average": 4.36
+          }
+        },
+        {
+          "term": "Spring  2025",
+          "response_count": 9,
+          "instructor_rating": {
+            "excellent_pct": 77.8,
+            "good_pct": 22.2,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.78
+          },
+          "course_rating": {
+            "excellent_pct": 44.4,
+            "good_pct": 33.3,
+            "satisfactory_pct": 11.1,
+            "poor_pct": 0.0,
+            "average": 4.0
+          }
+        },
+        {
+          "term": "Fall  2024",
+          "response_count": 2,
+          "instructor_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 0.0,
+            "satisfactory_pct": 50.0,
+            "poor_pct": 0.0,
+            "average": 4.0
+          },
+          "course_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 50.0,
+            "average": 3.5
+          }
+        },
+        {
+          "term": "Fall  2024",
+          "response_count": 38,
+          "instructor_rating": {
+            "excellent_pct": 60.5,
+            "good_pct": 34.2,
+            "satisfactory_pct": 5.3,
+            "poor_pct": 0.0,
+            "average": 4.55
+          },
+          "course_rating": {
+            "excellent_pct": 60.5,
+            "good_pct": 34.2,
+            "satisfactory_pct": 5.3,
+            "poor_pct": 0.0,
+            "average": 4.55
+          }
+        },
+        {
+          "term": "Fall  2024",
+          "response_count": 11,
+          "instructor_rating": {
+            "excellent_pct": 63.6,
+            "good_pct": 18.2,
+            "satisfactory_pct": 18.2,
+            "poor_pct": 0.0,
+            "average": 4.45
+          },
+          "course_rating": {
+            "excellent_pct": 54.5,
+            "good_pct": 9.1,
+            "satisfactory_pct": 36.4,
+            "poor_pct": 0.0,
+            "average": 4.18
+          }
+        },
+        {
+          "term": "Spring  2024",
+          "response_count": 13,
+          "instructor_rating": {
+            "excellent_pct": 76.9,
+            "good_pct": 23.1,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.77
+          },
+          "course_rating": {
+            "excellent_pct": 69.2,
+            "good_pct": 23.1,
+            "satisfactory_pct": 7.7,
+            "poor_pct": 0.0,
+            "average": 4.62
+          }
+        },
+        {
+          "term": "Spring  2024",
+          "response_count": 38,
+          "instructor_rating": {
+            "excellent_pct": 76.3,
+            "good_pct": 18.4,
+            "satisfactory_pct": 5.3,
+            "poor_pct": 0.0,
+            "average": 4.71
+          },
+          "course_rating": {
+            "excellent_pct": 73.7,
+            "good_pct": 21.1,
+            "satisfactory_pct": 5.3,
+            "poor_pct": 0.0,
+            "average": 4.68
+          }
+        }
+      ]
+    },
+    "emadn": {
+      "professor_id": "emadn",
+      "professor_info": {
+        "name": "Imad N. Abdallah",
+        "photo_url": "https://hb2504.utep.edu/photos/emadn.jpg",
+        "position": "Imad N. AbdallahAssociate ProfessorCivil EngineeringCenter for Transportation Infrastructure Systems (CTIS)",
+        "department": "",
+        "cv_url": null
+      },
+      "contact_info": {
+        "office_building": "Kelly Hall",
+        "office_room": "402",
+        "phone": "(915) 747-8907",
+        "email": "emadn@utep.edu"
+      },
+      "bio": {
+        "description": "As Director of the Center for Transportation Research Systems (CTIS), my primary responsibility is to oversee, manage, and develop the center with an annual budget of $3 million. I am also Research Associate Professor in Civil Engineering with over twenty years of work experience. I have been instrumental in research efforts on many projects dealing with data modeling and analysis especially in correlation analysis and modeling data uncertainty. I have experience related to analysis, design and management of pavement structures and pavement material characterization. As lead researcher on over two dozen research projects, my efforts have contributed to developing pavement performance models based on traditional and artificial intelligence, establishing algorithms that focused on uncertainty analysis for estimating the impact of construction quality on life-cycle performance of pavements, collecting and analyzing NDT data including seismic and deflection data and combing the data into integration algorithms that backcalculate layer properties from GPR, PSPA, SPA and FWD.<br>I also have experience in developing expert systems related to pavements that combines numerical and engineering analyses with heuristic information to guide and recommend best alternatives. Most recently I have been managing the software development team at CTIS on several transportation projects to provide online tools that assist engineering in analysis, design and evaluation. I have published over 90 papers and research related reports and have presented at several national and international conferences.",
+        "awards_honors": []
+      },
+      "education": [
+        {
+          "degree": "Ph D",
+          "field": "Civil Engineering",
+          "institution": "The University of Texas at El Paso",
+          "year": "2011"
+        },
+        {
+          "degree": "MS",
+          "field": "Civil Engineering",
+          "institution": "The University of Texas at El Paso",
+          "year": "1996"
+        },
+        {
+          "degree": "BS",
+          "field": "Civil Engineering",
+          "institution": "The University of Texas at El Paso",
+          "year": "1994"
+        }
+      ],
+      "scholarly_activity": {
+        "publications": [],
+        "presentations": [
+          {
+            "title": "Impact of Increasing Laboratory-Molded Density on Performance of Mixtures with Recycled Asphalt Pavement (2025), Volume Washington, DC,Parastoo Bahri Iraei, Miguel Montoya Rodriguez, Imad N. Abdallah, Soheil Nazarian."
+          }
+        ]
+      },
+      "grants": [
+        {
+          "title": "P22-035- Evaluate The Importance Of Fine Aggregates In Achieving Adequate Skid Resistance In Txdot Hot Mix Asphalt Mixtures (09/01/2021 - 08/31/2024) -TEXAS DEPARTMENT OF TRANSPORTATION (TX)"
+        },
+        {
+          "title": "P22-064- Determine Impact Of Field Sands On Workability And Engineering Properties Of Superpave Mixtures In Texas (09/01/2021 - 08/31/2024) -TEXAS DEPARTMENT OF TRANSPORTATION (TX)"
+        },
+        {
+          "title": "MPO FY2020 TASK08: ASSISTANCE IN TRAVEL DEMAND MODELING, AIR QUALITY CONFORMITY AND PUBLIC INVOLVEMENT ACTIVITIES AND OTHER ACTIVITIES INCLUDED IN THE (09/01/2022 - 08/31/2023) -EL PASO METROPOLITAN PLANNING ORG (LOCL)"
+        },
+        {
+          "title": "IAC FELXIBLE PAVEMENT BRANCH, MATERILS AND TESTS DIVISION (09/01/2021 - 08/31/2023) -TX DEPT OF TRANS (COMP SEC, OFC OF CV R) (TX)"
+        },
+        {
+          "title": "Implementation of improved overlay tester for fatigue cracking resistance of asphalt mixtures (09/01/2017 - 08/31/2020) -TX DEPT OF TRANS"
+        }
+      ],
+      "courses": {
+        "current_future": [
+          {
+            "term": "Fall 2025",
+            "course": "CE 6398 - Dissertation",
+            "section": "15712"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "CE 6399 - Dissertation",
+            "section": "11378"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "CE 6393 - Dissertation Proposal",
+            "section": "16144"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "CE 6296 - Doctoral Research",
+            "section": "15206"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "CE 6396 - Doctoral Research",
+            "section": "10182"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "CE 6396 - Doctoral Research",
+            "section": "10580"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "CE 5394 - Graduate Research",
+            "section": "15646"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "CE 5391 - Individual Studies",
+            "section": "15569"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "CE 5391 - Individual Studies",
+            "section": "15570"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "CE 6191 - Individual Studies",
+            "section": "16443"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "CE 2334 - Mechanics of Materials",
+            "section": "15942",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/emadn/schteach/CE 2334 Syllabus Fall 2025_Abdallah-1.pdf"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "CE 6091 - Qualifying Exam",
+            "section": "16127"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "CE 2315 - Statics",
+            "section": "11978",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/emadn/schteach/CE 2315 Syllabus Fall 2025_Abdallah-1.pdf"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "CE 5398 - Thesis",
+            "section": "14901"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "CE 5399 - Thesis",
+            "section": "14920"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "12433"
+          }
+        ],
+        "past": [
+          {
+            "term": "Spring 2025",
+            "course": "CE 4376 - Adv Topics in Civ Engr II",
+            "section": "22553"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "CE 4377 - Adv Topics in Civil Engr III",
+            "section": "22845"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "CE 4375 - Adv. Topics in Civil Engr.",
+            "section": "22552"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "CE 6398 - Dissertation",
+            "section": "20534"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "CE 6399 - Dissertation",
+            "section": "20898"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "CE 6396 - Doctoral Research",
+            "section": "20372"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "CE 6396 - Doctoral Research",
+            "section": "22753"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "CE 5391 - Individual Studies",
+            "section": "20225"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "CE 5351 - Mech Pavement Design/Analysis",
+            "section": "27053"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "CE 2334 - Mechanics of Materials",
+            "section": "25620"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "24836"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "CE 6398 - Dissertation",
+            "section": "16988"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "CE 6393 - Dissertation Proposal",
+            "section": "17548"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "CE 6396 - Doctoral Research",
+            "section": "11520"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "CE 6396 - Doctoral Research",
+            "section": "12763"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "CE 6191 - Individual Studies",
+            "section": "17911"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "CE 2334 - Mechanics of Materials",
+            "section": "17288",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/emadn/schteach/CE 2334 Syllabus Fall 2024_Abdallah-1.pdf"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "CE 2315 - Statics",
+            "section": "12186",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/emadn/schteach/CE 2315 Syllabus Fall 2024_Abdallah-1.pdf"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "12685"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "CE 6296 - Doctoral Research",
+            "section": "22631"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "CE 6396 - Doctoral Research",
+            "section": "20420"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "CE 6396 - Doctoral Research",
+            "section": "23097"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "CE 6396 - Doctoral Research",
+            "section": "28170"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "CE 2334 - Mechanics of Materials",
+            "section": "21512",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/emadn/schteach/CE 2334 Syllabus Spring 2024_Abdallah-1.pdf"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "25693"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "CE 6296 - Doctoral Research",
+            "section": "17561"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "CE 6396 - Doctoral Research",
+            "section": "13228"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "CE 2315 - Statics",
+            "section": "11328",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/emadn/schteach/CE 2315 Syllabus Fall 2023_Abdallah-1.pdf"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "CE 5399 - Thesis",
+            "section": "17241"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "13136"
+          },
+          {
+            "term": "Summer 2023",
+            "course": "CE 5399 - Thesis",
+            "section": "34676"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "CE 4375 - Adv. Topics in Civil Engr.",
+            "section": "23112",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/emadn/schteach/CE 5390 Syllabus Spring 2023_Abdallah-3.pdf"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "CE 6296 - Doctoral Research",
+            "section": "22899"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "CE 6396 - Doctoral Research",
+            "section": "20464"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "CE 2334 - Mechanics of Materials",
+            "section": "21649",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/emadn/schteach/CE 2334 Syllabus Spring 2023_Abdallah-1.pdf"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "CE 5390 - Special Topics Civil Engr",
+            "section": "25688",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/emadn/schteach/CE 5390 Syllabus Spring 2023_Abdallah-4.pdf"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "CE 5398 - Thesis",
+            "section": "20004"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "CE 5399 - Thesis",
+            "section": "20008"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "27135"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "CE 6396 - Doctoral Research",
+            "section": "16108"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "CE 2334 - Mechanics of Materials",
+            "section": "12354",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/emadn/schteach/CE 2334 Syllabus Fall 2022 _Abdallah-1.pdf"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "CE 2315 - Statics",
+            "section": "12372",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/emadn/schteach/CE 2315 Syllabus Fall 2022_Abdallah-1.pdf"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "CE 5398 - Thesis",
+            "section": "18179"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "15953"
+          },
+          {
+            "term": "Summer 2022",
+            "course": "CE 6396 - Doctoral Research",
+            "section": "35454"
+          },
+          {
+            "term": "Summer 2022",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "33771"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "CE 6396 - Doctoral Research",
+            "section": "20651"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "CE 5391 - Individual Studies",
+            "section": "20411"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "CE 2334 - Mechanics of Materials",
+            "section": "22126",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/emadn/schteach/CE2334 Spring 2022syllabus_Abdallah-1.pdf"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "CE 5398 - Thesis",
+            "section": "20004"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "CE 6396 - Doctoral Research",
+            "section": "16055"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "CE 5391 - Individual Studies",
+            "section": "10309"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "15905"
+          },
+          {
+            "term": "Fall 2020",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "16183"
+          },
+          {
+            "term": "Summer 2020",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "33927"
+          },
+          {
+            "term": "Spring 2020",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "24656"
+          },
+          {
+            "term": "Fall 2019",
+            "course": "CE 6396 - Doctoral Research",
+            "section": "16878"
+          },
+          {
+            "term": "Fall 2019",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "16695"
+          },
+          {
+            "term": "Summer 2019",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "34330"
+          },
+          {
+            "term": "Summer 2018",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "34922"
+          }
+        ]
+      },
+      "evaluations_history": [
+        {
+          "term": "Spring  2025",
+          "response_count": 6,
+          "instructor_rating": {
+            "excellent_pct": 66.7,
+            "good_pct": 33.3,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.67
+          },
+          "course_rating": {
+            "excellent_pct": 66.7,
+            "good_pct": 33.3,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.67
+          }
+        },
+        {
+          "term": "Spring  2025",
+          "response_count": 6,
+          "instructor_rating": {
+            "excellent_pct": 66.7,
+            "good_pct": 33.3,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.67
+          },
+          "course_rating": {
+            "excellent_pct": 66.7,
+            "good_pct": 33.3,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.67
+          }
+        },
+        {
+          "term": "Spring  2025",
+          "response_count": 16,
+          "instructor_rating": {
+            "excellent_pct": 43.8,
+            "good_pct": 25.0,
+            "satisfactory_pct": 6.3,
+            "poor_pct": 18.8,
+            "average": 3.81
+          },
+          "course_rating": {
+            "excellent_pct": 31.3,
+            "good_pct": 37.5,
+            "satisfactory_pct": 6.3,
+            "poor_pct": 18.8,
+            "average": 3.69
+          }
+        },
+        {
+          "term": "Fall  2024",
+          "response_count": 21,
+          "instructor_rating": {
+            "excellent_pct": 47.6,
+            "good_pct": 23.8,
+            "satisfactory_pct": 23.8,
+            "poor_pct": 0.0,
+            "average": 4.1
+          },
+          "course_rating": {
+            "excellent_pct": 42.9,
+            "good_pct": 28.6,
+            "satisfactory_pct": 19.0,
+            "poor_pct": 4.8,
+            "average": 4.0
+          }
+        },
+        {
+          "term": "Fall  2024",
+          "response_count": 1,
+          "instructor_rating": {
+            "excellent_pct": 100.0,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 5.0
+          },
+          "course_rating": {
+            "excellent_pct": 100.0,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 5.0
+          }
+        },
+        {
+          "term": "Spring  2024",
+          "response_count": 6,
+          "instructor_rating": {
+            "excellent_pct": 83.3,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.33
+          },
+          "course_rating": {
+            "excellent_pct": 83.3,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 16.7,
+            "average": 4.5
+          }
+        },
+        {
+          "term": "Fall  2023",
+          "response_count": 6,
+          "instructor_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 33.3,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.0
+          },
+          "course_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 33.3,
+            "satisfactory_pct": 16.7,
+            "poor_pct": 0.0,
+            "average": 4.33
+          }
+        },
+        {
+          "term": "Spring  2023",
+          "response_count": 6,
+          "instructor_rating": {
+            "excellent_pct": 83.3,
+            "good_pct": 16.7,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.83
+          },
+          "course_rating": {
+            "excellent_pct": 83.3,
+            "good_pct": 16.7,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.83
+          }
+        },
+        {
+          "term": "Spring  2023",
+          "response_count": 10,
+          "instructor_rating": {
+            "excellent_pct": 60.0,
+            "good_pct": 30.0,
+            "satisfactory_pct": 10.0,
+            "poor_pct": 0.0,
+            "average": 4.5
+          },
+          "course_rating": {
+            "excellent_pct": 60.0,
+            "good_pct": 30.0,
+            "satisfactory_pct": 10.0,
+            "poor_pct": 0.0,
+            "average": 4.5
+          }
+        },
+        {
+          "term": "Spring  2023",
+          "response_count": 6,
+          "instructor_rating": {
+            "excellent_pct": 83.3,
+            "good_pct": 16.7,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.83
+          },
+          "course_rating": {
+            "excellent_pct": 83.3,
+            "good_pct": 16.7,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.83
+          }
+        }
+      ]
+    },
+    "aabdollahyzarandi": {
+      "professor_id": "aabdollahyzarandi",
+      "professor_info": {
+        "name": "Abdolhossein Abdollahy Zarandi",
+        "photo_url": "https://hb2504.utep.edu/photos/aabdollahyzarandi.jpg",
+        "position": "Abdolhossein Abdollahy ZarandiAssociate Professor of InstructionPsychology",
+        "department": "",
+        "cv_url": null
+      },
+      "contact_info": {
+        "office_building": "Prospect Hall",
+        "office_room": "208",
+        "phone": "(915) 747-6589",
+        "email": "aabdollahyzarandi@utep.edu"
+      },
+      "bio": {
+        "description": "",
+        "awards_honors": []
+      },
+      "education": [
+        {
+          "degree": "Ph D",
+          "field": "Psychology",
+          "institution": "Allameh Tabatabaei University",
+          "year": "2002"
+        }
+      ],
+      "scholarly_activity": {
+        "publications": [],
+        "presentations": []
+      },
+      "grants": [],
+      "courses": {
+        "current_future": [
+          {
+            "term": "Fall 2025",
+            "course": "PSYC 3331 - Cross-Cultural Psychology",
+            "section": "16396",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 3331_16396-1.docx"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "PSYC 3350 - Health Psychology",
+            "section": "17477",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 3350_17477-1.docx"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "PSYC 4321 - Judgment and Decision Making",
+            "section": "14599",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 4321_14599-1.docx"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "PSYC 3320 - Learning & Memory",
+            "section": "16395",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 3320_16395-1.docx"
+          }
+        ],
+        "past": [
+          {
+            "term": "Summer 2025",
+            "course": "PSYC 4321 - Judgment and Decision Making",
+            "section": "33226",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 4321_33226-1.docx"
+          },
+          {
+            "term": "Summer 2025",
+            "course": "PSYC 3320 - Learning & Memory",
+            "section": "32876",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 3320_32876-1.docx"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "PSYC 3331 - Cross-Cultural Psychology",
+            "section": "24931",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 3331_24931-1.docx"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "PSYC 1301 - Introduction to Psychology",
+            "section": "22952",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 1301_22952-1.docx"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "PSYC 4321 - Judgment and Decision Making",
+            "section": "23776",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 4321_23776-1.docx"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "PSYC 3320 - Learning & Memory",
+            "section": "20444",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 3320_20444-1.docx"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "PSYC 3331 - Cross-Cultural Psychology",
+            "section": "17860",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 3331_17860-3.docx"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "PSYC 3350 - Health Psychology",
+            "section": "12948",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 3350_12948-1.docx"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "PSYC 4321 - Judgment and Decision Making",
+            "section": "15251",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 4321_15251-1.docx"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "PSYC 3320 - Learning & Memory",
+            "section": "17859",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 3320_17859-2.docx"
+          },
+          {
+            "term": "Summer 2024",
+            "course": "PSYC 3350 - Health Psychology",
+            "section": "33345",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 3350_33345-1.docx"
+          },
+          {
+            "term": "Summer 2024",
+            "course": "PSYC 4321 - Judgment and Decision Making",
+            "section": "33932",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 4321_33932-1.docx"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "PSYC 1301 - Introduction to Psychology",
+            "section": "25824",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 1301_25824-1.pdf"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "PSYC 1301 - Introduction to Psychology",
+            "section": "27386",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 1301_27386-1.pdf"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "PSYC 4321 - Judgment and Decision Making",
+            "section": "24348",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 4321_24348-1.pdf"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "PSYC 3320 - Learning & Memory",
+            "section": "20504",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 3320_20504-1.pdf"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "PSYC 3331 - Cross-Cultural Psychology",
+            "section": "16722",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 3331_16722_ Syllabus_Fall 2023-1.docx"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "PSYC 1301 - Introduction to Psychology",
+            "section": "11058",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 1301_11058_Syllabus_Fall 2023-2.docx"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "PSYC 1301 - Introduction to Psychology",
+            "section": "11247",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 1301_11247_Syllabus_Fall 2023-1.docx"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "PSYC 4321 - Judgment and Decision Making",
+            "section": "16519",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 4321_16519_ Syllabus_Fall 2023-1.docx"
+          },
+          {
+            "term": "Summer 2023",
+            "course": "PSYC 3350 - Health Psychology",
+            "section": "36148"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "PSYC 3350 - Health Psychology",
+            "section": "22038",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 3350_ Syllabus_Spring 2023-1.pdf"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "PSYC 1301 - Introduction to Psychology",
+            "section": "27330",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 1301_Syllabus_Spring 2023-1.pdf"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "PSYC 4321 - Judgment and Decision Making",
+            "section": "25035",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 4321_ Syllabus_Spring 2023-1.pdf"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "PSYC 3331 - Cross-Cultural Psychology",
+            "section": "16571",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 3331_16571_ Syllabus_Fall 2022-1.pdf"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "PSYC 3350 - Health Psychology",
+            "section": "16522",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 3350_16522_ Syllabus_Fall 2022-1.pdf"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "PSYC 1301 - Introduction to Psychology",
+            "section": "11931",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 1301_11931_ Syllabus_Fall 2022-1.pdf"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "PSYC 1301 - Introduction to Psychology",
+            "section": "12228",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/PSYC 1301_12228_Syllabus_Fall 2022-1.pdf"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "PSYC 3350 - Health Psychology",
+            "section": "22695",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/Zarandi PSYC 3350_ Syllabus_Spring 2022-1.pdf"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "PSYC 1301 - Introduction to Psychology",
+            "section": "27367",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/Zarandi PSYC 1301_Syllabus_Spring 2022-1.pdf"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "PSYC 4321 - Judgment and Decision Making",
+            "section": "27375",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/Zarandi PSYC 4321_ Syllabus_Spring 2022-1.pdf"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "PSYC 3331 - Cross-Cultural Psychology",
+            "section": "16494"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "PSYC 1301 - Introduction to Psychology",
+            "section": "12231"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "PSYC 1301 - Introduction to Psychology",
+            "section": "19527"
+          },
+          {
+            "term": "Summer 2021",
+            "course": "PSYC 4309 - History & Systems Psychology",
+            "section": "36184"
+          },
+          {
+            "term": "Summer 2021",
+            "course": "PSYC 2302 - Social Psychology",
+            "section": "36272"
+          },
+          {
+            "term": "Spring 2021",
+            "course": "PSYC 3350 - Health Psychology",
+            "section": "22943"
+          },
+          {
+            "term": "Spring 2021",
+            "course": "PSYC 1301 - Introduction to Psychology",
+            "section": "28675"
+          },
+          {
+            "term": "Spring 2021",
+            "course": "PSYC 4321 - Judgment and Decision Making",
+            "section": "28685"
+          },
+          {
+            "term": "Spring 2021",
+            "course": "PSYC 3320 - Learning & Memory",
+            "section": "20847"
+          },
+          {
+            "term": "Fall 2020",
+            "course": "PSYC 3331 - Cross-Cultural Psychology",
+            "section": "19666"
+          },
+          {
+            "term": "Fall 2020",
+            "course": "PSYC 1301 - Introduction to Psychology",
+            "section": "12374"
+          },
+          {
+            "term": "Fall 2020",
+            "course": "PSYC 1301 - Introduction to Psychology",
+            "section": "19643"
+          },
+          {
+            "term": "Fall 2020",
+            "course": "PSYC 4321 - Judgment and Decision Making",
+            "section": "19667"
+          },
+          {
+            "term": "Spring 2020",
+            "course": "PSYC 3331 - Cross-Cultural Psychology",
+            "section": "23354",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/Zarandi_PSYC_3331-1.docx"
+          },
+          {
+            "term": "Spring 2020",
+            "course": "PSYC 3350 - Health Psychology",
+            "section": "23356",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/Zarandi_PSYC_3350-1.docx"
+          },
+          {
+            "term": "Fall 2019",
+            "course": "PSYC 3348 - Cognitive Psychology",
+            "section": "16524"
+          },
+          {
+            "term": "Fall 2019",
+            "course": "PSYC 3331 - Cross-Cultural Psychology",
+            "section": "17537"
+          },
+          {
+            "term": "Fall 2019",
+            "course": "PSYC 4341 - Motivation & Emotion",
+            "section": "19122"
+          },
+          {
+            "term": "Summer 2019",
+            "course": "PSYC 2302 - Social Psychology",
+            "section": "34139"
+          },
+          {
+            "term": "Spring 2019",
+            "course": "PSYC 3331 - Cross-Cultural Psychology",
+            "section": "23602",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/AbdolPSYC 3331_Syllabus_Spring 2019-1.pdf"
+          },
+          {
+            "term": "Spring 2019",
+            "course": "PSYC 1301 - Introduction to Psychology",
+            "section": "22423",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/Zarandi1301_Syllabus-1.pdf"
+          },
+          {
+            "term": "Fall 2018",
+            "course": "PSYC 3348 - Cognitive Psychology",
+            "section": "17231",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/ZARANDI PSYC 3348 Syllabus_Fall 2018-1.pdf"
+          },
+          {
+            "term": "Fall 2018",
+            "course": "PSYC 3331 - Cross-Cultural Psychology",
+            "section": "18911",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/aabdollahyzarandi/schteach/ZARANDI PSYC 3331 Syllabus_Fall 2018-1.pdf"
+          },
+          {
+            "term": "Spring 2018",
+            "course": "PSYC 3350 - Health Psychology",
+            "section": "23875"
+          },
+          {
+            "term": "Spring 2018",
+            "course": "PSYC 1301 - Introduction to Psychology (C)",
+            "section": "24196"
+          }
+        ]
+      },
+      "evaluations_history": [
+        {
+          "term": "Spring  2025",
+          "response_count": 46,
+          "instructor_rating": {
+            "excellent_pct": 78.3,
+            "good_pct": 13.0,
+            "satisfactory_pct": 8.7,
+            "poor_pct": 0.0,
+            "average": 4.7
+          },
+          "course_rating": {
+            "excellent_pct": 71.7,
+            "good_pct": 17.4,
+            "satisfactory_pct": 10.9,
+            "poor_pct": 0.0,
+            "average": 4.61
+          }
+        },
+        {
+          "term": "Spring  2025",
+          "response_count": 158,
+          "instructor_rating": {
+            "excellent_pct": 76.6,
+            "good_pct": 18.4,
+            "satisfactory_pct": 5.1,
+            "poor_pct": 0.0,
+            "average": 4.72
+          },
+          "course_rating": {
+            "excellent_pct": 69.6,
+            "good_pct": 20.9,
+            "satisfactory_pct": 8.9,
+            "poor_pct": 0.6,
+            "average": 4.59
+          }
+        },
+        {
+          "term": "Spring  2025",
+          "response_count": 53,
+          "instructor_rating": {
+            "excellent_pct": 86.8,
+            "good_pct": 9.4,
+            "satisfactory_pct": 3.8,
+            "poor_pct": 0.0,
+            "average": 4.83
+          },
+          "course_rating": {
+            "excellent_pct": 84.9,
+            "good_pct": 13.2,
+            "satisfactory_pct": 1.9,
+            "poor_pct": 0.0,
+            "average": 4.83
+          }
+        },
+        {
+          "term": "Spring  2025",
+          "response_count": 52,
+          "instructor_rating": {
+            "excellent_pct": 86.5,
+            "good_pct": 9.6,
+            "satisfactory_pct": 3.8,
+            "poor_pct": 0.0,
+            "average": 4.83
+          },
+          "course_rating": {
+            "excellent_pct": 80.8,
+            "good_pct": 15.4,
+            "satisfactory_pct": 3.8,
+            "poor_pct": 0.0,
+            "average": 4.77
+          }
+        },
+        {
+          "term": "Fall  2024",
+          "response_count": 23,
+          "instructor_rating": {
+            "excellent_pct": 78.3,
+            "good_pct": 8.7,
+            "satisfactory_pct": 4.3,
+            "poor_pct": 8.7,
+            "average": 4.57
+          },
+          "course_rating": {
+            "excellent_pct": 73.9,
+            "good_pct": 13.0,
+            "satisfactory_pct": 8.7,
+            "poor_pct": 4.3,
+            "average": 4.57
+          }
+        },
+        {
+          "term": "Fall  2024",
+          "response_count": 53,
+          "instructor_rating": {
+            "excellent_pct": 81.1,
+            "good_pct": 17.0,
+            "satisfactory_pct": 1.9,
+            "poor_pct": 0.0,
+            "average": 4.79
+          },
+          "course_rating": {
+            "excellent_pct": 79.2,
+            "good_pct": 17.0,
+            "satisfactory_pct": 3.8,
+            "poor_pct": 0.0,
+            "average": 4.75
+          }
+        },
+        {
+          "term": "Fall  2024",
+          "response_count": 56,
+          "instructor_rating": {
+            "excellent_pct": 91.1,
+            "good_pct": 8.9,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.91
+          },
+          "course_rating": {
+            "excellent_pct": 91.1,
+            "good_pct": 7.1,
+            "satisfactory_pct": 1.8,
+            "poor_pct": 0.0,
+            "average": 4.89
+          }
+        },
+        {
+          "term": "Fall  2024",
+          "response_count": 34,
+          "instructor_rating": {
+            "excellent_pct": 76.5,
+            "good_pct": 14.7,
+            "satisfactory_pct": 2.9,
+            "poor_pct": 5.9,
+            "average": 4.62
+          },
+          "course_rating": {
+            "excellent_pct": 73.5,
+            "good_pct": 14.7,
+            "satisfactory_pct": 5.9,
+            "poor_pct": 5.9,
+            "average": 4.56
+          }
+        },
+        {
+          "term": "Summer  2024",
+          "response_count": 24,
+          "instructor_rating": {
+            "excellent_pct": 100.0,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 5.0
+          },
+          "course_rating": {
+            "excellent_pct": 91.7,
+            "good_pct": 8.3,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.92
+          }
+        },
+        {
+          "term": "Summer  2024",
+          "response_count": 46,
+          "instructor_rating": {
+            "excellent_pct": 89.1,
+            "good_pct": 10.9,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.89
+          },
+          "course_rating": {
+            "excellent_pct": 89.1,
+            "good_pct": 8.7,
+            "satisfactory_pct": 2.2,
+            "poor_pct": 0.0,
+            "average": 4.87
+          }
+        }
+      ]
+    },
+    "mabarca": {
+      "professor_id": "mabarca",
+      "professor_info": {
+        "name": "Meredith E. Abarca",
+        "photo_url": "https://hb2504.utep.edu/photos/mabarca.jpg",
+        "position": "Meredith E. AbarcaProfessorEnglish",
+        "department": "",
+        "cv_url": null
+      },
+      "contact_info": {
+        "office_building": "Hudspeth Hall",
+        "office_room": "307",
+        "phone": "(915) 747-6249",
+        "email": "mabarca@utep.edu"
+      },
+      "bio": {
+        "description": "",
+        "awards_honors": [
+          {
+            "title": "2021 Outreach Award  - The Texas Digital Library",
+            "date": "05/15/2021"
+          }
+        ]
+      },
+      "education": [
+        {
+          "degree": "Ph D",
+          "field": "Comparative Literature",
+          "institution": "The University of California"
+        }
+      ],
+      "scholarly_activity": {
+        "publications": [],
+        "presentations": [
+          {
+            "title": "Abuelita's Kitchen: Stories from the Borderland  (2024), Volume Presidio Hall, San Elizario, Texas ,Meredith E. Abarca."
+          },
+          {
+            "title": "El Paso episode: Abuelita's Kitchen: Stories from the Borderland  (2024), Volume The Undergraduate Learning Center at UTEP ,Meredith E. Abarca."
+          },
+          {
+            "title": "El Paso Food Voices as Culinary Kinship  (2024), Volume Las Cruses, New Mexico,Meredith E. Abarca."
+          },
+          {
+            "title": "\"La Llorona: Tales of the Weeping Woman\"  (2024),Meredith E. Abarca."
+          },
+          {
+            "title": "Women, Food, Culture  (2024), Volume London, England (zoom),Meredith E. Abarca."
+          },
+          {
+            "title": "Film: Abuela's Kitchen: Mexican Food Stories (El Paso's episode) (2024), Volume Syracuse, New York ,Meredith E. Abarca."
+          },
+          {
+            "title": "Interview for an episode on \"The Burrito Story\" (2024),Meredith E. Abarca."
+          },
+          {
+            "title": "Your Voice, Your Story: Back-Yard Food History as Acts of Social Justice  (2024), Volume Virtual /Zoom,Meredith E. Abarca."
+          },
+          {
+            "title": "Chicanx/Latinx Food Studies: Critical Ruptures in the Filed  (2024), Volume San Francisco, Ca,Meredith E. Abarca."
+          },
+          {
+            "title": "Presidential Address: \"The Beauty and Pain of a Place Call Home\"  (2024), Volume San Antonio, Texas,Meredith E. Abarca."
+          },
+          {
+            "title": "El Paso Food Voices: Maintaining Intimate Culinary Heritage (2023), Volume Davis, California ,Meredith E. Abarca."
+          },
+          {
+            "title": "El Paso's Culinary Heritage  (2023), Volume Blumberg (UTEP's Library) ,Meredith E. Abarca."
+          },
+          {
+            "title": "Critical Feminist Food Studies: Reflections on Feminist Food Studies, \"Messiness, and Interventions  (2023), Volume Boston ,Meredith E. Abarca."
+          },
+          {
+            "title": "El Paso Food Voices: A City's Story Lived through Food  (2023), Volume Boston ,Meredith E. Abarca."
+          },
+          {
+            "title": "Students’ Food Voice: Democratizing Knowledge (2023), Volume Boston ,Meredith E. Abarca."
+          },
+          {
+            "title": "\"El Paso Food Voices: Preserving Folklore through Food Stories\" (2023), Volume Waco, Texas ,Meredith E. Abarca."
+          },
+          {
+            "title": "El Paso Food Voices: Past, Present and Future  (2023), Volume El Paso Texas,Meredith E. Abarca."
+          },
+          {
+            "title": "Mexican Grandmothers’ Food Stories: Tradition in Times of Change (2022), Volume Los Angeles California ,Meredith E. Abarca."
+          },
+          {
+            "title": "El Paso Food Voices: A City’s Story Lived through Food (2022), Volume University of Texas, El Paso ,Meredith E. Abarca."
+          },
+          {
+            "title": "El Paso Food Voices: Gathering Food Stories from El Paso, Texas (2022), Volume El Paso, Texas ,Meredith E. Abarca."
+          },
+          {
+            "title": "Writing Our Food Stories (2022), Volume Claremont, California ,Meredith E. Abarca."
+          },
+          {
+            "title": "El Paso Food Voices: Technologies Connecting Communities (2022), Volume El Paso, Texas ,Meredith E. Abarca."
+          },
+          {
+            "title": "Food Stories and Digital Humanities: El Paso Food Voices Open Source Archive (2022), Volume Los Angeles, California ,Meredith E. Abarca."
+          },
+          {
+            "title": "\"Food Voices: Embodied Collective Stories, Practices, and Memories\" (2021), Volume Virtual due to Covid-19,Meredith E. Abarca, Joshua  Lopez."
+          },
+          {
+            "title": "\"From Food Desert to Food From the Desert\" (2021), Volume Virtual due to Covid-19,Meredith E. Abarca."
+          },
+          {
+            "title": "\"Regional Food Stories, Digital Technologies, Global Communities\" (2021), Volume Georgia College ,Meredith E. Abarca."
+          },
+          {
+            "title": "Folklore in Food Memories: El Paso Food Voices  (2021), Volume Virtual conference due to Covid-19,Meredith E. Abarca."
+          },
+          {
+            "title": "El Paso Food Voices video collection  (2021), Volume Zoom meeting ,Meredith E. Abarca."
+          }
+        ]
+      },
+      "grants": [
+        {
+          "title": "Voces de las Abuelas: Grandmothers’ Food Stories from the Borderlands. (10/01/2022 - 08/30/2024) -University of Souther California"
+        },
+        {
+          "title": "Las voces de las abuelas (01/01/2021 - 08/31/2022) -University of Southern California"
+        },
+        {
+          "title": "El Paso Food Voices: Gathering Food Stories From El Paso's LGBTQ+ Community  (05/15/2022 - 08/30/2022) -University of Texas at El Paso"
+        }
+      ],
+      "courses": {
+        "current_future": [
+          {
+            "term": "Fall 2025",
+            "course": "ENGL 3310 - Chicana/o Literature",
+            "section": "12912",
+            "syllabus_url": "https://sway.cloud.microsoft/ZDUltlLfYiJF2ruG?ref=Link"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "ENGL 3374 - Folklore Of Mexican American",
+            "section": "17421",
+            "syllabus_url": "https://sway.cloud.microsoft/KGVlFXL0yEC05JX0?ref=Link"
+          }
+        ],
+        "past": [
+          {
+            "term": "Spring 2025",
+            "course": "ENGL 5320 - Critical Theory and Practice",
+            "section": "27441",
+            "syllabus_url": "https://sway.cloud.microsoft/d1kC0CRV04Dm6BcI?ref=Link"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "ENGL 3300 - Intro. to Literary Studies",
+            "section": "24914",
+            "syllabus_url": "https://sway.cloud.microsoft/pCieBGzfHDI4RRd2?ref=Link"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "ENGL 3310 - Chicana/o Literature",
+            "section": "13239",
+            "syllabus_url": "https://sway.cloud.microsoft/ZDUltlLfYiJF2ruG?ref=Link"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "ENGL 3360 - Women in Literature",
+            "section": "16811",
+            "syllabus_url": "https://sway.cloud.microsoft/SJOfdlFNaNgytuTj?ref=Link"
+          },
+          {
+            "term": "Summer 2024",
+            "course": "ENGL 3310 - Chicana/o Literature",
+            "section": "33933"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "RWS 6130 - Graduate Seminar in Rhetoric",
+            "section": "25934"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "ENGL 3300 - Intro. to Literary Studies",
+            "section": "25792",
+            "syllabus_url": "https://sway.cloud.microsoft/pCieBGzfHDI4RRd2?ref=Link"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "ENGL 3310 - Chicana/o Literature",
+            "section": "13807",
+            "syllabus_url": "https://sway.office.com/ZDUltlLfYiJF2ruG?ref=Link"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "RWS 6130 - Graduate Seminar in Rhetoric",
+            "section": "13506"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "ENGL 5322 - Literature and Culture",
+            "section": "16381"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "ENGL 6322 - Literature and Culture",
+            "section": "17174"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "ENGL 5392 - Master of Arts Research Paper",
+            "section": "11016"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "ENGL 5390 - Directed Studies",
+            "section": "21111"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "ENGL 2313 - Intro to American Fiction",
+            "section": "20510",
+            "syllabus_url": "https://sway.office.com/qBGotepvNVViQ3OF?ref=Link"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "ENGL 3300 - Intro. to Literary Studies",
+            "section": "27274",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/mabarca/schteach/Syllabus (English 3300 S23)-1.pdf"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "ENGL 5392 - Master of Arts Research Paper",
+            "section": "21417"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "ENGL 3310 - Chicana/o Literature",
+            "section": "17343"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "ENGL 5390 - Directed Studies",
+            "section": "11597"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "ENGL 3374 - Folklore Of Mexican American",
+            "section": "19048"
+          },
+          {
+            "term": "Summer 2022",
+            "course": "ENGL 3310 - Chicana/o Literature",
+            "section": "33580"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "ENGL 5320 - Critical Theory and Practice",
+            "section": "21382"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "ENGL 2313 - Intro to American Fiction",
+            "section": "24231"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "ENGL 3310 - Chicana/o Literature",
+            "section": "17224"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "ENGL 3302 - Literature and Film",
+            "section": "18574"
+          },
+          {
+            "term": "Summer 2021",
+            "course": "ENGL 3310 - Chicana/o Literature",
+            "section": "33550"
+          },
+          {
+            "term": "Summer 2021",
+            "course": "ENGL 3360 - Women in Literature",
+            "section": "36397"
+          },
+          {
+            "term": "Summer 2021",
+            "course": "WS 3360 - Women in Literature",
+            "section": "33283"
+          },
+          {
+            "term": "Spring 2021",
+            "course": "ENGL 3310 - Chicana/o Literature",
+            "section": "28909"
+          },
+          {
+            "term": "Spring 2021",
+            "course": "ENGL 2313 - Intro to American Fiction",
+            "section": "24586"
+          },
+          {
+            "term": "Spring 2021",
+            "course": "ENGL 5323 - Multi-Cult Lit: Theory & Pract",
+            "section": "28378"
+          },
+          {
+            "term": "Fall 2020",
+            "course": "ENGL 3310 - Chicana/o Literature",
+            "section": "17555"
+          },
+          {
+            "term": "Fall 2020",
+            "course": "ENGL 3374 - Folklore Of Mexican American",
+            "section": "18901"
+          },
+          {
+            "term": "Summer 2020",
+            "course": "ENGL 3310 - Chicana/o Literature",
+            "section": "36129"
+          },
+          {
+            "term": "Spring 2020",
+            "course": "ENGL 3310 - Chicana/o Literature",
+            "section": "25107"
+          },
+          {
+            "term": "Spring 2020",
+            "course": "ENGL 2313 - Intro to American Fiction",
+            "section": "25110"
+          },
+          {
+            "term": "Spring 2020",
+            "course": "ENGL 3300 - Intro. to Literary Studies",
+            "section": "20865"
+          },
+          {
+            "term": "Fall 2019",
+            "course": "ENGL 3310 - Chicana/o Literature",
+            "section": "18604"
+          },
+          {
+            "term": "Fall 2019",
+            "course": "ENGL 5323 - Multi-Cult Lit: Theory & Pract",
+            "section": "18369"
+          },
+          {
+            "term": "Summer 2019",
+            "course": "ENGL 3310 - Chicana/o Literature",
+            "section": "34091"
+          },
+          {
+            "term": "Summer 2019",
+            "course": "WS 3360 - Women in Literature",
+            "section": "33761"
+          },
+          {
+            "term": "Spring 2019",
+            "course": "ENGL 3310 - Chicana/o Literature",
+            "section": "25471"
+          },
+          {
+            "term": "Spring 2019",
+            "course": "ENGL 2313 - Intro to American Fiction",
+            "section": "25474"
+          },
+          {
+            "term": "Fall 2018",
+            "course": "ENGL 3310 - Chicana/o Literature",
+            "section": "11040"
+          },
+          {
+            "term": "Fall 2018",
+            "course": "ENGL 4314 - Literary Criticism",
+            "section": "11048"
+          },
+          {
+            "term": "Fall 2018",
+            "course": "CHIC 4350 - Topics in Chicano Studies",
+            "section": "19474"
+          },
+          {
+            "term": "Summer 2018",
+            "course": "ENGL 3310 - Chicana/o Literature",
+            "section": "34599"
+          },
+          {
+            "term": "Spring 2018",
+            "course": "ENGL 3310 - Chicana/o Literature",
+            "section": "25978"
+          },
+          {
+            "term": "Spring 2018",
+            "course": "ENGL 4390 - Directed Study",
+            "section": "20798"
+          },
+          {
+            "term": "Spring 2018",
+            "course": "ENGL 2313 - Intro to American Fiction (C)",
+            "section": "25984"
+          },
+          {
+            "term": "Spring 2018",
+            "course": "ENGL 4351 - Maj Am Writer(s) since 1900",
+            "section": "28128"
+          }
+        ]
+      },
+      "evaluations_history": [
+        {
+          "term": "Spring  2025",
+          "response_count": 8,
+          "instructor_rating": {
+            "excellent_pct": 62.5,
+            "good_pct": 0.0,
+            "satisfactory_pct": 12.5,
+            "poor_pct": 0.0,
+            "average": 4.14
+          },
+          "course_rating": {
+            "excellent_pct": 62.5,
+            "good_pct": 0.0,
+            "satisfactory_pct": 12.5,
+            "poor_pct": 12.5,
+            "average": 3.88
+          }
+        },
+        {
+          "term": "Spring  2025",
+          "response_count": 5,
+          "instructor_rating": {
+            "excellent_pct": 60.0,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 20.0,
+            "average": 4.25
+          },
+          "course_rating": {
+            "excellent_pct": 40.0,
+            "good_pct": 20.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 20.0,
+            "average": 3.4
+          }
+        },
+        {
+          "term": "Fall  2024",
+          "response_count": 4,
+          "instructor_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 25.0,
+            "satisfactory_pct": 25.0,
+            "poor_pct": 0.0,
+            "average": 4.25
+          },
+          "course_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 50.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.5
+          }
+        },
+        {
+          "term": "Fall  2024",
+          "response_count": 4,
+          "instructor_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 0.0,
+            "satisfactory_pct": 50.0,
+            "poor_pct": 0.0,
+            "average": 4.0
+          },
+          "course_rating": {
+            "excellent_pct": 75.0,
+            "good_pct": 25.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.75
+          }
+        },
+        {
+          "term": "Summer  2024",
+          "response_count": 8,
+          "instructor_rating": {
+            "excellent_pct": 25.0,
+            "good_pct": 12.5,
+            "satisfactory_pct": 12.5,
+            "poor_pct": 0.0,
+            "average": 2.63
+          },
+          "course_rating": {
+            "excellent_pct": 37.5,
+            "good_pct": 0.0,
+            "satisfactory_pct": 25.0,
+            "poor_pct": 0.0,
+            "average": 3.0
+          }
+        },
+        {
+          "term": "Spring  2024",
+          "response_count": 2,
+          "instructor_rating": {
+            "excellent_pct": 100.0,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 5.0
+          },
+          "course_rating": {
+            "excellent_pct": 100.0,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 5.0
+          }
+        },
+        {
+          "term": "Spring  2024",
+          "response_count": 4,
+          "instructor_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 3.67
+          },
+          "course_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 0.0,
+            "satisfactory_pct": 25.0,
+            "poor_pct": 25.0,
+            "average": 3.75
+          }
+        },
+        {
+          "term": "Fall  2023",
+          "response_count": 10,
+          "instructor_rating": {
+            "excellent_pct": 80.0,
+            "good_pct": 10.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.5
+          },
+          "course_rating": {
+            "excellent_pct": 80.0,
+            "good_pct": 10.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.5
+          }
+        },
+        {
+          "term": "Fall  2023",
+          "response_count": 3,
+          "instructor_rating": {
+            "excellent_pct": 66.7,
+            "good_pct": 33.3,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.67
+          },
+          "course_rating": {
+            "excellent_pct": 33.3,
+            "good_pct": 66.7,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.33
+          }
+        },
+        {
+          "term": "Fall  2023",
+          "response_count": 7,
+          "instructor_rating": {
+            "excellent_pct": 71.4,
+            "good_pct": 14.3,
+            "satisfactory_pct": 14.3,
+            "poor_pct": 0.0,
+            "average": 4.57
+          },
+          "course_rating": {
+            "excellent_pct": 85.7,
+            "good_pct": 0.0,
+            "satisfactory_pct": 14.3,
+            "poor_pct": 0.0,
+            "average": 4.71
+          }
+        }
+      ]
+    },
+    "msabed": {
+      "professor_id": "msabed",
+      "professor_info": {
+        "name": "Methaq S. Abed",
+        "photo_url": "https://hb2504.utep.edu/photos/msabed.jpg",
+        "position": "Methaq S. AbedDirectorAerospace and Mechanical Engineering DepartmentProfessor of PracticeAerospace and Mechanical Engineering",
+        "department": "",
+        "cv_url": null
+      },
+      "contact_info": {
+        "office_building": "Engineering Building",
+        "office_room": "A104",
+        "phone": "(915) 747-6435",
+        "email": "msabed@utep.edu"
+      },
+      "bio": {
+        "description": "",
+        "awards_honors": [
+          {
+            "title": "Methaq Abed - University of Texas at El Paso",
+            "date": "03/29/2023"
+          }
+        ]
+      },
+      "education": [
+        {
+          "degree": "Ph D",
+          "field": "Structural Engineering",
+          "institution": "University of Baghdad",
+          "year": "2007"
+        },
+        {
+          "degree": "MS",
+          "field": "Structural Engineering",
+          "institution": "University of Baghdad",
+          "year": "2002"
+        }
+      ],
+      "scholarly_activity": {
+        "publications": [],
+        "presentations": []
+      },
+      "grants": [],
+      "courses": {
+        "current_future": [
+          {
+            "term": "Fall 2025",
+            "course": "MECH 4338 - Capstone Design Projects",
+            "section": "17306",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4338 4336 _Fall 2025-1.pdf"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "10913",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 3334 Fall 2025-2.pdf"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "MECH 4370 - Pre-Professional Experiences",
+            "section": "11355",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4370 _Fall 2025-1.pdf"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "MECH 4366 - Senior Design Project",
+            "section": "13493",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4338 4336 _Fall 2025-2.pdf"
+          }
+        ],
+        "past": [
+          {
+            "term": "Summer 2025",
+            "course": "MECH 4396 - Independent Study",
+            "section": "34002"
+          },
+          {
+            "term": "Summer 2025",
+            "course": "MECH 4370 - Pre-Professional Experiences",
+            "section": "31538",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4370 _Summer_ 2025-1.pdf"
+          },
+          {
+            "term": "Summer 2025",
+            "course": "MECH 4366 - Senior Design Project",
+            "section": "33998",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4366_Summer 2025-1.pdf"
+          },
+          {
+            "term": "Summer 2025",
+            "course": "MECH 4395 - Special Topics in Mech. Engr.",
+            "section": "34114",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4395_Summer 2025-1.pdf"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "AERO 4396 - Independent Study in Aero.",
+            "section": "28360"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "MECH 4370 - Pre-Professional Experiences",
+            "section": "21551",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4370 _Spring 2025-1.pdf"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "MECH 4336 - Principles of Engr Design",
+            "section": "24284",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4336_Spring 2025-1.pdf"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "MECH 4366 - Senior Design Project",
+            "section": "23028",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4336 4366_Spring 2025-2.pdf"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "MECH 4370 - Pre-Professional Experiences",
+            "section": "11497",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4370 _Fall_ 2024-1.pdf"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "MECH 4336 - Principles of Engr Design",
+            "section": "12699",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4336 4366_Fall 2024-1.pdf"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "MECH 4366 - Senior Design Project",
+            "section": "12623",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4336 4366_Fall 2024-2.pdf"
+          },
+          {
+            "term": "Summer 2024",
+            "course": "MECH 4370 - Pre-Professional Experiences",
+            "section": "31637"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "21505",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 3334_1-3.pdf"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "MECH 4370 - Pre-Professional Experiences",
+            "section": "21734",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4370 _Spring 2024-1.pdf"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "MECH 4336 - Principles of Engr Design",
+            "section": "25596",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4336 4366_Spring 2024-4.pdf"
+          },
+          {
+            "term": "Spring 2024",
+            "course": "MECH 4366 - Senior Design Project",
+            "section": "23701",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4336 4366_Spring 2024-3.pdf"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "AERO 4366 - Aerospace Senior Design",
+            "section": "17023",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus AERO 4366_Fall 2023-1.pdf"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "11179",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 3334 Fall 2023_1-1.pdf"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "MECH 4370 - Pre-Professional Experiences",
+            "section": "11757",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4370 _Fall 2023-1.pdf"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "MECH 4336 - Principles of Engr Design",
+            "section": "13944",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4336_Fall 2023-1.pdf"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "MECH 4366 - Senior Design Project",
+            "section": "13057",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4336_Fall 2023-2.pdf"
+          },
+          {
+            "term": "Summer 2023",
+            "course": "MECH 1305 - Graphic & Design Fundamentals",
+            "section": "35132"
+          },
+          {
+            "term": "Summer 2023",
+            "course": "MECH 4396 - Independent Study",
+            "section": "34501"
+          },
+          {
+            "term": "Summer 2023",
+            "course": "MECH 4370 - Pre-Professional Experiences",
+            "section": "32958"
+          },
+          {
+            "term": "Summer 2023",
+            "course": "MECH 4336 - Principles of Engr Design",
+            "section": "36076"
+          },
+          {
+            "term": "Summer 2023",
+            "course": "MECH 4366 - Senior Design Project",
+            "section": "34529"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "21642",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 3334_1-1.pdf"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "24242",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 3334_2-1.pdf"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "MECH 4370 - Pre-Professional Experiences",
+            "section": "21908",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4370 _Spring 2023-1.pdf"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "MECH 4336 - Principles of Engr Design",
+            "section": "27701",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4336_Spring 2023-1.pdf"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "MECH 4366 - Senior Design Project",
+            "section": "24141",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4366_Spring 2023-1.pdf"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "MECH 3123 - Solid Mechanics Lab",
+            "section": "25836",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/MECH 3123_Syllabus_25836-1.pdf"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "MECH 3123 - Solid Mechanics Lab",
+            "section": "26965",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/MECH 3123_Syllabus_26965-1.pdf"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "MECH 3323 - Solid Mechanics Lab",
+            "section": "21641",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/MECH 3323_Syllabus_21641-1.pdf"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "12126",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 3334 Fall 2022_1-2.pdf"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "19200",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 3334 Fall 2022_2-2.pdf"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "MECH 4370 - Pre-Professional Experiences",
+            "section": "13134"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "MECH 4366 - Senior Design Project",
+            "section": "19273",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4366_Fall 2022-2.pdf"
+          },
+          {
+            "term": "Summer 2022",
+            "course": "MECH 4396 - Independent Study",
+            "section": "35208"
+          },
+          {
+            "term": "Summer 2022",
+            "course": "MECH 4370 - Pre-Professional Experiences",
+            "section": "33198"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "22117"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "26077",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 3334 Spring 2022_2-2.pdf"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "MECH 4370 - Pre-Professional Experiences",
+            "section": "22545",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 4370 _1-1.pdf"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "MECH 4366 - Senior Design Project",
+            "section": "27767"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "12128"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "18547"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "MECH 4370 - Pre-Professional Experiences",
+            "section": "13124"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "MECH 4366 - Senior Design Project",
+            "section": "18557"
+          },
+          {
+            "term": "Summer 2021",
+            "course": "MECH 1305 - Graphic & Design Fundamentals",
+            "section": "35302"
+          },
+          {
+            "term": "Summer 2021",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "33366"
+          },
+          {
+            "term": "Summer 2021",
+            "course": "MECH 2340 - Mechanics II -Dynamics",
+            "section": "33369"
+          },
+          {
+            "term": "Summer 2021",
+            "course": "MECH 4370 - Pre-Professional Experiences",
+            "section": "36237"
+          },
+          {
+            "term": "Spring 2021",
+            "course": "MECH 1305 - Graphic & Design Fundamentals",
+            "section": "25777"
+          },
+          {
+            "term": "Spring 2021",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "22327"
+          },
+          {
+            "term": "Spring 2021",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "26831"
+          },
+          {
+            "term": "Spring 2021",
+            "course": "MECH 2340 - Mechanics II -Dynamics",
+            "section": "25546"
+          },
+          {
+            "term": "Spring 2021",
+            "course": "MECH 4366 - Senior Design Project",
+            "section": "26656"
+          },
+          {
+            "term": "Fall 2020",
+            "course": "MECH 1305 - Graphic & Design Fundamentals",
+            "section": "11989",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 1305 CRN 11989 updated-1.pdf"
+          },
+          {
+            "term": "Fall 2020",
+            "course": "MECH 1305 - Graphic & Design Fundamentals",
+            "section": "12261",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 1305 CRN 12261-1.pdf"
+          },
+          {
+            "term": "Fall 2020",
+            "course": "MECH 1305 - Graphic & Design Fundamentals",
+            "section": "13163",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 1305 CRN 13163-1.pdf"
+          },
+          {
+            "term": "Fall 2020",
+            "course": "MECH 1305 - Graphic & Design Fundamentals",
+            "section": "18216",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus  MECH 1305 CRN 18216-1.pdf"
+          },
+          {
+            "term": "Fall 2020",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "12262",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 3334 Fall 2020 ver.1 updated -1.pdf"
+          },
+          {
+            "term": "Fall 2020",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "18290",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 3334 Fall 2020-Sec.2 ver.2updated-1.pdf"
+          },
+          {
+            "term": "Fall 2020",
+            "course": "MECH 2340 - Mechanics II -Dynamics",
+            "section": "15846",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 2340 Fall 2020 ver.2-1.pdf"
+          },
+          {
+            "term": "Summer 2020",
+            "course": "MECH 1305 - Graphic & Design Fundamentals",
+            "section": "35542",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus Summer 2020 MECH 1305 Revised 2-1.pdf"
+          },
+          {
+            "term": "Summer 2020",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "33541",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 3334 Summer 2020-3-1.pdf"
+          },
+          {
+            "term": "Summer 2020",
+            "course": "MECH 2340 - Mechanics II -Dynamics",
+            "section": "33545",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 2340 Summer 2020 updated 3-1.pdf"
+          },
+          {
+            "term": "Spring 2020",
+            "course": "MECH 4326 - Finite Element Analysis",
+            "section": "26510",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/MECH 4326  Spring 2020 Syllabus Updated-1.pdf"
+          },
+          {
+            "term": "Spring 2020",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "22670"
+          },
+          {
+            "term": "Spring 2020",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "28032",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Course Syllabus MECH 3334 Spring 2020 2 Updated-2.pdf"
+          },
+          {
+            "term": "Spring 2020",
+            "course": "MECH 2340 - Mechanics II -Dynamics",
+            "section": "26232",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 2340 Spring 2020 Updated 2-1.pdf"
+          },
+          {
+            "term": "Spring 2020",
+            "course": "MECH 4366 - Senior Design Project",
+            "section": "29067"
+          },
+          {
+            "term": "Fall 2019",
+            "course": "MECH 2342 - Electro Mechanical Systems",
+            "section": "12412",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 2342  Fall  2019-1.pdf"
+          },
+          {
+            "term": "Fall 2019",
+            "course": "MECH 4326 - Finite Element Analysis",
+            "section": "16989",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/MECH 4326  Fall 2019 Syllabus-1.pdf"
+          },
+          {
+            "term": "Fall 2019",
+            "course": "MECH 2340 - Mechanics II - Dynamics",
+            "section": "16283",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 2340 Fall 2019 Updated-1.pdf"
+          },
+          {
+            "term": "Fall 2019",
+            "course": "MECH 4395 - Special Topics in Mech. Engr.",
+            "section": "15912",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/MECH 4395  Fall 2019 Syllabus-1.pdf"
+          },
+          {
+            "term": "Summer 2019",
+            "course": "MECH 3352 - Engineering Analysis II",
+            "section": "33849",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/MECH 3352_Syllabus  Summer 2019 1-1.pdf"
+          },
+          {
+            "term": "Summer 2019",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "33857",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Course Syllabus MECH 3334 Summer 2019-1.pdf"
+          },
+          {
+            "term": "Summer 2019",
+            "course": "MECH 2340 - Mechanics II - Dynamics",
+            "section": "33862",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 2340 Summer 2019-1.pdf"
+          },
+          {
+            "term": "Spring 2019",
+            "course": "MECH 4326 - Finite Element Analysis",
+            "section": "27292",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/MECH 4326  Spring2019 Syllabus-1.pdf"
+          },
+          {
+            "term": "Spring 2019",
+            "course": "MECH 1321 - Mechanics I-Statics",
+            "section": "25943",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 1321 Spring 2019-1.pdf"
+          },
+          {
+            "term": "Spring 2019",
+            "course": "MECH 2340 - Mechanics II - Dynamics",
+            "section": "26813",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 2340 Spring 2019_1-1.pdf"
+          },
+          {
+            "term": "Spring 2019",
+            "course": "MECH 4395 - Special Topics in Mech. Engr.",
+            "section": "27351",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/MECH 4395  Spring 2019 Syllabus-1.pdf"
+          },
+          {
+            "term": "Fall 2018",
+            "course": "MECH 2342 - Electro Mechanical Systems",
+            "section": "12596",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 2342  Fall  2018-1.pdf"
+          },
+          {
+            "term": "Fall 2018",
+            "course": "MECH 4326 - Finite Element Analysis",
+            "section": "17980",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/MECH 4326  Fall  2018 Syllabus-1.pdf"
+          },
+          {
+            "term": "Fall 2018",
+            "course": "MECH 2340 - Mechanics II - Dynamics",
+            "section": "16874",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 2340 Fall 2018-1.pdf"
+          },
+          {
+            "term": "Fall 2018",
+            "course": "MECH 4395 - Special Topics in Mech. Engr.",
+            "section": "16454",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/MECH 4395  Fall 2018 Syllabus updated-1.pdf"
+          },
+          {
+            "term": "Summer 2018",
+            "course": "MECH 2342 - Electro Mechanical Systems",
+            "section": "31410",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 2342  Summer 2018-1.pdf"
+          },
+          {
+            "term": "Summer 2018",
+            "course": "MECH 3352 - Engineering Analysis II",
+            "section": "34289",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/MECH 3352_Syllabus  Summer 2018-1.pdf"
+          },
+          {
+            "term": "Summer 2018",
+            "course": "MECH 3334 - Mechanical Design",
+            "section": "34299",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Course Syllabus MECH 3334 Summer 2018-1.pdf"
+          },
+          {
+            "term": "Spring 2018",
+            "course": "MECH 2342 - Electro Mechanical Systems",
+            "section": "28650",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 2342  Spring 2018-1.pdf"
+          },
+          {
+            "term": "Spring 2018",
+            "course": "MECH 4326 - Finite Element Analysis",
+            "section": "23098",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/MECH 4326  Spring 2018 Syllabus-1.pdf"
+          },
+          {
+            "term": "Spring 2018",
+            "course": "MECH 4326 - Finite Element Analysis",
+            "section": "28651",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/MECH 4326  Spring 2018 Syllabus-2.pdf"
+          },
+          {
+            "term": "Spring 2018",
+            "course": "MECH 2340 - Mechanics II - Dynamics",
+            "section": "27790",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/msabed/schteach/Syllabus MECH 2340 Spring 2018-1.pdf"
+          }
+        ]
+      },
+      "evaluations_history": [
+        {
+          "term": "Spring  2025",
+          "response_count": 4,
+          "instructor_rating": {
+            "excellent_pct": 0.0,
+            "good_pct": 25.0,
+            "satisfactory_pct": 25.0,
+            "poor_pct": 50.0,
+            "average": 2.75
+          },
+          "course_rating": {
+            "excellent_pct": 0.0,
+            "good_pct": 25.0,
+            "satisfactory_pct": 25.0,
+            "poor_pct": 50.0,
+            "average": 2.75
+          }
+        },
+        {
+          "term": "Spring  2025",
+          "response_count": 4,
+          "instructor_rating": {
+            "excellent_pct": 0.0,
+            "good_pct": 25.0,
+            "satisfactory_pct": 25.0,
+            "poor_pct": 50.0,
+            "average": 2.75
+          },
+          "course_rating": {
+            "excellent_pct": 0.0,
+            "good_pct": 25.0,
+            "satisfactory_pct": 25.0,
+            "poor_pct": 50.0,
+            "average": 2.75
+          }
+        },
+        {
+          "term": "Fall  2024",
+          "response_count": 6,
+          "instructor_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 33.3,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 16.7,
+            "average": 4.17
+          },
+          "course_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 33.3,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 16.7,
+            "average": 4.17
+          }
+        },
+        {
+          "term": "Fall  2024",
+          "response_count": 6,
+          "instructor_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 33.3,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 16.7,
+            "average": 4.17
+          },
+          "course_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 33.3,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 16.7,
+            "average": 4.17
+          }
+        },
+        {
+          "term": "Spring  2024",
+          "response_count": 11,
+          "instructor_rating": {
+            "excellent_pct": 45.5,
+            "good_pct": 36.4,
+            "satisfactory_pct": 18.2,
+            "poor_pct": 0.0,
+            "average": 4.27
+          },
+          "course_rating": {
+            "excellent_pct": 45.5,
+            "good_pct": 36.4,
+            "satisfactory_pct": 18.2,
+            "poor_pct": 0.0,
+            "average": 4.27
+          }
+        },
+        {
+          "term": "Spring  2024",
+          "response_count": 3,
+          "instructor_rating": {
+            "excellent_pct": 66.7,
+            "good_pct": 33.3,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.67
+          },
+          "course_rating": {
+            "excellent_pct": 66.7,
+            "good_pct": 33.3,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.67
+          }
+        },
+        {
+          "term": "Fall  2023",
+          "response_count": 53,
+          "instructor_rating": {
+            "excellent_pct": 75.5,
+            "good_pct": 22.6,
+            "satisfactory_pct": 1.9,
+            "poor_pct": 0.0,
+            "average": 4.74
+          },
+          "course_rating": {
+            "excellent_pct": 71.7,
+            "good_pct": 26.4,
+            "satisfactory_pct": 1.9,
+            "poor_pct": 0.0,
+            "average": 4.7
+          }
+        },
+        {
+          "term": "Fall  2023",
+          "response_count": 6,
+          "instructor_rating": {
+            "excellent_pct": 66.7,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.2
+          },
+          "course_rating": {
+            "excellent_pct": 66.7,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 16.7,
+            "average": 3.83
+          }
+        },
+        {
+          "term": "Fall  2023",
+          "response_count": 6,
+          "instructor_rating": {
+            "excellent_pct": 66.7,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.2
+          },
+          "course_rating": {
+            "excellent_pct": 66.7,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 16.7,
+            "average": 3.83
+          }
+        },
+        {
+          "term": "Summer  2023",
+          "response_count": 2,
+          "instructor_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 50.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.5
+          },
+          "course_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 50.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.5
+          }
+        }
+      ]
+    },
+    "jabriel": {
+      "professor_id": "jabriel",
+      "professor_info": {
+        "name": "Josias Abriel",
+        "photo_url": "https://hb2504.utep.edu/photos/jabriel.jpg",
+        "position": "Josias AbrielPh D Teaching AssistantSociology and Anthropology",
+        "department": "",
+        "cv_url": null
+      },
+      "contact_info": {
+        "email": "jabriel@miners.utep.edu"
+      },
+      "bio": {
+        "description": "",
+        "awards_honors": []
+      },
+      "education": [
+        {
+          "degree": "Ph D",
+          "field": "Sociology (In Progress)",
+          "institution": "The University of Texas at El Paso",
+          "year": "2028"
+        },
+        {
+          "degree": "MA",
+          "field": "Criminal Justice",
+          "institution": "Lamar University",
+          "year": "2023"
+        }
+      ],
+      "scholarly_activity": {
+        "publications": [],
+        "presentations": []
+      },
+      "grants": [],
+      "courses": {
+        "current_future": [
+          {
+            "term": "Fall 2025",
+            "course": "SOCI 3333 - Juvenile Delinquency",
+            "section": "15483",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jabriel/schteach/Fall25syllabi-1.pdf"
+          }
+        ],
+        "past": []
+      },
+      "evaluations_history": []
+    },
+    "habram": {
+      "professor_id": "habram",
+      "professor_info": {
+        "name": "Hannah Y. Abram",
+        "photo_url": "https://hb2504.utep.edu/photos/habram.jpg",
+        "position": "",
+        "department": "",
+        "cv_url": null
+      },
+      "contact_info": {
+        "email": "habram@utep.edu"
+      },
+      "bio": {
+        "description": "",
+        "awards_honors": []
+      },
+      "education": [
+        {
+          "degree": "MSN",
+          "field": "Nursing Education",
+          "institution": "The University of Texas at El Paso",
+          "year": "2021"
+        },
+        {
+          "degree": "BSN",
+          "field": "Nursing",
+          "institution": "Loyola University Chicago",
+          "year": "2018"
+        }
+      ],
+      "scholarly_activity": {
+        "publications": [],
+        "presentations": []
+      },
+      "grants": [],
+      "courses": {
+        "current_future": [
+          {
+            "term": "Spring 2022",
+            "course": "NURS 4714 - Adult Health Nursing II",
+            "section": "25180"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "NURS 4714 - Adult Health Nursing II",
+            "section": "27294"
+          }
+        ],
+        "past": [
+          {
+            "term": "Spring 2022",
+            "course": "NURS 4714 - Adult Health Nursing II",
+            "section": "25180"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "NURS 4714 - Adult Health Nursing II",
+            "section": "27294"
+          }
+        ]
+      },
+      "evaluations_history": [
+        {
+          "term": "Spring  2022",
+          "response_count": 1,
+          "instructor_rating": {
+            "excellent_pct": 100.0,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 5.0
+          },
+          "course_rating": {
+            "excellent_pct": 100.0,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 5.0
+          }
+        },
+        {
+          "term": "Spring  2022",
+          "response_count": 7,
+          "instructor_rating": {
+            "excellent_pct": 85.7,
+            "good_pct": 14.3,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.86
+          },
+          "course_rating": {
+            "excellent_pct": 85.7,
+            "good_pct": 14.3,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.86
+          }
+        }
+      ]
+    },
+    "feabujawayed2": {
+      "professor_id": "feabujawayed2",
+      "professor_info": {
+        "name": "Fatima E. Abujawayed",
+        "photo_url": "https://hb2504.utep.edu/photos/feabujawayed2.jpg",
+        "position": "",
+        "department": "",
+        "cv_url": null
+      },
+      "contact_info": {
+        "email": "feabujawayed2@utep.edu"
+      },
+      "bio": {
+        "description": "",
+        "awards_honors": []
+      },
+      "education": [
+        {
+          "degree": "MSN",
+          "field": "Nursing Admin & Mgmt (In Progress)",
+          "institution": "The University of Texas at El Paso",
+          "year": "2025"
+        },
+        {
+          "degree": "BSN",
+          "field": "Nursing",
+          "institution": "Generic"
+        }
+      ],
+      "scholarly_activity": {
+        "publications": [],
+        "presentations": []
+      },
+      "grants": [],
+      "courses": {
+        "current_future": [
+          {
+            "term": "Fall 2025",
+            "course": "NURS 3704 - Fundamentals of Nurs Practice",
+            "section": "16025",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/feabujawayed2/schteach/Fall 2025 Syllabus N3704-1.docx"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "NURS 4511 - Population Focused Care",
+            "section": "12647",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/feabujawayed2/schteach/Population 4511 Syllabus Fall 2025 FS-1.pdf"
+          }
+        ],
+        "past": [
+          {
+            "term": "Summer 2025",
+            "course": "NURS 4714 - Adult Health Nursing II",
+            "section": "32012"
+          },
+          {
+            "term": "Summer 2025",
+            "course": "NURS 4714 - Adult Health Nursing II",
+            "section": "32016"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "NURS 4714 - Adult Health Nursing II",
+            "section": "22913"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "NURS 4714 - Adult Health Nursing II",
+            "section": "24570"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "NURS 4714 - Adult Health Nursing II",
+            "section": "12919"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "NURS 4714 - Adult Health Nursing II",
+            "section": "13749"
+          }
+        ]
+      },
+      "evaluations_history": [
+        {
+          "term": "Spring  2025",
+          "response_count": 4,
+          "instructor_rating": {
+            "excellent_pct": 0.0,
+            "good_pct": 25.0,
+            "satisfactory_pct": 75.0,
+            "poor_pct": 0.0,
+            "average": 3.25
+          },
+          "course_rating": {
+            "excellent_pct": 25.0,
+            "good_pct": 50.0,
+            "satisfactory_pct": 25.0,
+            "poor_pct": 0.0,
+            "average": 4.0
+          }
+        },
+        {
+          "term": "Spring  2025",
+          "response_count": 4,
+          "instructor_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 25.0,
+            "satisfactory_pct": 25.0,
+            "poor_pct": 0.0,
+            "average": 4.25
+          },
+          "course_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 25.0,
+            "satisfactory_pct": 25.0,
+            "poor_pct": 0.0,
+            "average": 4.25
+          }
+        },
+        {
+          "term": "Fall  2024",
+          "response_count": 5,
+          "instructor_rating": {
+            "excellent_pct": 20.0,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 1.8
+          },
+          "course_rating": {
+            "excellent_pct": 20.0,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 1.8
+          }
+        },
+        {
+          "term": "Fall  2024",
+          "response_count": 3,
+          "instructor_rating": {
+            "excellent_pct": 100.0,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 5.0
+          },
+          "course_rating": {
+            "excellent_pct": 100.0,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 5.0
+          }
+        }
+      ]
+    },
+    "dquezada7": {
+      "professor_id": "dquezada7",
+      "professor_info": {
+        "name": "Dayna Acosta",
+        "photo_url": "https://hb2504.utep.edu/photos/dquezada7.jpg",
+        "position": "",
+        "department": "",
+        "cv_url": null
+      },
+      "contact_info": {
+        "email": "dquezada7@utep.edu"
+      },
+      "bio": {
+        "description": "",
+        "awards_honors": []
+      },
+      "education": [
+        {
+          "degree": "M.Ed",
+          "field": "Mental Health Counseling",
+          "institution": "University of Texas at El Paso",
+          "year": "2016"
+        },
+        {
+          "degree": "BS",
+          "field": "Social Psychology",
+          "institution": "Park University",
+          "year": "2014"
+        }
+      ],
+      "scholarly_activity": {
+        "publications": [],
+        "presentations": []
+      },
+      "grants": [],
+      "courses": {
+        "current_future": [
+          {
+            "term": "Spring 2023",
+            "course": "EDPC 5338 - Group Counseling",
+            "section": "26356"
+          }
+        ],
+        "past": [
+          {
+            "term": "Spring 2023",
+            "course": "EDPC 5338 - Group Counseling",
+            "section": "26356"
+          }
+        ]
+      },
+      "evaluations_history": [
+        {
+          "term": "Spring  2023",
+          "response_count": 1,
+          "instructor_rating": {
+            "excellent_pct": 0.0,
+            "good_pct": 100.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.0
+          },
+          "course_rating": {
+            "excellent_pct": 0.0,
+            "good_pct": 100.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.0
+          }
+        }
+      ]
+    },
+    "jablanedorosas2": {
+      "professor_id": "jablanedorosas2",
+      "professor_info": {
+        "name": "Jose Humberto Ablanedo Rosas",
+        "photo_url": "https://hb2504.utep.edu/photos/jablanedorosas2.jpg",
+        "position": "Jose Humberto Ablanedo RosasDepartment ChairMarketing, Management and Supply ChainProfessorMarketing, Management, and Supply Chain",
+        "department": "",
+        "cv_url": "https://hb2504.utep.edu/Vitas/jablanedorosas2.pdf"
+      },
+      "contact_info": {
+        "office_building": "Business Administration Building",
+        "office_room": "Rm. 201",
+        "phone": "(915) 747-6041",
+        "email": "jablanedorosas2@utep.edu"
+      },
+      "bio": {
+        "description": "Dr. Jose Humberto Ablanedo Rosas is Professor of Operations and Supply Chain Management at the College of Business Administration. He currently holds the Professorship in Western Hemisphere Trade Research II. He has collaborated with researchers from different universities around the world. His research has been published in well-known academic journals such as Computers & Industrial Engineering, Computers and Operations Research, European Journal of Operational Research, Expert Systems, International Journal of Production Research, International Journal of Project Management, and OMEGA, among others.",
+        "awards_honors": [
+          {
+            "title": "Teaching Excellence Award, MBA, Woody L. Hunt College of Business",
+            "date": "12/01/2022",
+            "organization": "12/31/2022"
+          }
+        ]
+      },
+      "education": [
+        {
+          "degree": "Ph D",
+          "field": "Production & Operations Management",
+          "institution": "University of Mississippi",
+          "year": "2007"
+        },
+        {
+          "degree": "MS",
+          "field": "Industrial Engineering",
+          "institution": "Instituto Tecnologico y de Estudios Superiores de Monterrey"
+        },
+        {
+          "degree": "MS",
+          "field": "Structural Engineering",
+          "institution": "Universidad Popular Autónoma del Estado de Puebla",
+          "year": "1990"
+        },
+        {
+          "degree": "BS",
+          "field": "Civil Engineering",
+          "institution": "Universidad Popular Autónoma del Estado de Puebla",
+          "year": "1987"
+        }
+      ],
+      "scholarly_activity": {
+        "publications": [],
+        "presentations": [
+          {
+            "title": "\"Análisis de la Eficiencia Operativa de Puertos de Contenedores en Regiones en Desarrollo mediante Machine Learning y DEA Bootstrap\" (2024), Volume Guadalahara, Mexico,Aaron G. Campanur, Jose H. Ablanedo Rosas, Elias Olivares-Benitez, Michael S. Garcia."
+          },
+          {
+            "title": "Evaluación de la Eficiencia de Cultivos de Aguacate usando Análisis Envolvente de Datos (2021), Volume Aguascalientes, Mexico,Jose H. Ablanedo Rosas, Aaron Guerrero Campanur, Elias Olivares-Benitez."
+          },
+          {
+            "title": "Operational Efficiency of Major Cargo Seaports in some Developing Regions: Results from a Bootstrap DEA (2021), Volume Anaheim, California,Jose H. Ablanedo Rosas."
+          }
+        ]
+      },
+      "grants": [
+        {
+          "title": "Mitigating the spread of misinformation and disinformation about COVID-19 prevention and treatment initiatives among hispanics (05/01/2023 - 04/30/2024) -US Food and Drug Administration"
+        }
+      ],
+      "courses": {
+        "current_future": [
+          {
+            "term": "Fall 2025",
+            "course": "OSCM 5308 - Concepts of Production Mgmt",
+            "section": "16905",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 5308 Fall 2025 PMBA Syllabus-1.pdf"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "OSCX 5308 - Concepts of Production Mgmt",
+            "section": "17003",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 5308 Fall 2025 EMBA Syllabus-1.pdf"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "OSCM 4398 - Independent Study in POM",
+            "section": "11681"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "OSCM 4398 - Independent Study in POM",
+            "section": "11859"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "OSCM 4398 - Independent Study in POM",
+            "section": "12945"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "OSCM 3321 - Production/Operations Mgmt",
+            "section": "14764",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/Syllabus oscm 3321 Fall 2025 8O2-1.pdf"
+          },
+          {
+            "term": "Fall 2025",
+            "course": "OSCM 4371 - Trans & Warehousing Sys",
+            "section": "13487",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/OSCM 4371 Fall 2025 Transportation  Warehousing Systems-2.pdf"
+          }
+        ],
+        "past": [
+          {
+            "term": "Summer 2025",
+            "course": "OSCM 5308 - Concepts of Production Mgmt",
+            "section": "33508"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "BUSN 5310 - Corp. Gov, Ethics, & Inter. Bu",
+            "section": "27307"
+          },
+          {
+            "term": "Spring 2025",
+            "course": "MGMT 5392 - Dir Individual Study in Mgmt",
+            "section": "28312"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "BUSN 3333 - Business Processes Analytics",
+            "section": "12982",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/BUSN 3333 Business Process Analytics-1.pdf"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "OSCM 5308 - Concepts of Production Mgmt",
+            "section": "16517"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "OSCM 5308 - Concepts of Production Mgmt",
+            "section": "16524"
+          },
+          {
+            "term": "Fall 2024",
+            "course": "OSCM 3321 - Production/Operations Mgmt",
+            "section": "15495"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "OSCM 3332 - ERP and Busn Intell Systems",
+            "section": "15062",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3332 Fall 2023 ERP and Business Intelligence Systems-1.pdf"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "OSCM 3333 - Production Planning & Control",
+            "section": "13149",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3333 Fall 2023 Production Planning  Control-1.pdf"
+          },
+          {
+            "term": "Fall 2023",
+            "course": "OSCM 3321 - Production/Operations Mgmt",
+            "section": "16986",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/Syllabus oscm 3321 Fall 2023 8O2-1.pdf"
+          },
+          {
+            "term": "Summer 2023",
+            "course": "OSCM 5308 - Concepts of Production Mgmt",
+            "section": "36012"
+          },
+          {
+            "term": "Summer 2023",
+            "course": "BUSN 3305 - Global Busn Environ-Study Away",
+            "section": "36008"
+          },
+          {
+            "term": "Summer 2023",
+            "course": "OSCM 3390 - Internship-Prod/Oper Mgmt",
+            "section": "33361"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "OSCM 5308 - Concepts of Production Mgmt",
+            "section": "26875",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 5308 Spring 2023 PMBA-1.pdf"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "OSCM 3332 - ERP and Busn Intell Systems",
+            "section": "27412",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3332 Spring 2023 ERP and Business Intelligence Systems-1.pdf"
+          },
+          {
+            "term": "Spring 2023",
+            "course": "OSCM 3333 - Production Planning & Control",
+            "section": "23401",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3333 Spring 2023 Production Planning  Control-1.pdf"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "OSCM 5308 - Concepts of Production Mgmt",
+            "section": "18378",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 5308 Fall 2022 PMBA-1.pdf"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "OSCM 3332 - ERP and Busn Intell Systems",
+            "section": "19602",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3332 Fall 2022 ERP and Business Intelligence Systems-1.pdf"
+          },
+          {
+            "term": "Fall 2022",
+            "course": "OSCM 3333 - Production Planning & Control",
+            "section": "15986",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3333 Fall 2022 Production Planning  Control-1.pdf"
+          },
+          {
+            "term": "Summer 2022",
+            "course": "OSCM 5308 - Concepts of Production Mgmt",
+            "section": "35738",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/Syllabus oscm 5308 Spring 2022 EMBA-1.pdf"
+          },
+          {
+            "term": "Summer 2022",
+            "course": "OSCM 3390 - Internship-Prod/Oper Mgmt",
+            "section": "33743"
+          },
+          {
+            "term": "Summer 2022",
+            "course": "OSCM 3321 - Production/Operations Mgmt",
+            "section": "30737"
+          },
+          {
+            "term": "Summer 2022",
+            "course": "OSCM 4315 - Purchasing & Supply Management",
+            "section": "36402",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/Syllabus oscm 4315 Summer II 2022-1.docx"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "OSCM 5308 - Concepts of Production Mgmt",
+            "section": "28354"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "OSCM 3390 - Internship-Prod/Oper Mgmt",
+            "section": "24891"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "OSCM 3334A - Prod Planning & Control Lab",
+            "section": "29298",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3334A Spring 2022 Production Planning  Control Lab-1.pdf"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "OSCM 3333 - Production Planning & Control",
+            "section": "24902",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3333 Spring 2022 Production Planning  Control-1.pdf"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "OSCM 3321 - Production/Operations Mgmt",
+            "section": "22701",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/Syllabus oscm 3321 Spring 2022-1.pdf"
+          },
+          {
+            "term": "Spring 2022",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "23562"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "OSCM 5308 - Concepts of Production Mgmt",
+            "section": "18304"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "OSCM 3334A - Prod Planning & Control Lab",
+            "section": "16007",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3334A Fall 2021 Production Planning Control Lab-1.pdf"
+          },
+          {
+            "term": "Fall 2021",
+            "course": "OSCM 3333 - Production Planning & Control",
+            "section": "15938",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3333 Fall 2021 Production Planning Control-1.pdf"
+          },
+          {
+            "term": "Summer 2021",
+            "course": "OSCM 5308 - Concepts of Production Mgmt",
+            "section": "36162"
+          },
+          {
+            "term": "Summer 2021",
+            "course": "OSCM 3321 - Production/Operations Mgmt",
+            "section": "30713"
+          },
+          {
+            "term": "Summer 2021",
+            "course": "OSCM 3321 - Production/Operations Mgmt",
+            "section": "30737"
+          },
+          {
+            "term": "Spring 2021",
+            "course": "OSCM 5308 - Concepts of Production Mgmt",
+            "section": "27765"
+          },
+          {
+            "term": "Spring 2021",
+            "course": "OSCM 4398 - Independent Study in POM",
+            "section": "21985"
+          },
+          {
+            "term": "Spring 2021",
+            "course": "OSCM 3390 - Internship-Prod/Oper Mgmt",
+            "section": "25379"
+          },
+          {
+            "term": "Spring 2021",
+            "course": "OSCM 3334A - Prod Planning & Control Lab",
+            "section": "25792",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3334A Spring 2021 Production Planning  Control Lab-1.pdf"
+          },
+          {
+            "term": "Spring 2021",
+            "course": "OSCM 3333 - Production Planning & Control",
+            "section": "25390",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3333 Spring 2021 Production Planning  Control-2.pdf"
+          },
+          {
+            "term": "Spring 2021",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "23900"
+          },
+          {
+            "term": "Fall 2020",
+            "course": "OSCM 5308 - Concepts of Production Mgmt",
+            "section": "16250",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/Syllabus oscm 5308 Fall 2020 MBA-1.pdf"
+          },
+          {
+            "term": "Fall 2020",
+            "course": "OSCM 5392 - Directed Indiv Study in POM",
+            "section": "19853"
+          },
+          {
+            "term": "Fall 2020",
+            "course": "OSCM 3334A - Prod Planning & Control Lab",
+            "section": "16285",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3334A Fall 2020 Production Planning  Control Lab-1.pdf"
+          },
+          {
+            "term": "Fall 2020",
+            "course": "OSCM 3333 - Production Planning & Control",
+            "section": "16216",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/Syllabus OSCM 3333 Fall 2020-1.pdf"
+          },
+          {
+            "term": "Fall 2020",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "13813"
+          },
+          {
+            "term": "Summer 2020",
+            "course": "OSCM 5308 - Concepts of Production Mgmt",
+            "section": "35934",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/Syllabus oscm 5308 Summer 2020 AMBA-1.pdf"
+          },
+          {
+            "term": "Summer 2020",
+            "course": "OSCM 3390 - Internship-Prod/Oper Mgmt",
+            "section": "33899"
+          },
+          {
+            "term": "Summer 2020",
+            "course": "OSCM 3321 - Production/Operations Mgmt",
+            "section": "30790",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/Syllabus oscm 3321 Summer I 2020-1.pdf"
+          },
+          {
+            "term": "Spring 2020",
+            "course": "OSCM 5308 - Concepts of Production Mgmt",
+            "section": "28976"
+          },
+          {
+            "term": "Spring 2020",
+            "course": "OSCM 4398 - Independent Study in POM",
+            "section": "22262"
+          },
+          {
+            "term": "Spring 2020",
+            "course": "OSCM 3390 - Internship-Prod/Oper Mgmt",
+            "section": "26042"
+          },
+          {
+            "term": "Spring 2020",
+            "course": "OSCM 3334A - Prod Planning & Control Lab",
+            "section": "26532",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3334A Spring 2020 Production Planning  Control Lab-1.doc"
+          },
+          {
+            "term": "Spring 2020",
+            "course": "OSCM 3333 - Production Planning & Control",
+            "section": "26055",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3333 Spring 2020 Production Planning  Control-1.doc"
+          },
+          {
+            "term": "Spring 2020",
+            "course": "OSCM 3321 - Production/Operations Mgmt",
+            "section": "23363",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/OSCM 3321 Spring 2020-1.docx"
+          },
+          {
+            "term": "Spring 2020",
+            "course": "BUSN 5394 - Spc Top in Int'l Business",
+            "section": "28973"
+          },
+          {
+            "term": "Spring 2020",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "24414"
+          },
+          {
+            "term": "Fall 2019",
+            "course": "OSCM 4398 - Independent Study in POM",
+            "section": "14772"
+          },
+          {
+            "term": "Fall 2019",
+            "course": "OSCM 4398 - Independent Study in POM",
+            "section": "18917"
+          },
+          {
+            "term": "Fall 2019",
+            "course": "OSCM 3390 - Internship-Prod/Oper Mgmt",
+            "section": "11927"
+          },
+          {
+            "term": "Fall 2019",
+            "course": "OSCM 3334A - Prod Planning & Control Lab",
+            "section": "16806",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3334A Fall 2019 Production Planning  Control Lab-1.doc"
+          },
+          {
+            "term": "Fall 2019",
+            "course": "OSCM 3333 - Production Planning & Control",
+            "section": "16731",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3333 Fall 2019 Production Planning  Control-1.doc"
+          },
+          {
+            "term": "Fall 2019",
+            "course": "OSCM 3321 - Production/Operations Mgmt",
+            "section": "11920",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/OSCM 3321 Fall 2019-1.pdf"
+          },
+          {
+            "term": "Fall 2019",
+            "course": "RSRC 4033 - Undergraduate Research",
+            "section": "14110"
+          },
+          {
+            "term": "Summer 2019",
+            "course": "OSCM 4398 - Independent Study in POM",
+            "section": "35125"
+          },
+          {
+            "term": "Summer 2019",
+            "course": "OSCM 3390 - Internship-Prod/Oper Mgmt",
+            "section": "34295"
+          },
+          {
+            "term": "Spring 2019",
+            "course": "OSCM 3322A - Adv Prod/Oper Mgmt Lab",
+            "section": "28870",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3322A Advanced Operations Management LabSpring 2019-1.pdf"
+          },
+          {
+            "term": "Spring 2019",
+            "course": "OSCM 3322 - Adv Production/Operations Mgmt",
+            "section": "27352",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3322 Advanced Operations Management Spring 2019-1.pdf"
+          },
+          {
+            "term": "Spring 2019",
+            "course": "OSCM 5308 - Concepts of Production Mgmt",
+            "section": "27990"
+          },
+          {
+            "term": "Spring 2019",
+            "course": "OSCM 3321 - Production/Operations Mgmt",
+            "section": "23612",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/OSCM 3321 Spring 2019-1.pdf"
+          },
+          {
+            "term": "Fall 2018",
+            "course": "OSCM 4398 - Independent Study in POM",
+            "section": "15129"
+          },
+          {
+            "term": "Fall 2018",
+            "course": "MGMT 6393 - Int'l Op/Supply Chain Mgmt",
+            "section": "19087",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/MGMT 6393 Fall 2018 International Operations and Supply Chain Management-1.pdf"
+          },
+          {
+            "term": "Fall 2018",
+            "course": "OSCM 3390 - Internship-Prod/Oper Mgmt",
+            "section": "12068"
+          },
+          {
+            "term": "Fall 2018",
+            "course": "OSCM 3334A - Prod Planning & Control Lab",
+            "section": "17687",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3334A Fall 2018 Production Planning  Control Lab-1.pdf"
+          },
+          {
+            "term": "Fall 2018",
+            "course": "OSCM 3333 - Production Planning & Control",
+            "section": "17579",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 3333 Fall 2018 Production Planning  Control-1.pdf"
+          },
+          {
+            "term": "Summer 2018",
+            "course": "OSCM 4398 - Independent Study in POM",
+            "section": "34917"
+          },
+          {
+            "term": "Summer 2018",
+            "course": "OSCM 3390 - Internship-Prod/Oper Mgmt",
+            "section": "34873"
+          },
+          {
+            "term": "Summer 2018",
+            "course": "OSCM 3321 - Production/Operations Mgmt",
+            "section": "30949",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/OSCM 3321 Summer 2018-1.pdf"
+          },
+          {
+            "term": "Spring 2018",
+            "course": "OSCM 5308 - Concepts of Production Mgmt",
+            "section": "29385",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 5308 Spring 2018-1.doc"
+          },
+          {
+            "term": "Spring 2018",
+            "course": "OSCM 4398 - Independent Study in POM",
+            "section": "22577"
+          },
+          {
+            "term": "Spring 2018",
+            "course": "OSCM 3390 - Internship-Prod/Oper Mgmt",
+            "section": "27421"
+          },
+          {
+            "term": "Spring 2018",
+            "course": "OSCM 3337 - Logistics Management",
+            "section": "24803",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/OSCM 3337 Spring 2018 Business Logistics-1.doc"
+          },
+          {
+            "term": "Spring 2018",
+            "course": "OSCM 4375 - Oper Mdl for Supply Chain Mgmt",
+            "section": "23885",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 4375 Spring 2018 Operational Models for Supply Chain Management-1.doc"
+          },
+          {
+            "term": "Spring 2018",
+            "course": "OSCM 4315 - Purchasing & Supply Management",
+            "section": "24234",
+            "syllabus_url": "https://digitalmeasures.utep.edu/ai/jablanedorosas2/schteach/oscm 4315 Spring 2018 Purchasing and Supply Chain Management-1.doc"
+          }
+        ]
+      },
+      "evaluations_history": [
+        {
+          "term": "Spring  2025",
+          "response_count": 7,
+          "instructor_rating": {
+            "excellent_pct": 71.4,
+            "good_pct": 14.3,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 14.3,
+            "average": 4.43
+          },
+          "course_rating": {
+            "excellent_pct": 57.1,
+            "good_pct": 28.6,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 14.3,
+            "average": 4.29
+          }
+        },
+        {
+          "term": "Fall  2024",
+          "response_count": 5,
+          "instructor_rating": {
+            "excellent_pct": 80.0,
+            "good_pct": 20.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.8
+          },
+          "course_rating": {
+            "excellent_pct": 60.0,
+            "good_pct": 40.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.6
+          }
+        },
+        {
+          "term": "Fall  2024",
+          "response_count": 9,
+          "instructor_rating": {
+            "excellent_pct": 66.7,
+            "good_pct": 11.1,
+            "satisfactory_pct": 11.1,
+            "poor_pct": 11.1,
+            "average": 4.33
+          },
+          "course_rating": {
+            "excellent_pct": 55.6,
+            "good_pct": 22.2,
+            "satisfactory_pct": 11.1,
+            "poor_pct": 11.1,
+            "average": 4.22
+          }
+        },
+        {
+          "term": "Fall  2024",
+          "response_count": 14,
+          "instructor_rating": {
+            "excellent_pct": 57.1,
+            "good_pct": 35.7,
+            "satisfactory_pct": 7.1,
+            "poor_pct": 0.0,
+            "average": 4.5
+          },
+          "course_rating": {
+            "excellent_pct": 42.9,
+            "good_pct": 50.0,
+            "satisfactory_pct": 7.1,
+            "poor_pct": 0.0,
+            "average": 4.36
+          }
+        },
+        {
+          "term": "Fall  2024",
+          "response_count": 17,
+          "instructor_rating": {
+            "excellent_pct": 82.4,
+            "good_pct": 11.8,
+            "satisfactory_pct": 5.9,
+            "poor_pct": 0.0,
+            "average": 4.76
+          },
+          "course_rating": {
+            "excellent_pct": 82.4,
+            "good_pct": 11.8,
+            "satisfactory_pct": 5.9,
+            "poor_pct": 0.0,
+            "average": 4.76
+          }
+        },
+        {
+          "term": "Fall  2023",
+          "response_count": 12,
+          "instructor_rating": {
+            "excellent_pct": 83.3,
+            "good_pct": 8.3,
+            "satisfactory_pct": 8.3,
+            "poor_pct": 0.0,
+            "average": 4.75
+          },
+          "course_rating": {
+            "excellent_pct": 75.0,
+            "good_pct": 25.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.75
+          }
+        },
+        {
+          "term": "Fall  2023",
+          "response_count": 16,
+          "instructor_rating": {
+            "excellent_pct": 75.0,
+            "good_pct": 18.8,
+            "satisfactory_pct": 6.3,
+            "poor_pct": 0.0,
+            "average": 4.69
+          },
+          "course_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 37.5,
+            "satisfactory_pct": 12.5,
+            "poor_pct": 0.0,
+            "average": 4.38
+          }
+        },
+        {
+          "term": "Fall  2023",
+          "response_count": 26,
+          "instructor_rating": {
+            "excellent_pct": 73.1,
+            "good_pct": 19.2,
+            "satisfactory_pct": 7.7,
+            "poor_pct": 0.0,
+            "average": 4.65
+          },
+          "course_rating": {
+            "excellent_pct": 65.4,
+            "good_pct": 23.1,
+            "satisfactory_pct": 11.5,
+            "poor_pct": 0.0,
+            "average": 4.54
+          }
+        },
+        {
+          "term": "Summer  2023",
+          "response_count": 2,
+          "instructor_rating": {
+            "excellent_pct": 100.0,
+            "good_pct": 0.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 5.0
+          },
+          "course_rating": {
+            "excellent_pct": 50.0,
+            "good_pct": 50.0,
+            "satisfactory_pct": 0.0,
+            "poor_pct": 0.0,
+            "average": 4.5
+          }
+        },
+        {
+          "term": "Spring  2023",
+          "response_count": 13,
+          "instructor_rating": {
+            "excellent_pct": 38.5,
+            "good_pct": 15.4,
+            "satisfactory_pct": 7.7,
+            "poor_pct": 15.4,
+            "average": 3.5
+          },
+          "course_rating": {
+            "excellent_pct": 46.2,
+            "good_pct": 7.7,
+            "satisfactory_pct": 7.7,
+            "poor_pct": 23.1,
+            "average": 3.67
+          }
+        }
+      ]
+    }
+  }
+}
