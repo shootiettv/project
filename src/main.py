@@ -8,6 +8,10 @@ from bson import ObjectId
 
 app = FastAPI()
 
+TEST_CLASS_OVERRIDE = {
+    "CS1301": "ACCT3323",
+}
+
 client = MongoClient("mongodb+srv://machdavis2003_db_user:4j1WOOQz7HWJpZaT@data.2kqvcry.mongodb.net/?appName=data")
 
 db = client["utep_professors"]

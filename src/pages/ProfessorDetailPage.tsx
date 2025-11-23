@@ -54,10 +54,7 @@ export function ProfessorDetailPage({
     <div className="min-h-screen bg-gradient-to-br from-orange-50 to-blue-50 transition-colors duration-300 p-4">
       {/* Switch Version Button */}
       <div className="fixed bottom-4 left-4 z-50">
-        <Button
-          variant="outline"
-          className="bg-white border-gray-200"
-        >
+        <Button variant="outline" className="bg-white border-gray-200">
           Switch Version
         </Button>
       </div>
@@ -90,12 +87,8 @@ export function ProfessorDetailPage({
           <CardHeader>
             <div className="flex justify-between items-start">
               <div>
-                <CardTitle className="text-3xl mb-2">
-                  {professor.full_name}
-                </CardTitle>
-                <p className="text-gray-600">
-                  {professor.title}
-                </p>
+                <CardTitle className="text-3xl mb-2">{professor.full_name}</CardTitle>
+                <p className="text-gray-600">{professor.title}</p>
                 <p className="text-sm text-gray-500 mt-1">
                   {professor.department} • {professor.college}
                 </p>
@@ -112,6 +105,76 @@ export function ProfessorDetailPage({
           </CardHeader>
         </Card>
 
+        {/* --------------------------------------------- */}
+        {/* CLASS SCHEDULE — MOVED BELOW HEADER */}
+        {/* --------------------------------------------- */}
+        {professor.class_sections && professor.class_sections.length > 0 && (
+          <Card className="mb-6 shadow-md border-orange-100">
+            <CardHeader>
+              <CardTitle className="text-lg font-semibold text-gray-900">
+                Class Schedule For Next Semester
+              </CardTitle>
+            </CardHeader>
+
+            <CardContent className="space-y-4">
+              {professor.class_sections.map((section, index) => (
+                <div
+                  key={section.crn ?? index}
+                  className="rounded-xl border border-orange-100 bg-white/80 shadow-sm px-5 py-3 flex flex-col gap-2"
+                >
+                  {/* Section Header */}
+                  <p className="text-sm font-semibold text-gray-900">
+                    <span className="uppercase tracking-wide">
+                      Section {section.section ?? 'N/A'}
+                    </span>
+                    {section.crn && (
+                      <span className="ml-3 text-xs font-medium tracking-wide text-gray-400">
+                        CRN {section.crn}
+                      </span>
+                    )}
+                  </p>
+
+                  {/* Meeting Times */}
+                  {(section.meeting_times ?? []).length > 0 ? (
+                    <ul className="space-y-1">
+                      {section.meeting_times.map((mt, mtIndex) => {
+                        const daysValue = mt.days;
+                        const days = Array.isArray(daysValue)
+                          ? daysValue.join('')
+                          : daysValue ?? '';
+
+                        const location = [
+                          mt.location_building,
+                          mt.location_room,
+                        ]
+                          .filter(Boolean)
+                          .join(' ');
+
+                        return (
+                          <li key={mtIndex} className="text-sm text-gray-700">
+                            <span className="font-medium text-gray-900">{days}</span>{' '}
+                            <span className="font-medium">{mt.time}</span>
+                            {location && (
+                              <>
+                                <span className="mx-1 text-gray-400">•</span>
+                                <span className="text-gray-600">{location}</span>
+                              </>
+                            )}
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  ) : (
+                    <p className="text-sm text-gray-600">
+                      Meeting time not available yet.
+                    </p>
+                  )}
+                </div>
+              ))}
+            </CardContent>
+          </Card>
+        )}
+
         {/* Rate My Professor */}
         <Card className="mb-6">
           <CardHeader>
@@ -120,13 +183,12 @@ export function ProfessorDetailPage({
               Rate My Professor
             </CardTitle>
           </CardHeader>
+
           <CardContent className="space-y-6">
             {/* Overall Stats */}
             <div className="grid grid-cols-4 gap-4">
               <div className="text-center p-4 bg-gray-50 rounded-lg">
-                <p className="text-sm text-gray-600 mb-1">
-                  Overall Rating
-                </p>
+                <p className="text-sm text-gray-600 mb-1">Overall Rating</p>
                 <p className="text-3xl text-orange-600">
                   {professor.rmp.avgRating.toFixed(1)}
                 </p>
@@ -134,139 +196,54 @@ export function ProfessorDetailPage({
                   {renderStars(professor.rmp.avgRating)}
                 </div>
               </div>
+
               <div className="text-center p-4 bg-gray-50 rounded-lg">
-                <p className="text-sm text-gray-600 mb-1">
-                  Would Take Again
-                </p>
+                <p className="text-sm text-gray-600 mb-1">Would Take Again</p>
                 <p className="text-3xl text-orange-600">
                   {professor.rmp.wouldTakeAgainPercent}%
                 </p>
               </div>
+
               <div className="text-center p-4 bg-gray-50 rounded-lg">
-                <p className="text-sm text-gray-600 mb-1">
-                  Difficulty
-                </p>
+                <p className="text-sm text-gray-600 mb-1">Difficulty</p>
                 <p className="text-3xl text-orange-600">
                   {professor.rmp.avgDifficulty.toFixed(1)}
                 </p>
               </div>
+
               <div className="text-center p-4 bg-gray-50 rounded-lg">
-                <p className="text-sm text-gray-600 mb-1">
-                  Total Ratings
-                </p>
+                <p className="text-sm text-gray-600 mb-1">Total Ratings</p>
                 <p className="text-3xl text-orange-600">
                   {professor.rmp.numRatings}
                 </p>
               </div>
             </div>
 
-            {/* Class times for this course */}
-            {professor.class_sections && professor.class_sections.length > 0 && (
-              <div className="space-y-4">
-                <h4 className="text-lg font-semibold text-gray-900">
-                  When this professor is teaching this class upcomming semester
-                </h4>
-                <div className="space-y-3">
-                  {professor.class_sections.map((section, index) => (
-                    <div
-                      key={section.crn ?? index}
-                      className="rounded-xl border border-orange-100 bg-white/80 shadow-sm px-5 py-3 flex flex-col gap-2"
-                    >
-                      {/* Top row: Section + CRN */}
-                      <p className="text-sm font-semibold text-gray-900">
-                        <span className="uppercase tracking-wide">
-                          Section {section.section ?? 'N/A'}
-                        </span>
-                        {section.crn && (
-                          <span className="ml-3 text-xs font-medium tracking-wide text-gray-400">
-                            CRN {section.crn}
-                          </span>
-                        )}
-                      </p>
-
-                      {/* Meeting times */}
-                      {(section.meeting_times ?? []).length > 0 ? (
-                        <ul className="space-y-1">
-                          {section.meeting_times.map((mt, mtIndex) => {
-                            const daysValue = mt.days;
-                            const days = Array.isArray(daysValue)
-                              ? daysValue.join('')
-                              : (daysValue ?? '');
-
-                            const locationParts: string[] = [];
-                            if (mt.location_building) {
-                              locationParts.push(mt.location_building);
-                            }
-                            if (mt.location_room) {
-                              locationParts.push(mt.location_room);
-                            }
-                            const location = locationParts.join(' ');
-
-                            return (
-                              <li
-                                key={mtIndex}
-                                className="text-sm text-gray-700"
-                              >
-                                {days && (
-                                  <span className="font-medium text-gray-900">
-                                    {days}
-                                  </span>
-                                )}{' '}
-                                <span className="font-medium">
-                                  {mt.time}
-                                </span>
-                                {location && (
-                                  <>
-                                    <span className="mx-1 text-gray-400">
-                                      •
-                                    </span>
-                                    <span className="text-gray-600">
-                                      {location}
-                                    </span>
-                                  </>
-                                )}
-                              </li>
-                            );
-                          })}
-                        </ul>
-                      ) : (
-                        <p className="mt-1 text-sm text-gray-600">
-                          Meeting time not available yet.
-                        </p>
-                      )}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-
             {/* Recent Reviews */}
             <div className="space-y-4">
               <h4 className="text-gray-800">Recent Reviews</h4>
+
               {professor.rmp.reviews && professor.rmp.reviews.length > 0 ? (
-                professor.rmp.reviews.map((review: RateMyProfessorReview, index) => (
+                professor.rmp.reviews.map((review, index) => (
                   <div
                     key={index}
-                    className="p-4 bg-gray-50 rounded-lg space-y-2"
+                    className="p-4 bg-gray-50 rounded-lg space-y-2 shadow-sm"
                   >
                     <div className="flex justify-between items-start">
-                      <div className="flex gap-1">
-                        {renderStars(review.clarityRating)}
-                      </div>
+                      <div className="flex gap-1">{renderStars(review.clarityRating)}</div>
                       <span className="text-sm text-gray-500">
                         {formatDate(review.date)}
                       </span>
                     </div>
-                    <p className="text-gray-700">
-                      {review.comment}
-                    </p>
+
+                    <p className="text-gray-700">{review.comment}</p>
+
                     <div className="flex gap-4 text-sm">
                       <p className="text-gray-600">
                         Course:{' '}
-                        <span className="text-gray-800">
-                          {review.class}
-                        </span>
+                        <span className="text-gray-800">{review.class}</span>
                       </p>
+
                       <p className="text-gray-600">
                         Difficulty:{' '}
                         <span className="text-gray-800">
