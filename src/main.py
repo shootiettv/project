@@ -77,24 +77,64 @@ def convert_objectid(doc):
 
 @app.post("/get-professors")
 async def get_professors(req: ClassRequest):
-    result = {}
+    """
+    For each requested class_id (e.g. 'CS1301'):
+
+    - Look up the course in the Mongo 'classes' collection
+    - Extract the instructors and, for each instructor, their sections +
+      meeting times for THIS class
+    - Join that data with the professor docs (RMP info) from the 'professors'
+      collection
+    - Attach the schedule as `class_sections` on each returned professor
+    """
+    result = {}  # key: course _id, value: list of professors
 
     for class_id in req.class_ids:
-
+        # 1) Find the course document
         class_doc = courses_collection.find_one({"_id": class_id})
-
         if not class_doc:
+            print(f"⚠️  No course document found in 'classes' for {class_id}")
             result[class_id] = []
             continue
 
-        instructor_usernames = [
-            prof.get("instructor_id")
-            for prof in class_doc.get("professors", [])
-            if prof.get("instructor_id")
-        ]
+        professors_list = class_doc.get("professors", []) or []
+
+        # 2) Build mapping instructor_id -> sections (with meeting times)
+        schedule_by_instructor = {}
+        instructor_usernames = []
+
+        for prof_entry in professors_list:
+            instructor_id = prof_entry.get("instructor_id")
+            if not instructor_id:
+                continue
+
+            instructor_usernames.append(instructor_id)
+
+            sections_info = []
+            for section in prof_entry.get("sections", []) or []:
+                class_info = section.get("class_info", {}) or {}
+                meeting_times = class_info.get("meeting_times", []) or []
+
+                sections_info.append(
+                    {
+                        "crn": section.get("crn"),
+                        "section": section.get("section"),
+                        # meeting_times is an array like:
+                        # { days: ["M","R"], time: "1:30 pm - 2:50 pm", location_building: "...", location_room: "..." }
+                        "meeting_times": meeting_times,
+                    }
+                )
+
+            schedule_by_instructor[instructor_id] = sections_info
+
+        if not instructor_usernames:
+            print(f"⚠️  Class {class_id} has no instructors in 'professors' array")
+            result[class_id] = []
+            continue
 
         print(f"📌 Class {class_id} has instructor usernames:", instructor_usernames)
 
+        # 3) Fetch professor docs (RMP + static info)
         professor_docs = list(
             professors_collection.find(
                 {"username": {"$in": instructor_usernames}},
@@ -111,15 +151,21 @@ async def get_professors(req: ClassRequest):
                     "profile_url": 1,
                     "title": 1,
                     "rmp": 1,
-                }
+                },
             )
         )
 
+        # 4) Attach schedule for THIS class to each professor
+        for prof in professor_docs:
+            uname = prof.get("username")
+            if uname in schedule_by_instructor:
+                # This field will be consumed directly in the React app
+                prof["class_sections"] = schedule_by_instructor[uname]
+
         print(f"📚 Found {len(professor_docs)} professors for class {class_id}")
 
-        # 🔥 Convert ObjectIds before sending to frontend
+        # 5) Convert ObjectIds before sending to frontend
         professor_docs = convert_objectid(professor_docs)
-
         result[class_id] = professor_docs
 
     return {"professors_by_class": result}

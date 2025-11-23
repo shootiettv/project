@@ -4,7 +4,6 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Professor, RateMyProfessorReview } from '../App';
 
-
 interface ProfessorDetailPageProps {
   professor: Professor;
   onBack: () => void;
@@ -161,6 +160,86 @@ export function ProfessorDetailPage({
               </div>
             </div>
 
+            {/* Class times for this course */}
+            {professor.class_sections && professor.class_sections.length > 0 && (
+              <div className="space-y-4">
+                <h4 className="text-lg font-semibold text-gray-900">
+                  When this professor is teaching this class upcomming semester
+                </h4>
+                <div className="space-y-3">
+                  {professor.class_sections.map((section, index) => (
+                    <div
+                      key={section.crn ?? index}
+                      className="rounded-xl border border-orange-100 bg-white/80 shadow-sm px-5 py-3 flex flex-col gap-2"
+                    >
+                      {/* Top row: Section + CRN */}
+                      <p className="text-sm font-semibold text-gray-900">
+                        <span className="uppercase tracking-wide">
+                          Section {section.section ?? 'N/A'}
+                        </span>
+                        {section.crn && (
+                          <span className="ml-3 text-xs font-medium tracking-wide text-gray-400">
+                            CRN {section.crn}
+                          </span>
+                        )}
+                      </p>
+
+                      {/* Meeting times */}
+                      {(section.meeting_times ?? []).length > 0 ? (
+                        <ul className="space-y-1">
+                          {section.meeting_times.map((mt, mtIndex) => {
+                            const daysValue = mt.days;
+                            const days = Array.isArray(daysValue)
+                              ? daysValue.join('')
+                              : (daysValue ?? '');
+
+                            const locationParts: string[] = [];
+                            if (mt.location_building) {
+                              locationParts.push(mt.location_building);
+                            }
+                            if (mt.location_room) {
+                              locationParts.push(mt.location_room);
+                            }
+                            const location = locationParts.join(' ');
+
+                            return (
+                              <li
+                                key={mtIndex}
+                                className="text-sm text-gray-700"
+                              >
+                                {days && (
+                                  <span className="font-medium text-gray-900">
+                                    {days}
+                                  </span>
+                                )}{' '}
+                                <span className="font-medium">
+                                  {mt.time}
+                                </span>
+                                {location && (
+                                  <>
+                                    <span className="mx-1 text-gray-400">
+                                      •
+                                    </span>
+                                    <span className="text-gray-600">
+                                      {location}
+                                    </span>
+                                  </>
+                                )}
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      ) : (
+                        <p className="mt-1 text-sm text-gray-600">
+                          Meeting time not available yet.
+                        </p>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
             {/* Recent Reviews */}
             <div className="space-y-4">
               <h4 className="text-gray-800">Recent Reviews</h4>
@@ -183,10 +262,16 @@ export function ProfessorDetailPage({
                     </p>
                     <div className="flex gap-4 text-sm">
                       <p className="text-gray-600">
-                        Course: <span className="text-gray-800">{review.class}</span>
+                        Course:{' '}
+                        <span className="text-gray-800">
+                          {review.class}
+                        </span>
                       </p>
                       <p className="text-gray-600">
-                        Difficulty: <span className="text-gray-800">{review.difficultyRating.toFixed(1)}</span>
+                        Difficulty:{' '}
+                        <span className="text-gray-800">
+                          {review.difficultyRating.toFixed(1)}
+                        </span>
                       </p>
                     </div>
                   </div>

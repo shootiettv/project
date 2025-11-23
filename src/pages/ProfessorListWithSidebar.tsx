@@ -47,6 +47,31 @@ export function ProfessorListWithSidebar({
     }
     return stars;
   };
+  const getMeetingSummary = (prof: Professor) => {
+    const sections = prof.class_sections ?? [];
+    const allMeetings = sections.flatMap((section) => section.meeting_times ?? []);
+
+    if (allMeetings.length === 0) {
+      return null;
+    }
+
+    const first = allMeetings[0];
+    const daysValue = first.days;
+    const days = Array.isArray(daysValue)
+      ? daysValue.join('')
+      : (daysValue ?? '');
+
+    const locationParts: string[] = [];
+    if (first.location_building) locationParts.push(first.location_building);
+    if (first.location_room) locationParts.push(first.location_room);
+    const location = locationParts.join(' ');
+
+    return {
+      label: `${days ? days + ' ' : ''}${first.time ?? ''}`,
+      location,
+      extraCount: allMeetings.length - 1,
+    };
+  };
 
   const currentClassInfo = selectedClasses.find((c) => c._id === activeClass);
   const currentProfessorsRaw = professorsByClass[activeClass] || [];
@@ -146,71 +171,95 @@ export function ProfessorListWithSidebar({
               </div>
             )}
 
-            {/* Professors List */}
+                        {/* Professors List */}
             <div className="space-y-4">
               {currentProfessors.length > 0 ? (
-                currentProfessors.map((professor, index) => (
-                  <motion.div
-                    key={professor._id}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.4, delay: index * 0.1 }}
-                  >
-                    <Card
-                      className="cursor-pointer hover:shadow-lg transition-shadow"
-                      onClick={() => onSelectProfessor(professor)}
+                currentProfessors.map((professor, index) => {
+                  const meetingInfo = getMeetingSummary(professor);
+
+                  return (
+                    <motion.div
+                      key={professor._id}
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.4, delay: index * 0.1 }}
                     >
-                      <CardHeader>
-                        <div className="flex justify-between items-start">
-                          <div>
-                            <CardTitle>
-                              {professor.full_name}
-                            </CardTitle>
-                            <p className="text-sm text-gray-600 mt-1">
-                              {professor.title} • {professor.department}
-                            </p>
-                          </div>
-                          <div className="text-right">
-                            <div className="flex items-center gap-1 mb-1">
-                              {renderStars(professor.rmp.avgRating)}
+                      <Card
+                        className="cursor-pointer hover:shadow-lg transition-shadow"
+                        onClick={() => onSelectProfessor(professor)}
+                      >
+                        <CardHeader>
+                          <div className="flex justify-between items-start">
+                            <div>
+                              <CardTitle>
+                                {professor.full_name}
+                              </CardTitle>
+                              <p className="text-sm text-gray-600 mt-1">
+                                {professor.title} • {professor.department}
+                              </p>
                             </div>
-                            <p className="text-2xl text-gray-800">
-                              {professor.rmp.avgRating.toFixed(1)}
-                            </p>
+                            <div className="text-right">
+                              <div className="flex items-center gap-1 mb-1">
+                                {renderStars(professor.rmp.avgRating)}
+                              </div>
+                              <p className="text-2xl text-gray-800">
+                                {professor.rmp.avgRating.toFixed(1)}
+                              </p>
+                            </div>
                           </div>
-                        </div>
-                      </CardHeader>
-                      <CardContent>
-                        <div className="flex gap-4 text-sm">
-                          <div>
-                            <span className="text-gray-600">
-                              Difficulty:
-                            </span>
-                            <span className="ml-1 text-gray-800">
-                              {professor.rmp.avgDifficulty.toFixed(1)}
-                            </span>
+                        </CardHeader>
+                        <CardContent>
+                          <div className="flex flex-col gap-2 text-sm">
+                            <div className="flex flex-wrap gap-4">
+                              <div>
+                                <span className="text-gray-600">
+                                  Difficulty:
+                                </span>
+                                <span className="ml-1 text-gray-800">
+                                  {professor.rmp.avgDifficulty.toFixed(1)}
+                                </span>
+                              </div>
+                              <div>
+                                <span className="text-gray-600">
+                                  Would Take Again:
+                                </span>
+                                <span className="ml-1 text-gray-800">
+                                  {professor.rmp.wouldTakeAgainPercent}%
+                                </span>
+                              </div>
+                              <div>
+                                <span className="text-gray-600">
+                                  Ratings:
+                                </span>
+                                <span className="ml-1 text-gray-800">
+                                  {professor.rmp.numRatings}
+                                </span>
+                              </div>
+                            </div>
+
+                            {meetingInfo && (
+                              <div className="text-gray-600">
+                                <span className="font-medium text-gray-700">
+                                  Class time:
+                                </span>{" "}
+                                <span className="text-gray-800">
+                                  {meetingInfo.label}
+                                  {meetingInfo.location && ` • ${meetingInfo.location}`}
+                                </span>
+                                {meetingInfo.extraCount > 0 && (
+                                  <span className="ml-1 text-xs text-gray-500">
+                                    (+{meetingInfo.extraCount} more time
+                                    {meetingInfo.extraCount > 1 ? 's' : ''})
+                                  </span>
+                                )}
+                              </div>
+                            )}
                           </div>
-                          <div>
-                            <span className="text-gray-600">
-                              Would Take Again:
-                            </span>
-                            <span className="ml-1 text-gray-800">
-                              {professor.rmp.wouldTakeAgainPercent}%
-                            </span>
-                          </div>
-                          <div>
-                            <span className="text-gray-600">
-                              Ratings:
-                            </span>
-                            <span className="ml-1 text-gray-800">
-                              {professor.rmp.numRatings}
-                            </span>
-                          </div>
-                        </div>
-                      </CardContent>
-                    </Card>
-                  </motion.div>
-                ))
+                        </CardContent>
+                      </Card>
+                    </motion.div>
+                  );
+                })
               ) : (
                 <Card>
                   <CardContent className="p-8 text-center">
@@ -221,6 +270,7 @@ export function ProfessorListWithSidebar({
                 </Card>
               )}
             </div>
+
 
             {/* Footer */}
             <p className="text-center mt-8 text-sm text-gray-600">

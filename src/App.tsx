@@ -18,6 +18,19 @@ export interface Course {
     course_number: string
 }
 
+export interface MeetingTime {
+  days?: string[] | string;
+  time?: string;
+  location_building?: string;
+  location_room?: string;
+}
+
+export interface ClassSectionForProfessor {
+  crn?: string;
+  section?: string;
+  meeting_times: MeetingTime[];
+}
+
 export interface Professor {
   _id: string;
   username: string;
@@ -25,12 +38,15 @@ export interface Professor {
   department: string;
   first_name: string;
   full_name: string;
-  last_name: string;
+  last_name: number;
   last_updated: number;
   middle_initial: string | null;
   profile_url: string;
   title: string;
   rmp: RateMyProfessorData;
+
+  /** Schedule for THIS course (from Mongo "classes.professors.sections") */
+  class_sections?: ClassSectionForProfessor[];
 }
 
 export interface RateMyProfessorReview {
@@ -39,14 +55,6 @@ export interface RateMyProfessorReview {
   clarityRating: number;
   difficultyRating: number;
   comment: string;
-}
-
-export interface RateMyProfessorData {
-  avgRating: number;
-  avgDifficulty: number;
-  numRatings: number;
-  wouldTakeAgainPercent: number;
-  reviews: RateMyProfessorReview[];
 }
 
 
