@@ -13,6 +13,12 @@ export function UploadPage({ onUploadSubmit }: UploadPageProps) {
   console.log("🔥 UploadPage mounted");
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [isDragging, setIsDragging] = useState(false);
+  const dummyClasses = [
+  { _id: "CS2302", course_title: "Data Structures", subject: "CS", course_number: "2302" },
+  { _id: "MATH1312", course_title: "Calculus II", subject: "MATH", course_number: "1312" },
+  { _id: "ACCT2301", course_title: "Principles of Accounting I", subject: "ACCT", course_number: "2301" }
+];
+
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
@@ -178,7 +184,17 @@ export function UploadPage({ onUploadSubmit }: UploadPageProps) {
               >
                 Submit
               </Button>
-            </form>
+              <Button
+                type="button"
+                onClick={() => {
+                  console.log("🧪 Using dummy class data:", dummyClasses);
+                  onUploadSubmit(dummyClasses);
+                }}
+                className="w-full mt-2 bg-gray-200 hover:bg-gray-300 text-gray-800"
+              >
+                Use Dummy Data
+              </Button>
+                          </form>
           </CardContent>
         </Card>
 

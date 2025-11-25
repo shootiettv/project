@@ -49,6 +49,14 @@ export interface Professor {
   class_sections?: ClassSectionForProfessor[];
 }
 
+export interface RateMyProfessorData {
+  avgRating: number;
+  avgDifficulty: number;
+  numRatings: number;
+  wouldTakeAgainPercent: number;
+  reviews: RateMyProfessorReview[];
+}
+
 export interface RateMyProfessorReview {
   date: string;
   class: string;
